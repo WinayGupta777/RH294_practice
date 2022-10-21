@@ -18,7 +18,7 @@ $_
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1666374258,,"wq"
+|2,0,1666375380,,"wq"
 :nohl
 |2,0,1666371998,,"nohl"
 :15
@@ -78,32 +78,170 @@ $_
 |3,0,8,1,1,0,1666370081,"  become:"
 
 # File marks:
-'0  50  26  ~/data-variables/playbook.yml
-|4,48,50,26,1666374258,"~/data-variables/playbook.yml"
-'1  47  9  ~/data-variables/playbook.yml
-|4,49,47,9,1666374198,"~/data-variables/playbook.yml"
-'2  45  9  ~/data-variables/playbook.yml
-|4,50,45,9,1666374198,"~/data-variables/playbook.yml"
-'3  1  8  ~/data-variables/playbook.yml
-|4,51,1,8,1666373727,"~/data-variables/playbook.yml"
-'4  1  8  ~/data-variables/playbook.yml
-|4,52,1,8,1666373727,"~/data-variables/playbook.yml"
-'5  1  8  ~/data-variables/playbook.yml
-|4,53,1,8,1666373727,"~/data-variables/playbook.yml"
-'6  1  8  ~/data-variables/playbook.yml
-|4,54,1,8,1666373727,"~/data-variables/playbook.yml"
-'7  5  46  ~/README.md
-|4,55,5,46,1666372035,"~/README.md"
-'8  12  7  ~/.gitignore
-|4,56,12,7,1666371365,"~/.gitignore"
-'9  51  23  ~/playbook-review/internet.yml
-|4,57,51,23,1666371161,"~/playbook-review/internet.yml"
+'0  6  3  ~/README.md
+|4,48,6,3,1666375380,"~/README.md"
+'1  1  5  ~/data-secret/vault-pass
+|4,49,1,5,1666374934,"~/data-secret/vault-pass"
+'2  11  21  ~/data-secret/create_users.yml
+|4,50,11,21,1666374845,"~/data-secret/create_users.yml"
+'3  9  14  ~/data-secret/create_users.yml
+|4,51,9,14,1666374609,"~/data-secret/create_users.yml"
+'4  4  0  ~/data-secret/create_users.yml
+|4,52,4,0,1666374609,"~/data-secret/create_users.yml"
+'5  50  26  ~/data-variables/playbook.yml
+|4,53,50,26,1666374258,"~/data-variables/playbook.yml"
+'6  47  9  ~/data-variables/playbook.yml
+|4,54,47,9,1666374198,"~/data-variables/playbook.yml"
+'7  45  9  ~/data-variables/playbook.yml
+|4,55,45,9,1666374198,"~/data-variables/playbook.yml"
+'8  1  8  ~/data-variables/playbook.yml
+|4,56,1,8,1666373727,"~/data-variables/playbook.yml"
+'9  1  8  ~/data-variables/playbook.yml
+|4,57,1,8,1666373727,"~/data-variables/playbook.yml"
 
 # Jumplist (newest first):
+-'  6  3  ~/README.md
+|4,39,6,3,1666375380,"~/README.md"
+-'  5  46  ~/README.md
+|4,39,5,46,1666375161,"~/README.md"
+-'  1  5  ~/data-secret/vault-pass
+|4,39,1,5,1666374934,"~/data-secret/vault-pass"
+-'  1  5  ~/data-secret/vault-pass
+|4,39,1,5,1666374934,"~/data-secret/vault-pass"
+-'  11  21  ~/data-secret/create_users.yml
+|4,39,11,21,1666374845,"~/data-secret/create_users.yml"
+-'  11  21  ~/data-secret/create_users.yml
+|4,39,11,21,1666374845,"~/data-secret/create_users.yml"
+-'  11  21  ~/data-secret/create_users.yml
+|4,39,11,21,1666374845,"~/data-secret/create_users.yml"
+-'  11  21  ~/data-secret/create_users.yml
+|4,39,11,21,1666374845,"~/data-secret/create_users.yml"
+-'  9  14  ~/data-secret/create_users.yml
+|4,39,9,14,1666374616,"~/data-secret/create_users.yml"
+-'  9  14  ~/data-secret/create_users.yml
+|4,39,9,14,1666374616,"~/data-secret/create_users.yml"
+-'  9  14  ~/data-secret/create_users.yml
+|4,39,9,14,1666374616,"~/data-secret/create_users.yml"
+-'  9  14  ~/data-secret/create_users.yml
+|4,39,9,14,1666374616,"~/data-secret/create_users.yml"
+-'  4  0  ~/data-secret/create_users.yml
+|4,39,4,0,1666374609,"~/data-secret/create_users.yml"
+-'  4  0  ~/data-secret/create_users.yml
+|4,39,4,0,1666374609,"~/data-secret/create_users.yml"
+-'  4  0  ~/data-secret/create_users.yml
+|4,39,4,0,1666374609,"~/data-secret/create_users.yml"
+-'  4  0  ~/data-secret/create_users.yml
+|4,39,4,0,1666374609,"~/data-secret/create_users.yml"
+-'  1  0  ~/data-secret/create_users.yml
+|4,39,1,0,1666374567,"~/data-secret/create_users.yml"
+-'  1  0  ~/data-secret/create_users.yml
+|4,39,1,0,1666374567,"~/data-secret/create_users.yml"
+-'  1  0  ~/data-secret/create_users.yml
+|4,39,1,0,1666374567,"~/data-secret/create_users.yml"
+-'  1  0  ~/data-secret/create_users.yml
+|4,39,1,0,1666374567,"~/data-secret/create_users.yml"
+-'  1  0  ~/data-secret/create_users.yml
+|4,39,1,0,1666374567,"~/data-secret/create_users.yml"
+-'  1  0  ~/data-secret/create_users.yml
+|4,39,1,0,1666374567,"~/data-secret/create_users.yml"
+-'  1  0  ~/data-secret/create_users.yml
+|4,39,1,0,1666374567,"~/data-secret/create_users.yml"
+-'  1  0  ~/data-secret/create_users.yml
+|4,39,1,0,1666374567,"~/data-secret/create_users.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
 -'  50  26  ~/data-variables/playbook.yml
 |4,39,50,26,1666374258,"~/data-variables/playbook.yml"
 -'  47  9  ~/data-variables/playbook.yml
 |4,39,47,9,1666374203,"~/data-variables/playbook.yml"
+-'  47  9  ~/data-variables/playbook.yml
+|4,39,47,9,1666374203,"~/data-variables/playbook.yml"
+-'  47  9  ~/data-variables/playbook.yml
+|4,39,47,9,1666374203,"~/data-variables/playbook.yml"
+-'  47  9  ~/data-variables/playbook.yml
+|4,39,47,9,1666374203,"~/data-variables/playbook.yml"
+-'  47  9  ~/data-variables/playbook.yml
+|4,39,47,9,1666374203,"~/data-variables/playbook.yml"
+-'  47  9  ~/data-variables/playbook.yml
+|4,39,47,9,1666374203,"~/data-variables/playbook.yml"
+-'  47  9  ~/data-variables/playbook.yml
+|4,39,47,9,1666374203,"~/data-variables/playbook.yml"
+-'  47  9  ~/data-variables/playbook.yml
+|4,39,47,9,1666374203,"~/data-variables/playbook.yml"
+-'  47  9  ~/data-variables/playbook.yml
+|4,39,47,9,1666374203,"~/data-variables/playbook.yml"
+-'  47  9  ~/data-variables/playbook.yml
+|4,39,47,9,1666374203,"~/data-variables/playbook.yml"
+-'  47  9  ~/data-variables/playbook.yml
+|4,39,47,9,1666374203,"~/data-variables/playbook.yml"
+-'  47  9  ~/data-variables/playbook.yml
+|4,39,47,9,1666374203,"~/data-variables/playbook.yml"
+-'  47  9  ~/data-variables/playbook.yml
+|4,39,47,9,1666374203,"~/data-variables/playbook.yml"
+-'  47  9  ~/data-variables/playbook.yml
+|4,39,47,9,1666374203,"~/data-variables/playbook.yml"
+-'  47  9  ~/data-variables/playbook.yml
+|4,39,47,9,1666374203,"~/data-variables/playbook.yml"
+-'  47  9  ~/data-variables/playbook.yml
+|4,39,47,9,1666374203,"~/data-variables/playbook.yml"
+-'  45  9  ~/data-variables/playbook.yml
+|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
+-'  45  9  ~/data-variables/playbook.yml
+|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
+-'  45  9  ~/data-variables/playbook.yml
+|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
+-'  45  9  ~/data-variables/playbook.yml
+|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
+-'  45  9  ~/data-variables/playbook.yml
+|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
+-'  45  9  ~/data-variables/playbook.yml
+|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
+-'  45  9  ~/data-variables/playbook.yml
+|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
+-'  45  9  ~/data-variables/playbook.yml
+|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
+-'  45  9  ~/data-variables/playbook.yml
+|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
+-'  45  9  ~/data-variables/playbook.yml
+|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
+-'  45  9  ~/data-variables/playbook.yml
+|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
+-'  45  9  ~/data-variables/playbook.yml
+|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
+-'  45  9  ~/data-variables/playbook.yml
+|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
+-'  45  9  ~/data-variables/playbook.yml
+|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
+-'  45  9  ~/data-variables/playbook.yml
+|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
 -'  45  9  ~/data-variables/playbook.yml
 |4,39,45,9,1666374198,"~/data-variables/playbook.yml"
 -'  1  8  ~/data-variables/playbook.yml
@@ -111,197 +249,103 @@ $_
 -'  1  8  ~/data-variables/playbook.yml
 |4,39,1,8,1666373732,"~/data-variables/playbook.yml"
 -'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373727,"~/data-variables/playbook.yml"
--'  5  46  ~/README.md
-|4,39,5,46,1666372035,"~/README.md"
--'  5  46  ~/README.md
-|4,39,5,46,1666372035,"~/README.md"
--'  5  46  ~/README.md
-|4,39,5,46,1666372035,"~/README.md"
--'  5  46  ~/README.md
-|4,39,5,46,1666372035,"~/README.md"
--'  5  46  ~/README.md
-|4,39,5,46,1666372035,"~/README.md"
--'  5  46  ~/README.md
-|4,39,5,46,1666372035,"~/README.md"
--'  5  46  ~/README.md
-|4,39,5,46,1666372035,"~/README.md"
--'  5  46  ~/README.md
-|4,39,5,46,1666372035,"~/README.md"
--'  3  34  ~/README.md
-|4,39,3,34,1666371456,"~/README.md"
--'  3  34  ~/README.md
-|4,39,3,34,1666371456,"~/README.md"
--'  3  34  ~/README.md
-|4,39,3,34,1666371456,"~/README.md"
--'  3  34  ~/README.md
-|4,39,3,34,1666371456,"~/README.md"
--'  3  34  ~/README.md
-|4,39,3,34,1666371456,"~/README.md"
--'  3  34  ~/README.md
-|4,39,3,34,1666371456,"~/README.md"
--'  3  34  ~/README.md
-|4,39,3,34,1666371456,"~/README.md"
--'  3  34  ~/README.md
-|4,39,3,34,1666371456,"~/README.md"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666371365,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666371365,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666371365,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666371365,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666371365,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666371365,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666371365,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666371365,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666371365,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666371365,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666371365,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666371365,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666371365,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666371365,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666371365,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666371365,"~/.gitignore"
--'  11  4  ~/.gitignore
-|4,39,11,4,1666371355,"~/.gitignore"
--'  11  4  ~/.gitignore
-|4,39,11,4,1666371355,"~/.gitignore"
--'  11  4  ~/.gitignore
-|4,39,11,4,1666371355,"~/.gitignore"
--'  11  4  ~/.gitignore
-|4,39,11,4,1666371355,"~/.gitignore"
--'  11  4  ~/.gitignore
-|4,39,11,4,1666371355,"~/.gitignore"
--'  11  4  ~/.gitignore
-|4,39,11,4,1666371355,"~/.gitignore"
--'  11  4  ~/.gitignore
-|4,39,11,4,1666371355,"~/.gitignore"
--'  11  4  ~/.gitignore
-|4,39,11,4,1666371355,"~/.gitignore"
--'  11  4  ~/.gitignore
-|4,39,11,4,1666371355,"~/.gitignore"
--'  11  4  ~/.gitignore
-|4,39,11,4,1666371355,"~/.gitignore"
--'  11  4  ~/.gitignore
-|4,39,11,4,1666371355,"~/.gitignore"
--'  11  4  ~/.gitignore
-|4,39,11,4,1666371355,"~/.gitignore"
--'  11  4  ~/.gitignore
-|4,39,11,4,1666371355,"~/.gitignore"
--'  11  4  ~/.gitignore
-|4,39,11,4,1666371355,"~/.gitignore"
--'  11  4  ~/.gitignore
-|4,39,11,4,1666371355,"~/.gitignore"
--'  11  4  ~/.gitignore
-|4,39,11,4,1666371355,"~/.gitignore"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  51  23  ~/playbook-review/internet.yml
-|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
--'  36  20  ~/playbook-review/internet.yml
-|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
--'  36  20  ~/playbook-review/internet.yml
-|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
--'  36  20  ~/playbook-review/internet.yml
-|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
--'  36  20  ~/playbook-review/internet.yml
-|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
--'  36  20  ~/playbook-review/internet.yml
-|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
--'  36  20  ~/playbook-review/internet.yml
-|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
--'  36  20  ~/playbook-review/internet.yml
-|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
--'  36  20  ~/playbook-review/internet.yml
-|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
--'  36  20  ~/playbook-review/internet.yml
-|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
--'  36  20  ~/playbook-review/internet.yml
-|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
--'  36  20  ~/playbook-review/internet.yml
-|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
--'  36  20  ~/playbook-review/internet.yml
-|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
--'  36  20  ~/playbook-review/internet.yml
-|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
--'  36  20  ~/playbook-review/internet.yml
-|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/README.md
+	*	1666375379	0
+	"	6	3
+	^	6	4
+	.	6	3
+	+	1	30
+	+	1	23
+	+	1	0
+	+	3	35
+	+	5	0
+	+	5	30
+	+	2	2
+	+	4	3
+	+	5	63
+	+	5	290
+	+	5	17
+	+	3	17
+	+	1	3
+	+	3	3
+	+	5	47
+	+	7	0
+	+	5	47
+	+	6	3
+
+> ~/data-secret/vault-pass
+	*	1666374934	0
+	"	1	5
+	^	1	6
+	.	1	5
+	+	1	5
+
+> ~/data-secret/create_users.yml
+	*	1666374845	0
+	"	11	21
+	^	11	22
+	.	11	21
+	+	9	14
+	+	3	20
+	+	9	13
+	+	5	15
+	+	9	30
+	+	10	32
+	+	11	21
 
 > ~/data-variables/playbook.yml
 	*	1666374256	0
@@ -342,27 +386,6 @@ $_
 	+	44	11
 	+	2	12
 	+	50	26
-
-> ~/README.md
-	*	1666372034	0
-	"	5	46
-	^	5	47
-	.	6	0
-	+	1	30
-	+	1	23
-	+	1	0
-	+	3	35
-	+	5	0
-	+	5	30
-	+	2	2
-	+	4	3
-	+	5	63
-	+	6	243
-	+	5	17
-	+	3	17
-	+	1	3
-	+	3	3
-	+	6	0
 
 > ~/.gitignore
 	*	1666371364	0
