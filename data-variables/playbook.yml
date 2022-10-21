@@ -1,0 +1,50 @@
+- hosts: webserver 
+  become: yes
+  vars:
+    web_pkg: httpd
+    firewall_pkg: firewalld
+    web_service: httpd
+    firewall_service: firewalld
+    python_pkg: python3-PyMySQL
+    rule: http
+  tasks:
+    - name: Install package
+      yum:
+        name:
+          - "{{ web_pkg }}"
+          - "{{ firewall_pkg }}"
+          - "{{ python_pkg }}"
+        state: latest
+
+    - name: Start {{ firewall_service }} 
+      service:
+        name: "{{ firewall_service }}"
+        state: started
+        enabled: yes
+
+    - name: Start {{ web_service }} 
+      service:
+        name: "{{ web_service }}"
+        state: started
+        enabled: yes
+
+    - name: Deploy content in web page
+      copy:
+        content: 'Example web content'
+        dest: /var/www/html/index.html
+
+    - name: Allow http requests
+      firewalld:
+        service: "{{ rule }}"
+        state: enabled
+
+
+- name: Test connections
+  hosts: localhost
+  become: no
+  tasks:
+    - name: Verify connection
+      uri:
+        url: http://servera.lab.example.com
+        status_code: 200
+        return_content: yes

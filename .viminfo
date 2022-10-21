@@ -18,13 +18,13 @@ $_
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1666371365,,"wq"
+|2,0,1666374258,,"wq"
+:nohl
+|2,0,1666371998,,"nohl"
 :15
 |2,0,1666370770,,"15"
 :5
 |2,0,1666370646,,"5"
-:nohl
-|2,0,1666369066,,"nohl"
 :q
 |2,0,1666363825,,"q"
 :%s /-/_/
@@ -45,254 +45,324 @@ $_
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	    - name: Start firewall service
+""0	LINE	0
+	    - name: Start {{ firewall_service }} 
 	      service:
-	        name: firewalld
+	        name: "{{  }}"
 	        state: started
 	        enabled: yes
-|3,0,0,1,5,0,1666370773,"    - name: Start firewall service","      service:","        name: firewalld","        state: started","        enabled: yes"
-""1	LINE	0
-	
-|3,1,1,1,1,0,1666370801,""
+|3,1,0,1,5,0,1666373989,"    - name: Start {{ firewall_service }} ","      service:","        name: \"{{  }}\"","        state: started","        enabled: yes"
+"1	LINE	0
+	    - name: Start {{ firewall_service }} 
+|3,0,1,1,1,0,1666373963,"    - name: Start {{ firewall_service }} "
 "2	LINE	0
-	    - name:
-|3,0,2,1,1,0,1666370800,"    - name:"
+	          - "{{   }}"
+|3,0,2,1,1,0,1666373880,"          - \"{{   }}\""
 "3	LINE	0
-	    - name: Start firewall service
-|3,0,3,1,1,0,1666370794,"    - name: Start firewall service"
+	[![Backhand Index Pointing Right](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/whatsapp/326/backhand-index-pointing-right_1f449.png "Backhand Index Pointing Right")](https://emojipedia.org/backhand-index-pointing-right/)
+|3,0,3,1,1,0,1666372031,"[![Backhand Index Pointing Right](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/whatsapp/326/backhand-index-pointing-right_1f449.png \"Backhand Index Pointing Right\")](https://emojipedia.org/backhand-index-pointing-right/)"
 "4	LINE	0
-	    - name: Start firewall service
-|3,0,4,1,1,0,1666370790,"    - name: Start firewall service"
+	
+|3,0,4,1,1,0,1666370801,""
 "5	LINE	0
+	    - name:
+|3,0,5,1,1,0,1666370800,"    - name:"
+"6	LINE	0
+	    - name: Start firewall service
+|3,0,6,1,1,0,1666370794,"    - name: Start firewall service"
+"7	LINE	0
+	    - name: Start firewall service
+|3,0,7,1,1,0,1666370790,"    - name: Start firewall service"
+"8	LINE	0
 	  become:
-|3,0,5,1,1,0,1666370081,"  become:"
+|3,0,8,1,1,0,1666370081,"  become:"
 
 # File marks:
-'0  12  7  ~/.gitignore
-|4,48,12,7,1666371365,"~/.gitignore"
-'1  51  23  ~/playbook-review/internet.yml
-|4,49,51,23,1666371161,"~/playbook-review/internet.yml"
-'2  36  20  ~/playbook-review/internet.yml
-|4,50,36,20,1666370857,"~/playbook-review/internet.yml"
-'3  38  0  ~/playbook-review/internet.yml
-|4,51,38,0,1666370857,"~/playbook-review/internet.yml"
-'4  43  26  ~/playbook-multi/intranet.yml
-|4,52,43,26,1666370188,"~/playbook-multi/intranet.yml"
-'5  11  4  ~/.gitignore
-|4,53,11,4,1666369489,"~/.gitignore"
-'6  11  4  ~/.gitignore
-|4,54,11,4,1666369489,"~/.gitignore"
-'7  18  0  ~/playbook-basic/site.yml
-|4,55,18,0,1666369328,"~/playbook-basic/site.yml"
-'8  2  8  ~/playbook-basic/site.yml
-|4,56,2,8,1666369131,"~/playbook-basic/site.yml"
-'9  3  0  ~/playbook-basic/site.yml
-|4,57,3,0,1666369131,"~/playbook-basic/site.yml"
+'0  50  26  ~/data-variables/playbook.yml
+|4,48,50,26,1666374258,"~/data-variables/playbook.yml"
+'1  47  9  ~/data-variables/playbook.yml
+|4,49,47,9,1666374198,"~/data-variables/playbook.yml"
+'2  45  9  ~/data-variables/playbook.yml
+|4,50,45,9,1666374198,"~/data-variables/playbook.yml"
+'3  1  8  ~/data-variables/playbook.yml
+|4,51,1,8,1666373727,"~/data-variables/playbook.yml"
+'4  1  8  ~/data-variables/playbook.yml
+|4,52,1,8,1666373727,"~/data-variables/playbook.yml"
+'5  1  8  ~/data-variables/playbook.yml
+|4,53,1,8,1666373727,"~/data-variables/playbook.yml"
+'6  1  8  ~/data-variables/playbook.yml
+|4,54,1,8,1666373727,"~/data-variables/playbook.yml"
+'7  5  46  ~/README.md
+|4,55,5,46,1666372035,"~/README.md"
+'8  12  7  ~/.gitignore
+|4,56,12,7,1666371365,"~/.gitignore"
+'9  51  23  ~/playbook-review/internet.yml
+|4,57,51,23,1666371161,"~/playbook-review/internet.yml"
 
 # Jumplist (newest first):
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  47  9  ~/data-variables/playbook.yml
+|4,39,47,9,1666374203,"~/data-variables/playbook.yml"
+-'  45  9  ~/data-variables/playbook.yml
+|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  1  8  ~/data-variables/playbook.yml
+|4,39,1,8,1666373727,"~/data-variables/playbook.yml"
+-'  5  46  ~/README.md
+|4,39,5,46,1666372035,"~/README.md"
+-'  5  46  ~/README.md
+|4,39,5,46,1666372035,"~/README.md"
+-'  5  46  ~/README.md
+|4,39,5,46,1666372035,"~/README.md"
+-'  5  46  ~/README.md
+|4,39,5,46,1666372035,"~/README.md"
+-'  5  46  ~/README.md
+|4,39,5,46,1666372035,"~/README.md"
+-'  5  46  ~/README.md
+|4,39,5,46,1666372035,"~/README.md"
+-'  5  46  ~/README.md
+|4,39,5,46,1666372035,"~/README.md"
+-'  5  46  ~/README.md
+|4,39,5,46,1666372035,"~/README.md"
+-'  3  34  ~/README.md
+|4,39,3,34,1666371456,"~/README.md"
+-'  3  34  ~/README.md
+|4,39,3,34,1666371456,"~/README.md"
+-'  3  34  ~/README.md
+|4,39,3,34,1666371456,"~/README.md"
+-'  3  34  ~/README.md
+|4,39,3,34,1666371456,"~/README.md"
+-'  3  34  ~/README.md
+|4,39,3,34,1666371456,"~/README.md"
+-'  3  34  ~/README.md
+|4,39,3,34,1666371456,"~/README.md"
+-'  3  34  ~/README.md
+|4,39,3,34,1666371456,"~/README.md"
+-'  3  34  ~/README.md
+|4,39,3,34,1666371456,"~/README.md"
 -'  12  7  ~/.gitignore
 |4,39,12,7,1666371365,"~/.gitignore"
+-'  12  7  ~/.gitignore
+|4,39,12,7,1666371365,"~/.gitignore"
+-'  12  7  ~/.gitignore
+|4,39,12,7,1666371365,"~/.gitignore"
+-'  12  7  ~/.gitignore
+|4,39,12,7,1666371365,"~/.gitignore"
+-'  12  7  ~/.gitignore
+|4,39,12,7,1666371365,"~/.gitignore"
+-'  12  7  ~/.gitignore
+|4,39,12,7,1666371365,"~/.gitignore"
+-'  12  7  ~/.gitignore
+|4,39,12,7,1666371365,"~/.gitignore"
+-'  12  7  ~/.gitignore
+|4,39,12,7,1666371365,"~/.gitignore"
+-'  12  7  ~/.gitignore
+|4,39,12,7,1666371365,"~/.gitignore"
+-'  12  7  ~/.gitignore
+|4,39,12,7,1666371365,"~/.gitignore"
+-'  12  7  ~/.gitignore
+|4,39,12,7,1666371365,"~/.gitignore"
+-'  12  7  ~/.gitignore
+|4,39,12,7,1666371365,"~/.gitignore"
+-'  12  7  ~/.gitignore
+|4,39,12,7,1666371365,"~/.gitignore"
+-'  12  7  ~/.gitignore
+|4,39,12,7,1666371365,"~/.gitignore"
+-'  12  7  ~/.gitignore
+|4,39,12,7,1666371365,"~/.gitignore"
+-'  12  7  ~/.gitignore
+|4,39,12,7,1666371365,"~/.gitignore"
+-'  11  4  ~/.gitignore
+|4,39,11,4,1666371355,"~/.gitignore"
+-'  11  4  ~/.gitignore
+|4,39,11,4,1666371355,"~/.gitignore"
+-'  11  4  ~/.gitignore
+|4,39,11,4,1666371355,"~/.gitignore"
+-'  11  4  ~/.gitignore
+|4,39,11,4,1666371355,"~/.gitignore"
+-'  11  4  ~/.gitignore
+|4,39,11,4,1666371355,"~/.gitignore"
+-'  11  4  ~/.gitignore
+|4,39,11,4,1666371355,"~/.gitignore"
+-'  11  4  ~/.gitignore
+|4,39,11,4,1666371355,"~/.gitignore"
+-'  11  4  ~/.gitignore
+|4,39,11,4,1666371355,"~/.gitignore"
+-'  11  4  ~/.gitignore
+|4,39,11,4,1666371355,"~/.gitignore"
+-'  11  4  ~/.gitignore
+|4,39,11,4,1666371355,"~/.gitignore"
+-'  11  4  ~/.gitignore
+|4,39,11,4,1666371355,"~/.gitignore"
+-'  11  4  ~/.gitignore
+|4,39,11,4,1666371355,"~/.gitignore"
+-'  11  4  ~/.gitignore
+|4,39,11,4,1666371355,"~/.gitignore"
+-'  11  4  ~/.gitignore
+|4,39,11,4,1666371355,"~/.gitignore"
+-'  11  4  ~/.gitignore
+|4,39,11,4,1666371355,"~/.gitignore"
 -'  11  4  ~/.gitignore
 |4,39,11,4,1666371355,"~/.gitignore"
 -'  51  23  ~/playbook-review/internet.yml
 |4,39,51,23,1666371161,"~/playbook-review/internet.yml"
 -'  51  23  ~/playbook-review/internet.yml
 |4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
 -'  36  20  ~/playbook-review/internet.yml
 |4,39,36,20,1666370910,"~/playbook-review/internet.yml"
 -'  36  20  ~/playbook-review/internet.yml
 |4,39,36,20,1666370910,"~/playbook-review/internet.yml"
--'  38  0  ~/playbook-review/internet.yml
-|4,39,38,0,1666370857,"~/playbook-review/internet.yml"
--'  38  0  ~/playbook-review/internet.yml
-|4,39,38,0,1666370857,"~/playbook-review/internet.yml"
--'  1  0  ~/playbook-review/internet.yml
-|4,39,1,0,1666370500,"~/playbook-review/internet.yml"
--'  1  0  ~/playbook-review/internet.yml
-|4,39,1,0,1666370500,"~/playbook-review/internet.yml"
--'  1  0  ~/playbook-review/internet.yml
-|4,39,1,0,1666370500,"~/playbook-review/internet.yml"
--'  1  0  ~/playbook-review/internet.yml
-|4,39,1,0,1666370500,"~/playbook-review/internet.yml"
--'  43  26  ~/playbook-multi/intranet.yml
-|4,39,43,26,1666370188,"~/playbook-multi/intranet.yml"
--'  43  26  ~/playbook-multi/intranet.yml
-|4,39,43,26,1666370188,"~/playbook-multi/intranet.yml"
--'  43  26  ~/playbook-multi/intranet.yml
-|4,39,43,26,1666370188,"~/playbook-multi/intranet.yml"
--'  43  26  ~/playbook-multi/intranet.yml
-|4,39,43,26,1666370188,"~/playbook-multi/intranet.yml"
--'  43  26  ~/playbook-multi/intranet.yml
-|4,39,43,26,1666370188,"~/playbook-multi/intranet.yml"
--'  43  26  ~/playbook-multi/intranet.yml
-|4,39,43,26,1666370188,"~/playbook-multi/intranet.yml"
--'  43  26  ~/playbook-multi/intranet.yml
-|4,39,43,26,1666370188,"~/playbook-multi/intranet.yml"
--'  43  26  ~/playbook-multi/intranet.yml
-|4,39,43,26,1666370188,"~/playbook-multi/intranet.yml"
--'  1  0  ~/playbook-multi/intranet.yml
-|4,39,1,0,1666369670,"~/playbook-multi/intranet.yml"
--'  1  0  ~/playbook-multi/intranet.yml
-|4,39,1,0,1666369670,"~/playbook-multi/intranet.yml"
--'  1  0  ~/playbook-multi/intranet.yml
-|4,39,1,0,1666369670,"~/playbook-multi/intranet.yml"
--'  1  0  ~/playbook-multi/intranet.yml
-|4,39,1,0,1666369670,"~/playbook-multi/intranet.yml"
--'  1  0  ~/playbook-multi/intranet.yml
-|4,39,1,0,1666369670,"~/playbook-multi/intranet.yml"
--'  1  0  ~/playbook-multi/intranet.yml
-|4,39,1,0,1666369670,"~/playbook-multi/intranet.yml"
--'  1  0  ~/playbook-multi/intranet.yml
-|4,39,1,0,1666369670,"~/playbook-multi/intranet.yml"
--'  1  0  ~/playbook-multi/intranet.yml
-|4,39,1,0,1666369670,"~/playbook-multi/intranet.yml"
--'  11  4  ~/.gitignore
-|4,39,11,4,1666369489,"~/.gitignore"
--'  11  4  ~/.gitignore
-|4,39,11,4,1666369489,"~/.gitignore"
--'  11  4  ~/.gitignore
-|4,39,11,4,1666369489,"~/.gitignore"
--'  11  4  ~/.gitignore
-|4,39,11,4,1666369489,"~/.gitignore"
--'  11  4  ~/.gitignore
-|4,39,11,4,1666369489,"~/.gitignore"
--'  11  4  ~/.gitignore
-|4,39,11,4,1666369489,"~/.gitignore"
--'  11  4  ~/.gitignore
-|4,39,11,4,1666369489,"~/.gitignore"
--'  11  4  ~/.gitignore
-|4,39,11,4,1666369489,"~/.gitignore"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  18  0  ~/playbook-basic/site.yml
-|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  2  8  ~/playbook-basic/site.yml
-|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  36  20  ~/playbook-review/internet.yml
+|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
+-'  36  20  ~/playbook-review/internet.yml
+|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
+-'  36  20  ~/playbook-review/internet.yml
+|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
+-'  36  20  ~/playbook-review/internet.yml
+|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
+-'  36  20  ~/playbook-review/internet.yml
+|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
+-'  36  20  ~/playbook-review/internet.yml
+|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
+-'  36  20  ~/playbook-review/internet.yml
+|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
+-'  36  20  ~/playbook-review/internet.yml
+|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
+-'  36  20  ~/playbook-review/internet.yml
+|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
+-'  36  20  ~/playbook-review/internet.yml
+|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
+-'  36  20  ~/playbook-review/internet.yml
+|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
+-'  36  20  ~/playbook-review/internet.yml
+|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/data-variables/playbook.yml
+	*	1666374256	0
+	"	50	26
+	^	50	27
+	.	50	26
+	+	1	18
+	+	10	0
+	+	1	19
+	+	11	11
+	+	9	13
+	+	8	30
+	+	14	16
+	+	15	0
+	+	16	0
+	+	17	0
+	+	16	16
+	+	15	28
+	+	14	23
+	+	19	40
+	+	20	0
+	+	21	22
+	+	23	20
+	+	24	0
+	+	25	0
+	+	25	23
+	+	27	28
+	+	21	33
+	+	29	20
+	+	33	38
+	+	34	38
+	+	39	21
+	+	38	24
+	+	39	22
+	+	42	24
+	+	48	43
+	+	49	24
+	+	44	11
+	+	2	12
+	+	50	26
+
+> ~/README.md
+	*	1666372034	0
+	"	5	46
+	^	5	47
+	.	6	0
+	+	1	30
+	+	1	23
+	+	1	0
+	+	3	35
+	+	5	0
+	+	5	30
+	+	2	2
+	+	4	3
+	+	5	63
+	+	6	243
+	+	5	17
+	+	3	17
+	+	1	3
+	+	3	3
+	+	6	0
 
 > ~/.gitignore
 	*	1666371364	0
@@ -399,17 +469,6 @@ $_
 	+	10	5
 	+	12	10
 	+	10	12
-
-> ~/README.md
-	*	1666363060	0
-	"	2	34
-	^	2	35
-	.	3	0
-	+	1	30
-	+	1	23
-	+	1	0
-	+	2	35
-	+	3	0
 
 > ~/deploy-inventory/inventory
 	*	1666362833	0
