@@ -10,11 +10,25 @@
 
 # hlsearch on (H) or off (h):
 ~H
+# Last Substitute Search Pattern:
+~MSle0~&-
+
+# Last Substitute String:
+$_
+
 # Command Line History (newest to oldest):
 :wq
-|2,0,1666362834,,"wq"
+|2,0,1666363451,,"wq"
+:%s /-/_/
+|2,0,1666363385,,"%s /-/_/"
+:%s /-/=/
+|2,0,1666363374,,"%s /-/=/"
+:q!
+|2,0,1666363062,,"q!"
 
 # Search String History (newest to oldest):
+? -
+|2,1,1666363385,,"-"
 
 # Expression History (newest to oldest):
 
@@ -28,88 +42,267 @@
 |3,1,0,1,1,0,1666362653,"server[a:d].lab.example.com"
 
 # File marks:
-'0  26  0  ~/deploy-inventory/inventory
-|4,48,26,0,1666362834,"~/deploy-inventory/inventory"
-'1  2  0  ~/README.md
-|4,49,2,0,1666362382,"~/README.md"
-'2  1  1  ~/README.md
-|4,50,1,1,1666362306,"~/README.md"
-'3  1  1  ~/README.md
-|4,51,1,1,1666362306,"~/README.md"
-'4  2  23  ~/ChapterInfo
-|4,52,2,23,1666362270,"~/ChapterInfo"
-'5  1  18  ~/ChapterInfo
-|4,53,1,18,1666361882,"~/ChapterInfo"
-'6  1  18  ~/ChapterInfo
-|4,54,1,18,1666361882,"~/ChapterInfo"
+'0  8  14  ~/deploy-manage/ansible.cfg
+|4,48,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+'1  8  24  ~/deploy-manage/ansible.cfg
+|4,49,8,24,1666363399,"~/deploy-manage/ansible.cfg"
+'2  8  24  ~/deploy-manage/ansible.cfg
+|4,50,8,24,1666363357,"~/deploy-manage/ansible.cfg"
+'3  8  24  ~/deploy-manage/ansible.cfg
+|4,51,8,24,1666363357,"~/deploy-manage/ansible.cfg"
+'4  10  12  ~/deploy-manage/inventory
+|4,52,10,12,1666363234,"~/deploy-manage/inventory"
+'5  3  0  ~/deploy-manage/ansible.cfg
+|4,53,3,0,1666363142,"~/deploy-manage/ansible.cfg"
+'6  3  0  ~/deploy-manage/ansible.cfg
+|4,54,3,0,1666363142,"~/deploy-manage/ansible.cfg"
+'7  3  0  ~/deploy-manage/ansible.cfg
+|4,55,3,0,1666363142,"~/deploy-manage/ansible.cfg"
+'8  3  0  ~/deploy-manage/ansible.cfg
+|4,56,3,0,1666363142,"~/deploy-manage/ansible.cfg"
+'9  3  0  ~/deploy-manage/ansible.cfg
+|4,57,3,0,1666363142,"~/deploy-manage/ansible.cfg"
 
 # Jumplist (newest first):
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  24  ~/deploy-manage/ansible.cfg
+|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
+-'  8  24  ~/deploy-manage/ansible.cfg
+|4,39,8,24,1666363357,"~/deploy-manage/ansible.cfg"
+-'  3  0  ~/deploy-manage/ansible.cfg
+|4,39,3,0,1666363271,"~/deploy-manage/ansible.cfg"
+-'  3  0  ~/deploy-manage/ansible.cfg
+|4,39,3,0,1666363271,"~/deploy-manage/ansible.cfg"
+-'  3  0  ~/deploy-manage/ansible.cfg
+|4,39,3,0,1666363271,"~/deploy-manage/ansible.cfg"
+-'  10  12  ~/deploy-manage/inventory
+|4,39,10,12,1666363234,"~/deploy-manage/inventory"
+-'  10  12  ~/deploy-manage/inventory
+|4,39,10,12,1666363234,"~/deploy-manage/inventory"
+-'  10  12  ~/deploy-manage/inventory
+|4,39,10,12,1666363234,"~/deploy-manage/inventory"
+-'  10  12  ~/deploy-manage/inventory
+|4,39,10,12,1666363234,"~/deploy-manage/inventory"
+-'  10  12  ~/deploy-manage/inventory
+|4,39,10,12,1666363234,"~/deploy-manage/inventory"
+-'  10  12  ~/deploy-manage/inventory
+|4,39,10,12,1666363234,"~/deploy-manage/inventory"
+-'  10  12  ~/deploy-manage/inventory
+|4,39,10,12,1666363234,"~/deploy-manage/inventory"
+-'  10  12  ~/deploy-manage/inventory
+|4,39,10,12,1666363234,"~/deploy-manage/inventory"
+-'  1  0  ~/deploy-manage/inventory
+|4,39,1,0,1666363156,"~/deploy-manage/inventory"
+-'  1  0  ~/deploy-manage/inventory
+|4,39,1,0,1666363156,"~/deploy-manage/inventory"
+-'  1  0  ~/deploy-manage/inventory
+|4,39,1,0,1666363156,"~/deploy-manage/inventory"
+-'  1  0  ~/deploy-manage/inventory
+|4,39,1,0,1666363156,"~/deploy-manage/inventory"
+-'  1  0  ~/deploy-manage/inventory
+|4,39,1,0,1666363156,"~/deploy-manage/inventory"
+-'  1  0  ~/deploy-manage/inventory
+|4,39,1,0,1666363156,"~/deploy-manage/inventory"
+-'  1  0  ~/deploy-manage/inventory
+|4,39,1,0,1666363156,"~/deploy-manage/inventory"
+-'  1  0  ~/deploy-manage/inventory
+|4,39,1,0,1666363156,"~/deploy-manage/inventory"
+-'  3  0  ~/deploy-manage/ansible.cfg
+|4,39,3,0,1666363142,"~/deploy-manage/ansible.cfg"
+-'  3  0  ~/deploy-manage/ansible.cfg
+|4,39,3,0,1666363142,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363106,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363106,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363106,"~/deploy-manage/ansible.cfg"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
+-'  2  34  ~/README.md
+|4,39,2,34,1666363062,"~/README.md"
 -'  26  0  ~/deploy-inventory/inventory
 |4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  1  0  ~/deploy-inventory/inventory
-|4,39,1,0,1666362571,"~/deploy-inventory/inventory"
--'  2  0  ~/README.md
-|4,39,2,0,1666362382,"~/README.md"
--'  2  0  ~/README.md
-|4,39,2,0,1666362382,"~/README.md"
--'  1  1  ~/README.md
-|4,39,1,1,1666362334,"~/README.md"
--'  1  1  ~/README.md
-|4,39,1,1,1666362334,"~/README.md"
--'  1  1  ~/README.md
-|4,39,1,1,1666362306,"~/README.md"
--'  1  1  ~/README.md
-|4,39,1,1,1666362306,"~/README.md"
--'  2  23  ~/ChapterInfo
-|4,39,2,23,1666362270,"~/ChapterInfo"
--'  2  23  ~/ChapterInfo
-|4,39,2,23,1666362270,"~/ChapterInfo"
--'  2  23  ~/ChapterInfo
-|4,39,2,23,1666362270,"~/ChapterInfo"
--'  2  23  ~/ChapterInfo
-|4,39,2,23,1666362270,"~/ChapterInfo"
--'  2  23  ~/ChapterInfo
-|4,39,2,23,1666362270,"~/ChapterInfo"
--'  2  23  ~/ChapterInfo
-|4,39,2,23,1666362270,"~/ChapterInfo"
--'  2  23  ~/ChapterInfo
-|4,39,2,23,1666362270,"~/ChapterInfo"
--'  2  23  ~/ChapterInfo
-|4,39,2,23,1666362270,"~/ChapterInfo"
--'  1  18  ~/ChapterInfo
-|4,39,1,18,1666362258,"~/ChapterInfo"
--'  1  18  ~/ChapterInfo
-|4,39,1,18,1666362258,"~/ChapterInfo"
--'  1  18  ~/ChapterInfo
-|4,39,1,18,1666362258,"~/ChapterInfo"
--'  1  18  ~/ChapterInfo
-|4,39,1,18,1666362258,"~/ChapterInfo"
--'  1  18  ~/ChapterInfo
-|4,39,1,18,1666362258,"~/ChapterInfo"
--'  1  18  ~/ChapterInfo
-|4,39,1,18,1666362258,"~/ChapterInfo"
--'  1  18  ~/ChapterInfo
-|4,39,1,18,1666362258,"~/ChapterInfo"
--'  1  18  ~/ChapterInfo
-|4,39,1,18,1666362258,"~/ChapterInfo"
--'  1  18  ~/ChapterInfo
-|4,39,1,18,1666361882,"~/ChapterInfo"
--'  1  18  ~/ChapterInfo
-|4,39,1,18,1666361882,"~/ChapterInfo"
--'  1  18  ~/ChapterInfo
-|4,39,1,18,1666361882,"~/ChapterInfo"
--'  1  18  ~/ChapterInfo
-|4,39,1,18,1666361882,"~/ChapterInfo"
--'  1  18  ~/ChapterInfo
-|4,39,1,18,1666361882,"~/ChapterInfo"
--'  1  18  ~/ChapterInfo
-|4,39,1,18,1666361882,"~/ChapterInfo"
--'  1  18  ~/ChapterInfo
-|4,39,1,18,1666361882,"~/ChapterInfo"
--'  1  18  ~/ChapterInfo
-|4,39,1,18,1666361882,"~/ChapterInfo"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
 
 # History of marks within files (newest to oldest):
+
+> ~/deploy-manage/ansible.cfg
+	*	1666363451	0
+	"	8	14
+	^	8	15
+	.	8	15
+	+	1	10
+	+	2	23
+	+	4	22
+	+	7	17
+	+	6	19
+	+	8	24
+	+	6	0
+	+	8	15
+
+> ~/deploy-manage/inventory
+	*	1666363234	0
+	"	10	12
+	^	10	13
+	.	10	12
+	+	4	13
+	+	7	13
+	+	8	23
+	+	10	5
+	+	12	10
+	+	10	12
+
+> ~/README.md
+	*	1666363060	0
+	"	2	34
+	^	2	35
+	.	3	0
+	+	1	30
+	+	1	23
+	+	1	0
+	+	2	35
+	+	3	0
 
 > ~/deploy-inventory/inventory
 	*	1666362833	0
@@ -144,16 +337,6 @@
 	+	20	27
 	+	22	13
 	+	25	0
-
-> ~/README.md
-	*	1666362381	0
-	"	2	0
-	^	2	1
-	.	2	0
-	+	1	30
-	+	1	23
-	+	1	0
-	+	2	0
 
 > ~/ChapterInfo
 	*	1666362268	0
