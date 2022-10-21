@@ -1,3 +1,4 @@
+.git-credentials
 .ICEauthority
 .bash_logout
 .bash_profile
@@ -8,4 +9,6 @@
 .local/
 .ssh/
 .vim
+.viminfo
+.gitconfig
 .mozilla/

@@ -17,8 +17,10 @@
 $_
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1666363825,,"q"
 :wq
-|2,0,1666363451,,"wq"
+|2,0,1666363802,,"wq"
 :%s /-/_/
 |2,0,1666363385,,"%s /-/_/"
 :%s /-/=/
@@ -42,230 +44,239 @@ $_
 |3,1,0,1,1,0,1666362653,"server[a:d].lab.example.com"
 
 # File marks:
-'0  8  14  ~/deploy-manage/ansible.cfg
-|4,48,8,14,1666363451,"~/deploy-manage/ansible.cfg"
-'1  8  24  ~/deploy-manage/ansible.cfg
-|4,49,8,24,1666363399,"~/deploy-manage/ansible.cfg"
-'2  8  24  ~/deploy-manage/ansible.cfg
-|4,50,8,24,1666363357,"~/deploy-manage/ansible.cfg"
-'3  8  24  ~/deploy-manage/ansible.cfg
-|4,51,8,24,1666363357,"~/deploy-manage/ansible.cfg"
-'4  10  12  ~/deploy-manage/inventory
-|4,52,10,12,1666363234,"~/deploy-manage/inventory"
-'5  3  0  ~/deploy-manage/ansible.cfg
-|4,53,3,0,1666363142,"~/deploy-manage/ansible.cfg"
-'6  3  0  ~/deploy-manage/ansible.cfg
-|4,54,3,0,1666363142,"~/deploy-manage/ansible.cfg"
-'7  3  0  ~/deploy-manage/ansible.cfg
-|4,55,3,0,1666363142,"~/deploy-manage/ansible.cfg"
-'8  3  0  ~/deploy-manage/ansible.cfg
-|4,56,3,0,1666363142,"~/deploy-manage/ansible.cfg"
-'9  3  0  ~/deploy-manage/ansible.cfg
-|4,57,3,0,1666363142,"~/deploy-manage/ansible.cfg"
+'0  12  7  ~/.gitignore
+|4,48,12,7,1666363825,"~/.gitignore"
+'1  12  7  ~/.gitignore
+|4,49,12,7,1666363802,"~/.gitignore"
+'2  13  9  ~/.gitignore
+|4,50,13,9,1666363784,"~/.gitignore"
+'3  13  9  ~/.gitignore
+|4,51,13,9,1666363784,"~/.gitignore"
+'4  13  9  ~/.gitignore
+|4,52,13,9,1666363784,"~/.gitignore"
+'5  13  9  ~/.gitignore
+|4,53,13,9,1666363784,"~/.gitignore"
+'6  1  15  ~/.gitignore
+|4,54,1,15,1666363722,"~/.gitignore"
+'7  1  15  ~/.gitignore
+|4,55,1,15,1666363722,"~/.gitignore"
+'8  1  15  ~/.gitignore
+|4,56,1,15,1666363722,"~/.gitignore"
+'9  1  15  ~/.gitignore
+|4,57,1,15,1666363722,"~/.gitignore"
 
 # Jumplist (newest first):
+-'  12  7  ~/.gitignore
+|4,39,12,7,1666363825,"~/.gitignore"
+-'  12  7  ~/.gitignore
+|4,39,12,7,1666363802,"~/.gitignore"
+-'  13  9  ~/.gitignore
+|4,39,13,9,1666363793,"~/.gitignore"
+-'  13  9  ~/.gitignore
+|4,39,13,9,1666363793,"~/.gitignore"
+-'  13  9  ~/.gitignore
+|4,39,13,9,1666363784,"~/.gitignore"
+-'  1  15  ~/.gitignore
+|4,39,1,15,1666363764,"~/.gitignore"
+-'  1  15  ~/.gitignore
+|4,39,1,15,1666363764,"~/.gitignore"
+-'  1  15  ~/.gitignore
+|4,39,1,15,1666363764,"~/.gitignore"
+-'  1  15  ~/.gitignore
+|4,39,1,15,1666363722,"~/.gitignore"
 -'  8  14  ~/deploy-manage/ansible.cfg
 |4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  24  ~/deploy-manage/ansible.cfg
+|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
+-'  8  24  ~/deploy-manage/ansible.cfg
+|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
+-'  8  24  ~/deploy-manage/ansible.cfg
+|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
+-'  8  24  ~/deploy-manage/ansible.cfg
+|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
+-'  8  24  ~/deploy-manage/ansible.cfg
+|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
+-'  8  24  ~/deploy-manage/ansible.cfg
+|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
+-'  8  24  ~/deploy-manage/ansible.cfg
+|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
+-'  8  24  ~/deploy-manage/ansible.cfg
+|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
+-'  8  24  ~/deploy-manage/ansible.cfg
+|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
+-'  8  24  ~/deploy-manage/ansible.cfg
+|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
+-'  8  24  ~/deploy-manage/ansible.cfg
+|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
+-'  8  24  ~/deploy-manage/ansible.cfg
+|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
+-'  8  24  ~/deploy-manage/ansible.cfg
+|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
+-'  8  24  ~/deploy-manage/ansible.cfg
+|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
+-'  8  24  ~/deploy-manage/ansible.cfg
+|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
 -'  8  24  ~/deploy-manage/ansible.cfg
 |4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
 -'  6  0  ~/deploy-manage/ansible.cfg
 |4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
 -'  6  0  ~/deploy-manage/ansible.cfg
 |4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
+-'  6  0  ~/deploy-manage/ansible.cfg
+|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
 -'  1  0  ~/deploy-manage/ansible.cfg
 |4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
 -'  1  0  ~/deploy-manage/ansible.cfg
 |4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  8  24  ~/deploy-manage/ansible.cfg
-|4,39,8,24,1666363357,"~/deploy-manage/ansible.cfg"
--'  3  0  ~/deploy-manage/ansible.cfg
-|4,39,3,0,1666363271,"~/deploy-manage/ansible.cfg"
--'  3  0  ~/deploy-manage/ansible.cfg
-|4,39,3,0,1666363271,"~/deploy-manage/ansible.cfg"
--'  3  0  ~/deploy-manage/ansible.cfg
-|4,39,3,0,1666363271,"~/deploy-manage/ansible.cfg"
--'  10  12  ~/deploy-manage/inventory
-|4,39,10,12,1666363234,"~/deploy-manage/inventory"
--'  10  12  ~/deploy-manage/inventory
-|4,39,10,12,1666363234,"~/deploy-manage/inventory"
--'  10  12  ~/deploy-manage/inventory
-|4,39,10,12,1666363234,"~/deploy-manage/inventory"
--'  10  12  ~/deploy-manage/inventory
-|4,39,10,12,1666363234,"~/deploy-manage/inventory"
--'  10  12  ~/deploy-manage/inventory
-|4,39,10,12,1666363234,"~/deploy-manage/inventory"
--'  10  12  ~/deploy-manage/inventory
-|4,39,10,12,1666363234,"~/deploy-manage/inventory"
--'  10  12  ~/deploy-manage/inventory
-|4,39,10,12,1666363234,"~/deploy-manage/inventory"
--'  10  12  ~/deploy-manage/inventory
-|4,39,10,12,1666363234,"~/deploy-manage/inventory"
--'  1  0  ~/deploy-manage/inventory
-|4,39,1,0,1666363156,"~/deploy-manage/inventory"
--'  1  0  ~/deploy-manage/inventory
-|4,39,1,0,1666363156,"~/deploy-manage/inventory"
--'  1  0  ~/deploy-manage/inventory
-|4,39,1,0,1666363156,"~/deploy-manage/inventory"
--'  1  0  ~/deploy-manage/inventory
-|4,39,1,0,1666363156,"~/deploy-manage/inventory"
--'  1  0  ~/deploy-manage/inventory
-|4,39,1,0,1666363156,"~/deploy-manage/inventory"
--'  1  0  ~/deploy-manage/inventory
-|4,39,1,0,1666363156,"~/deploy-manage/inventory"
--'  1  0  ~/deploy-manage/inventory
-|4,39,1,0,1666363156,"~/deploy-manage/inventory"
--'  1  0  ~/deploy-manage/inventory
-|4,39,1,0,1666363156,"~/deploy-manage/inventory"
--'  3  0  ~/deploy-manage/ansible.cfg
-|4,39,3,0,1666363142,"~/deploy-manage/ansible.cfg"
--'  3  0  ~/deploy-manage/ansible.cfg
-|4,39,3,0,1666363142,"~/deploy-manage/ansible.cfg"
 -'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363106,"~/deploy-manage/ansible.cfg"
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
 -'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363106,"~/deploy-manage/ansible.cfg"
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
 -'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363106,"~/deploy-manage/ansible.cfg"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  2  34  ~/README.md
-|4,39,2,34,1666363062,"~/README.md"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
--'  26  0  ~/deploy-inventory/inventory
-|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
+-'  1  0  ~/deploy-manage/ansible.cfg
+|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	*	1666363825	0
+	"	12	7
+	^	13	10
+	.	13	9
+	+	1	15
+	+	12	8
+	+	13	9
 
 > ~/deploy-manage/ansible.cfg
 	*	1666363451	0
