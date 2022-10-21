@@ -9,7 +9,7 @@
 
 
 # hlsearch on (H) or off (h):
-~H
+~h
 # Last Substitute Search Pattern:
 ~MSle0~&-
 
@@ -17,10 +17,12 @@
 $_
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1666369489,,"wq"
+:nohl
+|2,0,1666369066,,"nohl"
 :q
 |2,0,1666363825,,"q"
-:wq
-|2,0,1666363802,,"wq"
 :%s /-/_/
 |2,0,1666363385,,"%s /-/_/"
 :%s /-/=/
@@ -44,36 +46,90 @@ $_
 |3,1,0,1,1,0,1666362653,"server[a:d].lab.example.com"
 
 # File marks:
-'0  12  7  ~/.gitignore
-|4,48,12,7,1666363825,"~/.gitignore"
-'1  12  7  ~/.gitignore
-|4,49,12,7,1666363802,"~/.gitignore"
-'2  13  9  ~/.gitignore
-|4,50,13,9,1666363784,"~/.gitignore"
-'3  13  9  ~/.gitignore
-|4,51,13,9,1666363784,"~/.gitignore"
-'4  13  9  ~/.gitignore
-|4,52,13,9,1666363784,"~/.gitignore"
-'5  13  9  ~/.gitignore
-|4,53,13,9,1666363784,"~/.gitignore"
-'6  1  15  ~/.gitignore
-|4,54,1,15,1666363722,"~/.gitignore"
-'7  1  15  ~/.gitignore
-|4,55,1,15,1666363722,"~/.gitignore"
-'8  1  15  ~/.gitignore
-|4,56,1,15,1666363722,"~/.gitignore"
-'9  1  15  ~/.gitignore
-|4,57,1,15,1666363722,"~/.gitignore"
+'0  11  4  ~/.gitignore
+|4,48,11,4,1666369489,"~/.gitignore"
+'1  18  0  ~/playbook-basic/site.yml
+|4,49,18,0,1666369328,"~/playbook-basic/site.yml"
+'2  2  8  ~/playbook-basic/site.yml
+|4,50,2,8,1666369131,"~/playbook-basic/site.yml"
+'3  3  0  ~/playbook-basic/site.yml
+|4,51,3,0,1666369131,"~/playbook-basic/site.yml"
+'4  12  7  ~/.gitignore
+|4,52,12,7,1666363825,"~/.gitignore"
+'5  11  11  ~/.gitignore
+|4,53,11,11,1666363802,"~/.gitignore"
+'6  12  7  ~/.gitignore
+|4,54,12,7,1666363802,"~/.gitignore"
+'7  12  9  ~/.gitignore
+|4,55,12,9,1666363784,"~/.gitignore"
+'8  12  9  ~/.gitignore
+|4,56,12,9,1666363784,"~/.gitignore"
+'9  12  9  ~/.gitignore
+|4,57,12,9,1666363784,"~/.gitignore"
 
 # Jumplist (newest first):
+-'  11  4  ~/.gitignore
+|4,39,11,4,1666369489,"~/.gitignore"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  3  0  ~/playbook-basic/site.yml
+|4,39,3,0,1666369131,"~/playbook-basic/site.yml"
+-'  3  0  ~/playbook-basic/site.yml
+|4,39,3,0,1666369131,"~/playbook-basic/site.yml"
+-'  1  0  ~/playbook-basic/site.yml
+|4,39,1,0,1666369057,"~/playbook-basic/site.yml"
+-'  1  0  ~/playbook-basic/site.yml
+|4,39,1,0,1666369057,"~/playbook-basic/site.yml"
+-'  1  0  ~/playbook-basic/site.yml
+|4,39,1,0,1666369057,"~/playbook-basic/site.yml"
+-'  1  0  ~/playbook-basic/site.yml
+|4,39,1,0,1666369057,"~/playbook-basic/site.yml"
+-'  12  7  ~/.gitignore
+|4,39,12,7,1666363825,"~/.gitignore"
+-'  12  7  ~/.gitignore
+|4,39,12,7,1666363825,"~/.gitignore"
+-'  12  7  ~/.gitignore
+|4,39,12,7,1666363825,"~/.gitignore"
 -'  12  7  ~/.gitignore
 |4,39,12,7,1666363825,"~/.gitignore"
 -'  12  7  ~/.gitignore
 |4,39,12,7,1666363802,"~/.gitignore"
+-'  12  7  ~/.gitignore
+|4,39,12,7,1666363802,"~/.gitignore"
+-'  12  7  ~/.gitignore
+|4,39,12,7,1666363802,"~/.gitignore"
+-'  12  7  ~/.gitignore
+|4,39,12,7,1666363802,"~/.gitignore"
+-'  12  9  ~/.gitignore
+|4,39,12,9,1666363793,"~/.gitignore"
 -'  13  9  ~/.gitignore
 |4,39,13,9,1666363793,"~/.gitignore"
 -'  13  9  ~/.gitignore
 |4,39,13,9,1666363793,"~/.gitignore"
+-'  13  9  ~/.gitignore
+|4,39,13,9,1666363793,"~/.gitignore"
+-'  13  9  ~/.gitignore
+|4,39,13,9,1666363793,"~/.gitignore"
+-'  13  9  ~/.gitignore
+|4,39,13,9,1666363793,"~/.gitignore"
+-'  13  9  ~/.gitignore
+|4,39,13,9,1666363793,"~/.gitignore"
+-'  13  9  ~/.gitignore
+|4,39,13,9,1666363793,"~/.gitignore"
+-'  13  9  ~/.gitignore
+|4,39,13,9,1666363793,"~/.gitignore"
+-'  13  9  ~/.gitignore
+|4,39,13,9,1666363784,"~/.gitignore"
+-'  13  9  ~/.gitignore
+|4,39,13,9,1666363784,"~/.gitignore"
+-'  13  9  ~/.gitignore
+|4,39,13,9,1666363784,"~/.gitignore"
 -'  13  9  ~/.gitignore
 |4,39,13,9,1666363784,"~/.gitignore"
 -'  1  15  ~/.gitignore
@@ -82,6 +138,32 @@ $_
 |4,39,1,15,1666363764,"~/.gitignore"
 -'  1  15  ~/.gitignore
 |4,39,1,15,1666363764,"~/.gitignore"
+-'  1  15  ~/.gitignore
+|4,39,1,15,1666363764,"~/.gitignore"
+-'  1  15  ~/.gitignore
+|4,39,1,15,1666363764,"~/.gitignore"
+-'  1  15  ~/.gitignore
+|4,39,1,15,1666363764,"~/.gitignore"
+-'  1  15  ~/.gitignore
+|4,39,1,15,1666363764,"~/.gitignore"
+-'  1  15  ~/.gitignore
+|4,39,1,15,1666363764,"~/.gitignore"
+-'  1  15  ~/.gitignore
+|4,39,1,15,1666363764,"~/.gitignore"
+-'  1  15  ~/.gitignore
+|4,39,1,15,1666363764,"~/.gitignore"
+-'  1  15  ~/.gitignore
+|4,39,1,15,1666363764,"~/.gitignore"
+-'  1  15  ~/.gitignore
+|4,39,1,15,1666363764,"~/.gitignore"
+-'  1  15  ~/.gitignore
+|4,39,1,15,1666363764,"~/.gitignore"
+-'  1  15  ~/.gitignore
+|4,39,1,15,1666363722,"~/.gitignore"
+-'  1  15  ~/.gitignore
+|4,39,1,15,1666363722,"~/.gitignore"
+-'  1  15  ~/.gitignore
+|4,39,1,15,1666363722,"~/.gitignore"
 -'  1  15  ~/.gitignore
 |4,39,1,15,1666363722,"~/.gitignore"
 -'  8  14  ~/deploy-manage/ansible.cfg
@@ -116,167 +198,99 @@ $_
 |4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
 -'  8  14  ~/deploy-manage/ansible.cfg
 |4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
--'  8  24  ~/deploy-manage/ansible.cfg
-|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
--'  8  24  ~/deploy-manage/ansible.cfg
-|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
--'  8  24  ~/deploy-manage/ansible.cfg
-|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
--'  8  24  ~/deploy-manage/ansible.cfg
-|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
--'  8  24  ~/deploy-manage/ansible.cfg
-|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
--'  8  24  ~/deploy-manage/ansible.cfg
-|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
--'  8  24  ~/deploy-manage/ansible.cfg
-|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
--'  8  24  ~/deploy-manage/ansible.cfg
-|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
--'  8  24  ~/deploy-manage/ansible.cfg
-|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
--'  8  24  ~/deploy-manage/ansible.cfg
-|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
--'  8  24  ~/deploy-manage/ansible.cfg
-|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
--'  8  24  ~/deploy-manage/ansible.cfg
-|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
--'  8  24  ~/deploy-manage/ansible.cfg
-|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
--'  8  24  ~/deploy-manage/ansible.cfg
-|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
--'  8  24  ~/deploy-manage/ansible.cfg
-|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
--'  8  24  ~/deploy-manage/ansible.cfg
-|4,39,8,24,1666363399,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  6  0  ~/deploy-manage/ansible.cfg
-|4,39,6,0,1666363385,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
--'  1  0  ~/deploy-manage/ansible.cfg
-|4,39,1,0,1666363378,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
+-'  8  14  ~/deploy-manage/ansible.cfg
+|4,39,8,14,1666363451,"~/deploy-manage/ansible.cfg"
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1666363825	0
-	"	12	7
-	^	13	10
-	.	13	9
+	*	1666369488	0
+	"	11	4
+	^	11	5
+	.	11	4
 	+	1	15
-	+	12	8
-	+	13	9
+	+	11	12
+	+	12	9
+	+	11	4
+
+> ~/playbook-basic/site.yml
+	*	1666369326	0
+	"	18	0
+	^	18	0
+	.	18	0
+	+	1	8
+	+	2	8
+	+	17	20
+	+	16	16
+	+	18	0
 
 > ~/deploy-manage/ansible.cfg
 	*	1666363451	0

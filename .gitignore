@@ -8,7 +8,6 @@
 .esd_auth
 .local/
 .ssh/
-.vim
-.viminfo
+.vim*
 .gitconfig
 .mozilla/
