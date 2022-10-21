@@ -1,0 +1,10 @@
+.ICEauthority
+.bash_logout
+.bash_profile
+.bashrc
+.cache/
+.config/
+.esd_auth
+.local/
+.ssh/
+.vim
