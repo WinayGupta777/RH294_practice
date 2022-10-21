@@ -1,0 +1,14 @@
+- hosts: webserver
+  become: yes
+  tasks:
+    - name: Create directory on remote host
+      file:
+        state: directory
+        path: /etc/ansible/facts.d
+        recurse: yes
+
+    - name: Copy file
+      copy:
+        src: custom.fact
+        dest: /etc/ansible/facts.d/custom.fact
+
