@@ -18,7 +18,11 @@ $_
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1666370188,,"wq"
+|2,0,1666371365,,"wq"
+:15
+|2,0,1666370770,,"15"
+:5
+|2,0,1666370646,,"5"
 :nohl
 |2,0,1666369066,,"nohl"
 :q
@@ -42,47 +46,179 @@ $_
 
 # Registers:
 "0	LINE	0
-	    - name: Make sure that service is running
+	    - name: Start firewall service
 	      service:
 	        name: firewalld
 	        state: started
 	        enabled: yes
-|3,0,0,1,5,0,1666370036,"    - name: Make sure that service is running","      service:","        name: firewalld","        state: started","        enabled: yes"
+|3,0,0,1,5,0,1666370773,"    - name: Start firewall service","      service:","        name: firewalld","        state: started","        enabled: yes"
 ""1	LINE	0
+	
+|3,1,1,1,1,0,1666370801,""
+"2	LINE	0
+	    - name:
+|3,0,2,1,1,0,1666370800,"    - name:"
+"3	LINE	0
+	    - name: Start firewall service
+|3,0,3,1,1,0,1666370794,"    - name: Start firewall service"
+"4	LINE	0
+	    - name: Start firewall service
+|3,0,4,1,1,0,1666370790,"    - name: Start firewall service"
+"5	LINE	0
 	  become:
-|3,1,1,1,1,0,1666370081,"  become:"
+|3,0,5,1,1,0,1666370081,"  become:"
 
 # File marks:
-'0  43  26  ~/playbook-multi/intranet.yml
-|4,48,43,26,1666370188,"~/playbook-multi/intranet.yml"
-'1  11  4  ~/.gitignore
-|4,49,11,4,1666369489,"~/.gitignore"
-'2  18  0  ~/playbook-basic/site.yml
-|4,50,18,0,1666369328,"~/playbook-basic/site.yml"
-'3  2  8  ~/playbook-basic/site.yml
-|4,51,2,8,1666369131,"~/playbook-basic/site.yml"
-'4  3  0  ~/playbook-basic/site.yml
-|4,52,3,0,1666369131,"~/playbook-basic/site.yml"
-'5  12  7  ~/.gitignore
-|4,53,12,7,1666363825,"~/.gitignore"
-'6  11  11  ~/.gitignore
-|4,54,11,11,1666363802,"~/.gitignore"
-'7  12  7  ~/.gitignore
-|4,55,12,7,1666363802,"~/.gitignore"
-'8  12  9  ~/.gitignore
-|4,56,12,9,1666363784,"~/.gitignore"
-'9  12  9  ~/.gitignore
-|4,57,12,9,1666363784,"~/.gitignore"
+'0  12  7  ~/.gitignore
+|4,48,12,7,1666371365,"~/.gitignore"
+'1  51  23  ~/playbook-review/internet.yml
+|4,49,51,23,1666371161,"~/playbook-review/internet.yml"
+'2  36  20  ~/playbook-review/internet.yml
+|4,50,36,20,1666370857,"~/playbook-review/internet.yml"
+'3  38  0  ~/playbook-review/internet.yml
+|4,51,38,0,1666370857,"~/playbook-review/internet.yml"
+'4  43  26  ~/playbook-multi/intranet.yml
+|4,52,43,26,1666370188,"~/playbook-multi/intranet.yml"
+'5  11  4  ~/.gitignore
+|4,53,11,4,1666369489,"~/.gitignore"
+'6  11  4  ~/.gitignore
+|4,54,11,4,1666369489,"~/.gitignore"
+'7  18  0  ~/playbook-basic/site.yml
+|4,55,18,0,1666369328,"~/playbook-basic/site.yml"
+'8  2  8  ~/playbook-basic/site.yml
+|4,56,2,8,1666369131,"~/playbook-basic/site.yml"
+'9  3  0  ~/playbook-basic/site.yml
+|4,57,3,0,1666369131,"~/playbook-basic/site.yml"
 
 # Jumplist (newest first):
+-'  12  7  ~/.gitignore
+|4,39,12,7,1666371365,"~/.gitignore"
+-'  11  4  ~/.gitignore
+|4,39,11,4,1666371355,"~/.gitignore"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  51  23  ~/playbook-review/internet.yml
+|4,39,51,23,1666371161,"~/playbook-review/internet.yml"
+-'  36  20  ~/playbook-review/internet.yml
+|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
+-'  36  20  ~/playbook-review/internet.yml
+|4,39,36,20,1666370910,"~/playbook-review/internet.yml"
+-'  38  0  ~/playbook-review/internet.yml
+|4,39,38,0,1666370857,"~/playbook-review/internet.yml"
+-'  38  0  ~/playbook-review/internet.yml
+|4,39,38,0,1666370857,"~/playbook-review/internet.yml"
+-'  1  0  ~/playbook-review/internet.yml
+|4,39,1,0,1666370500,"~/playbook-review/internet.yml"
+-'  1  0  ~/playbook-review/internet.yml
+|4,39,1,0,1666370500,"~/playbook-review/internet.yml"
+-'  1  0  ~/playbook-review/internet.yml
+|4,39,1,0,1666370500,"~/playbook-review/internet.yml"
+-'  1  0  ~/playbook-review/internet.yml
+|4,39,1,0,1666370500,"~/playbook-review/internet.yml"
 -'  43  26  ~/playbook-multi/intranet.yml
 |4,39,43,26,1666370188,"~/playbook-multi/intranet.yml"
+-'  43  26  ~/playbook-multi/intranet.yml
+|4,39,43,26,1666370188,"~/playbook-multi/intranet.yml"
+-'  43  26  ~/playbook-multi/intranet.yml
+|4,39,43,26,1666370188,"~/playbook-multi/intranet.yml"
+-'  43  26  ~/playbook-multi/intranet.yml
+|4,39,43,26,1666370188,"~/playbook-multi/intranet.yml"
+-'  43  26  ~/playbook-multi/intranet.yml
+|4,39,43,26,1666370188,"~/playbook-multi/intranet.yml"
+-'  43  26  ~/playbook-multi/intranet.yml
+|4,39,43,26,1666370188,"~/playbook-multi/intranet.yml"
+-'  43  26  ~/playbook-multi/intranet.yml
+|4,39,43,26,1666370188,"~/playbook-multi/intranet.yml"
+-'  43  26  ~/playbook-multi/intranet.yml
+|4,39,43,26,1666370188,"~/playbook-multi/intranet.yml"
+-'  1  0  ~/playbook-multi/intranet.yml
+|4,39,1,0,1666369670,"~/playbook-multi/intranet.yml"
+-'  1  0  ~/playbook-multi/intranet.yml
+|4,39,1,0,1666369670,"~/playbook-multi/intranet.yml"
+-'  1  0  ~/playbook-multi/intranet.yml
+|4,39,1,0,1666369670,"~/playbook-multi/intranet.yml"
+-'  1  0  ~/playbook-multi/intranet.yml
+|4,39,1,0,1666369670,"~/playbook-multi/intranet.yml"
+-'  1  0  ~/playbook-multi/intranet.yml
+|4,39,1,0,1666369670,"~/playbook-multi/intranet.yml"
+-'  1  0  ~/playbook-multi/intranet.yml
+|4,39,1,0,1666369670,"~/playbook-multi/intranet.yml"
+-'  1  0  ~/playbook-multi/intranet.yml
+|4,39,1,0,1666369670,"~/playbook-multi/intranet.yml"
 -'  1  0  ~/playbook-multi/intranet.yml
 |4,39,1,0,1666369670,"~/playbook-multi/intranet.yml"
 -'  11  4  ~/.gitignore
 |4,39,11,4,1666369489,"~/.gitignore"
 -'  11  4  ~/.gitignore
 |4,39,11,4,1666369489,"~/.gitignore"
+-'  11  4  ~/.gitignore
+|4,39,11,4,1666369489,"~/.gitignore"
+-'  11  4  ~/.gitignore
+|4,39,11,4,1666369489,"~/.gitignore"
+-'  11  4  ~/.gitignore
+|4,39,11,4,1666369489,"~/.gitignore"
+-'  11  4  ~/.gitignore
+|4,39,11,4,1666369489,"~/.gitignore"
+-'  11  4  ~/.gitignore
+|4,39,11,4,1666369489,"~/.gitignore"
+-'  11  4  ~/.gitignore
+|4,39,11,4,1666369489,"~/.gitignore"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
+-'  18  0  ~/playbook-basic/site.yml
+|4,39,18,0,1666369328,"~/playbook-basic/site.yml"
 -'  18  0  ~/playbook-basic/site.yml
 |4,39,18,0,1666369328,"~/playbook-basic/site.yml"
 -'  18  0  ~/playbook-basic/site.yml
@@ -99,184 +235,111 @@ $_
 |4,39,2,8,1666369206,"~/playbook-basic/site.yml"
 -'  2  8  ~/playbook-basic/site.yml
 |4,39,2,8,1666369206,"~/playbook-basic/site.yml"
--'  3  0  ~/playbook-basic/site.yml
-|4,39,3,0,1666369131,"~/playbook-basic/site.yml"
--'  3  0  ~/playbook-basic/site.yml
-|4,39,3,0,1666369131,"~/playbook-basic/site.yml"
--'  3  0  ~/playbook-basic/site.yml
-|4,39,3,0,1666369131,"~/playbook-basic/site.yml"
--'  3  0  ~/playbook-basic/site.yml
-|4,39,3,0,1666369131,"~/playbook-basic/site.yml"
--'  1  0  ~/playbook-basic/site.yml
-|4,39,1,0,1666369057,"~/playbook-basic/site.yml"
--'  1  0  ~/playbook-basic/site.yml
-|4,39,1,0,1666369057,"~/playbook-basic/site.yml"
--'  1  0  ~/playbook-basic/site.yml
-|4,39,1,0,1666369057,"~/playbook-basic/site.yml"
--'  1  0  ~/playbook-basic/site.yml
-|4,39,1,0,1666369057,"~/playbook-basic/site.yml"
--'  1  0  ~/playbook-basic/site.yml
-|4,39,1,0,1666369057,"~/playbook-basic/site.yml"
--'  1  0  ~/playbook-basic/site.yml
-|4,39,1,0,1666369057,"~/playbook-basic/site.yml"
--'  1  0  ~/playbook-basic/site.yml
-|4,39,1,0,1666369057,"~/playbook-basic/site.yml"
--'  1  0  ~/playbook-basic/site.yml
-|4,39,1,0,1666369057,"~/playbook-basic/site.yml"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666363825,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666363825,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666363825,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666363825,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666363825,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666363825,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666363825,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666363825,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666363802,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666363802,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666363802,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666363802,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666363802,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666363802,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666363802,"~/.gitignore"
--'  12  7  ~/.gitignore
-|4,39,12,7,1666363802,"~/.gitignore"
--'  12  9  ~/.gitignore
-|4,39,12,9,1666363793,"~/.gitignore"
--'  13  9  ~/.gitignore
-|4,39,13,9,1666363793,"~/.gitignore"
--'  13  9  ~/.gitignore
-|4,39,13,9,1666363793,"~/.gitignore"
--'  13  9  ~/.gitignore
-|4,39,13,9,1666363793,"~/.gitignore"
--'  13  9  ~/.gitignore
-|4,39,13,9,1666363793,"~/.gitignore"
--'  13  9  ~/.gitignore
-|4,39,13,9,1666363793,"~/.gitignore"
--'  13  9  ~/.gitignore
-|4,39,13,9,1666363793,"~/.gitignore"
--'  13  9  ~/.gitignore
-|4,39,13,9,1666363793,"~/.gitignore"
--'  13  9  ~/.gitignore
-|4,39,13,9,1666363793,"~/.gitignore"
--'  12  9  ~/.gitignore
-|4,39,12,9,1666363793,"~/.gitignore"
--'  13  9  ~/.gitignore
-|4,39,13,9,1666363793,"~/.gitignore"
--'  13  9  ~/.gitignore
-|4,39,13,9,1666363793,"~/.gitignore"
--'  13  9  ~/.gitignore
-|4,39,13,9,1666363793,"~/.gitignore"
--'  13  9  ~/.gitignore
-|4,39,13,9,1666363793,"~/.gitignore"
--'  13  9  ~/.gitignore
-|4,39,13,9,1666363793,"~/.gitignore"
--'  13  9  ~/.gitignore
-|4,39,13,9,1666363793,"~/.gitignore"
--'  13  9  ~/.gitignore
-|4,39,13,9,1666363793,"~/.gitignore"
--'  13  9  ~/.gitignore
-|4,39,13,9,1666363793,"~/.gitignore"
--'  13  9  ~/.gitignore
-|4,39,13,9,1666363784,"~/.gitignore"
--'  13  9  ~/.gitignore
-|4,39,13,9,1666363784,"~/.gitignore"
--'  13  9  ~/.gitignore
-|4,39,13,9,1666363784,"~/.gitignore"
--'  13  9  ~/.gitignore
-|4,39,13,9,1666363784,"~/.gitignore"
--'  13  9  ~/.gitignore
-|4,39,13,9,1666363784,"~/.gitignore"
--'  13  9  ~/.gitignore
-|4,39,13,9,1666363784,"~/.gitignore"
--'  13  9  ~/.gitignore
-|4,39,13,9,1666363784,"~/.gitignore"
--'  13  9  ~/.gitignore
-|4,39,13,9,1666363784,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363764,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363764,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363764,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363764,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363764,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363764,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363764,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363764,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363764,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363764,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363764,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363764,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363764,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363764,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363764,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363764,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363764,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363764,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363764,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363764,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363764,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363764,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363764,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363764,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363764,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363764,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363722,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363722,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363722,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363722,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363722,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363722,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363722,"~/.gitignore"
--'  1  15  ~/.gitignore
-|4,39,1,15,1666363722,"~/.gitignore"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
+-'  2  8  ~/playbook-basic/site.yml
+|4,39,2,8,1666369206,"~/playbook-basic/site.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	*	1666371364	0
+	"	12	7
+	^	12	8
+	.	12	7
+	+	1	15
+	+	11	12
+	+	13	9
+	+	11	5
+	+	12	7
+
+> ~/playbook-review/internet.yml
+	*	1666371156	0
+	"	51	23
+	^	51	24
+	.	51	23
+	+	4	8
+	+	7	52
+	+	12	9
+	+	7	24
+	+	9	18
+	+	10	27
+	+	11	15
+	+	10	26
+	+	9	17
+	+	8	21
+	+	13	22
+	+	26	0
+	+	5	33
+	+	15	34
+	+	26	10
+	+	26	0
+	+	27	0
+	+	34	0
+	+	31	4
+	+	32	0
+	+	26	21
+	+	28	17
+	+	34	21
+	+	32	24
+	+	36	20
+	+	42	0
+	+	44	19
+	+	52	0
+	+	47	29
+	+	51	23
 
 > ~/playbook-multi/intranet.yml
 	*	1666370186	0
@@ -299,16 +362,6 @@ $_
 	+	37	17
 	+	38	0
 	+	43	26
-
-> ~/.gitignore
-	*	1666369488	0
-	"	11	4
-	^	11	5
-	.	11	4
-	+	1	15
-	+	11	12
-	+	12	9
-	+	11	4
 
 > ~/playbook-basic/site.yml
 	*	1666369326	0

@@ -1,0 +1,52 @@
+- name: Enable internet services
+  hosts: all
+  become: yes
+  tasks:
+    - name: Install latest version
+      package:
+        name: 
+          - firewalld
+          - httpd
+          - mariadb-server
+          - php
+          - php-mysqlnd
+        state: latest
+
+    - name: Start firewall service
+      service:
+        name: firewalld
+        state: started
+        enabled: yes
+
+    - name: Allow http connections
+      firewalld:
+        service: http
+        state: enabled
+
+    - name: Start web service
+      service:
+        name: httpd
+        state: started
+        enabled: yes
+    
+    - name: Start mariadb service
+      service:
+        name: mariadb
+        state: started
+        enabled: yes
+
+    - name: Deploy page
+      get_url:
+        url: http://materials.example.com/labs/playbook-review/index.php
+        dest: /var/www/html/index.php
+
+    
+- name: Test server
+  hosts: localhost
+  tasks:
+    - name: Verify connection
+      uri:
+        url: http://serverb.lab.example.com
+        return_content: yes
+        status_code: 200
+

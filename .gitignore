@@ -9,5 +9,6 @@
 .local/
 .ssh/
 .vim*
+.lesshst
 .gitconfig
 .mozilla/
