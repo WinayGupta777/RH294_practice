@@ -12,7 +12,7 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
-|2,0,1666361882,,"wq"
+|2,0,1666362834,,"wq"
 
 # Search String History (newest to oldest):
 
@@ -23,20 +23,143 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+""0	LINE	0
+	server[a:d].lab.example.com
+|3,1,0,1,1,0,1666362653,"server[a:d].lab.example.com"
 
 # File marks:
-'0  1  18  ~/ChapterInfo
-|4,48,1,18,1666361882,"~/ChapterInfo"
+'0  26  0  ~/deploy-inventory/inventory
+|4,48,26,0,1666362834,"~/deploy-inventory/inventory"
+'1  2  0  ~/README.md
+|4,49,2,0,1666362382,"~/README.md"
+'2  1  1  ~/README.md
+|4,50,1,1,1666362306,"~/README.md"
+'3  1  1  ~/README.md
+|4,51,1,1,1666362306,"~/README.md"
+'4  2  23  ~/ChapterInfo
+|4,52,2,23,1666362270,"~/ChapterInfo"
+'5  1  18  ~/ChapterInfo
+|4,53,1,18,1666361882,"~/ChapterInfo"
+'6  1  18  ~/ChapterInfo
+|4,54,1,18,1666361882,"~/ChapterInfo"
 
 # Jumplist (newest first):
+-'  26  0  ~/deploy-inventory/inventory
+|4,39,26,0,1666362834,"~/deploy-inventory/inventory"
+-'  1  0  ~/deploy-inventory/inventory
+|4,39,1,0,1666362571,"~/deploy-inventory/inventory"
+-'  2  0  ~/README.md
+|4,39,2,0,1666362382,"~/README.md"
+-'  2  0  ~/README.md
+|4,39,2,0,1666362382,"~/README.md"
+-'  1  1  ~/README.md
+|4,39,1,1,1666362334,"~/README.md"
+-'  1  1  ~/README.md
+|4,39,1,1,1666362334,"~/README.md"
+-'  1  1  ~/README.md
+|4,39,1,1,1666362306,"~/README.md"
+-'  1  1  ~/README.md
+|4,39,1,1,1666362306,"~/README.md"
+-'  2  23  ~/ChapterInfo
+|4,39,2,23,1666362270,"~/ChapterInfo"
+-'  2  23  ~/ChapterInfo
+|4,39,2,23,1666362270,"~/ChapterInfo"
+-'  2  23  ~/ChapterInfo
+|4,39,2,23,1666362270,"~/ChapterInfo"
+-'  2  23  ~/ChapterInfo
+|4,39,2,23,1666362270,"~/ChapterInfo"
+-'  2  23  ~/ChapterInfo
+|4,39,2,23,1666362270,"~/ChapterInfo"
+-'  2  23  ~/ChapterInfo
+|4,39,2,23,1666362270,"~/ChapterInfo"
+-'  2  23  ~/ChapterInfo
+|4,39,2,23,1666362270,"~/ChapterInfo"
+-'  2  23  ~/ChapterInfo
+|4,39,2,23,1666362270,"~/ChapterInfo"
+-'  1  18  ~/ChapterInfo
+|4,39,1,18,1666362258,"~/ChapterInfo"
+-'  1  18  ~/ChapterInfo
+|4,39,1,18,1666362258,"~/ChapterInfo"
+-'  1  18  ~/ChapterInfo
+|4,39,1,18,1666362258,"~/ChapterInfo"
+-'  1  18  ~/ChapterInfo
+|4,39,1,18,1666362258,"~/ChapterInfo"
+-'  1  18  ~/ChapterInfo
+|4,39,1,18,1666362258,"~/ChapterInfo"
+-'  1  18  ~/ChapterInfo
+|4,39,1,18,1666362258,"~/ChapterInfo"
+-'  1  18  ~/ChapterInfo
+|4,39,1,18,1666362258,"~/ChapterInfo"
+-'  1  18  ~/ChapterInfo
+|4,39,1,18,1666362258,"~/ChapterInfo"
+-'  1  18  ~/ChapterInfo
+|4,39,1,18,1666361882,"~/ChapterInfo"
+-'  1  18  ~/ChapterInfo
+|4,39,1,18,1666361882,"~/ChapterInfo"
+-'  1  18  ~/ChapterInfo
+|4,39,1,18,1666361882,"~/ChapterInfo"
+-'  1  18  ~/ChapterInfo
+|4,39,1,18,1666361882,"~/ChapterInfo"
+-'  1  18  ~/ChapterInfo
+|4,39,1,18,1666361882,"~/ChapterInfo"
+-'  1  18  ~/ChapterInfo
+|4,39,1,18,1666361882,"~/ChapterInfo"
+-'  1  18  ~/ChapterInfo
+|4,39,1,18,1666361882,"~/ChapterInfo"
 -'  1  18  ~/ChapterInfo
 |4,39,1,18,1666361882,"~/ChapterInfo"
 
 # History of marks within files (newest to oldest):
 
-> ~/ChapterInfo
-	*	1666361881	0
-	"	1	18
-	^	1	19
-	.	2	0
+> ~/deploy-inventory/inventory
+	*	1666362833	0
+	"	26	0
+	^	26	0
+	.	25	0
+	+	1	11
+	+	2	27
+	+	4	9
 	+	2	0
+	+	5	9
+	+	19	12
+	+	20	0
+	+	20	7
+	+	16	1
+	+	16	9
+	+	17	0
+	+	17	6
+	+	13	0
+	+	14	0
+	+	13	1
+	+	14	6
+	+	7	0
+	+	8	0
+	+	7	1
+	+	8	23
+	+	10	7
+	+	12	0
+	+	10	8
+	+	11	23
+	+	12	0
+	+	20	27
+	+	22	13
+	+	25	0
+
+> ~/README.md
+	*	1666362381	0
+	"	2	0
+	^	2	1
+	.	2	0
+	+	1	30
+	+	1	23
+	+	1	0
+	+	2	0
+
+> ~/ChapterInfo
+	*	1666362268	0
+	"	2	23
+	^	2	24
+	.	2	23
+	+	2	0
+	+	2	30
+	+	2	23
