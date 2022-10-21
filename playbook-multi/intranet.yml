@@ -1,0 +1,43 @@
+- name: Enable intranet service
+  hosts: all
+  become: yes
+  tasks:
+    - name: Check for package
+      package:
+        name:
+          - httpd
+          - firewalld
+        state: latest
+
+    - name: Correct content of web page
+      copy:
+        content: 'Welcome to the example.com intranet!\n'
+        dest: /var/www/html/index.html
+
+    - name: Make sure that service is running
+      service:
+        name: firewalld
+        state: started
+        enabled: yes
+
+    - name: Allow http connection
+      firewalld:
+        service: http
+        state: enabled
+
+    - name: Make sure that httpd service is running
+      service:
+        name: httpd
+        state: started
+        enabled: yes
+
+
+
+- name: Test intranet web server
+  hosts: localhost
+  tasks:
+    - name: Verify connection
+      uri:
+        url: http://servera.lab.example.com
+        status_code: 200
+        return_content: yes
