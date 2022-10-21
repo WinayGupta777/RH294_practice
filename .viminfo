@@ -18,7 +18,7 @@ $_
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1666375380,,"wq"
+|2,0,1666375461,,"wq"
 :nohl
 |2,0,1666371998,,"nohl"
 :15
@@ -78,36 +78,52 @@ $_
 |3,0,8,1,1,0,1666370081,"  become:"
 
 # File marks:
-'0  6  3  ~/README.md
-|4,48,6,3,1666375380,"~/README.md"
-'1  1  5  ~/data-secret/vault-pass
-|4,49,1,5,1666374934,"~/data-secret/vault-pass"
-'2  11  21  ~/data-secret/create_users.yml
-|4,50,11,21,1666374845,"~/data-secret/create_users.yml"
-'3  9  14  ~/data-secret/create_users.yml
-|4,51,9,14,1666374609,"~/data-secret/create_users.yml"
-'4  4  0  ~/data-secret/create_users.yml
-|4,52,4,0,1666374609,"~/data-secret/create_users.yml"
-'5  50  26  ~/data-variables/playbook.yml
-|4,53,50,26,1666374258,"~/data-variables/playbook.yml"
-'6  47  9  ~/data-variables/playbook.yml
-|4,54,47,9,1666374198,"~/data-variables/playbook.yml"
-'7  45  9  ~/data-variables/playbook.yml
-|4,55,45,9,1666374198,"~/data-variables/playbook.yml"
-'8  1  8  ~/data-variables/playbook.yml
-|4,56,1,8,1666373727,"~/data-variables/playbook.yml"
+'0  6  2  ~/README.md
+|4,48,6,2,1666375461,"~/README.md"
+'1  6  3  ~/README.md
+|4,49,6,3,1666375380,"~/README.md"
+'2  1  5  ~/data-secret/vault-pass
+|4,50,1,5,1666374934,"~/data-secret/vault-pass"
+'3  11  21  ~/data-secret/create_users.yml
+|4,51,11,21,1666374845,"~/data-secret/create_users.yml"
+'4  9  14  ~/data-secret/create_users.yml
+|4,52,9,14,1666374609,"~/data-secret/create_users.yml"
+'5  4  0  ~/data-secret/create_users.yml
+|4,53,4,0,1666374609,"~/data-secret/create_users.yml"
+'6  50  26  ~/data-variables/playbook.yml
+|4,54,50,26,1666374258,"~/data-variables/playbook.yml"
+'7  47  9  ~/data-variables/playbook.yml
+|4,55,47,9,1666374198,"~/data-variables/playbook.yml"
+'8  45  9  ~/data-variables/playbook.yml
+|4,56,45,9,1666374198,"~/data-variables/playbook.yml"
 '9  1  8  ~/data-variables/playbook.yml
 |4,57,1,8,1666373727,"~/data-variables/playbook.yml"
 
 # Jumplist (newest first):
+-'  6  2  ~/README.md
+|4,39,6,2,1666375461,"~/README.md"
 -'  6  3  ~/README.md
 |4,39,6,3,1666375380,"~/README.md"
+-'  5  46  ~/README.md
+|4,39,5,46,1666375161,"~/README.md"
 -'  5  46  ~/README.md
 |4,39,5,46,1666375161,"~/README.md"
 -'  1  5  ~/data-secret/vault-pass
 |4,39,1,5,1666374934,"~/data-secret/vault-pass"
 -'  1  5  ~/data-secret/vault-pass
 |4,39,1,5,1666374934,"~/data-secret/vault-pass"
+-'  1  5  ~/data-secret/vault-pass
+|4,39,1,5,1666374934,"~/data-secret/vault-pass"
+-'  1  5  ~/data-secret/vault-pass
+|4,39,1,5,1666374934,"~/data-secret/vault-pass"
+-'  11  21  ~/data-secret/create_users.yml
+|4,39,11,21,1666374845,"~/data-secret/create_users.yml"
+-'  11  21  ~/data-secret/create_users.yml
+|4,39,11,21,1666374845,"~/data-secret/create_users.yml"
+-'  11  21  ~/data-secret/create_users.yml
+|4,39,11,21,1666374845,"~/data-secret/create_users.yml"
+-'  11  21  ~/data-secret/create_users.yml
+|4,39,11,21,1666374845,"~/data-secret/create_users.yml"
 -'  11  21  ~/data-secret/create_users.yml
 |4,39,11,21,1666374845,"~/data-secret/create_users.yml"
 -'  11  21  ~/data-secret/create_users.yml
@@ -124,6 +140,22 @@ $_
 |4,39,9,14,1666374616,"~/data-secret/create_users.yml"
 -'  9  14  ~/data-secret/create_users.yml
 |4,39,9,14,1666374616,"~/data-secret/create_users.yml"
+-'  9  14  ~/data-secret/create_users.yml
+|4,39,9,14,1666374616,"~/data-secret/create_users.yml"
+-'  9  14  ~/data-secret/create_users.yml
+|4,39,9,14,1666374616,"~/data-secret/create_users.yml"
+-'  9  14  ~/data-secret/create_users.yml
+|4,39,9,14,1666374616,"~/data-secret/create_users.yml"
+-'  9  14  ~/data-secret/create_users.yml
+|4,39,9,14,1666374616,"~/data-secret/create_users.yml"
+-'  4  0  ~/data-secret/create_users.yml
+|4,39,4,0,1666374609,"~/data-secret/create_users.yml"
+-'  4  0  ~/data-secret/create_users.yml
+|4,39,4,0,1666374609,"~/data-secret/create_users.yml"
+-'  4  0  ~/data-secret/create_users.yml
+|4,39,4,0,1666374609,"~/data-secret/create_users.yml"
+-'  4  0  ~/data-secret/create_users.yml
+|4,39,4,0,1666374609,"~/data-secret/create_users.yml"
 -'  4  0  ~/data-secret/create_users.yml
 |4,39,4,0,1666374609,"~/data-secret/create_users.yml"
 -'  4  0  ~/data-secret/create_users.yml
@@ -148,6 +180,54 @@ $_
 |4,39,1,0,1666374567,"~/data-secret/create_users.yml"
 -'  1  0  ~/data-secret/create_users.yml
 |4,39,1,0,1666374567,"~/data-secret/create_users.yml"
+-'  1  0  ~/data-secret/create_users.yml
+|4,39,1,0,1666374567,"~/data-secret/create_users.yml"
+-'  1  0  ~/data-secret/create_users.yml
+|4,39,1,0,1666374567,"~/data-secret/create_users.yml"
+-'  1  0  ~/data-secret/create_users.yml
+|4,39,1,0,1666374567,"~/data-secret/create_users.yml"
+-'  1  0  ~/data-secret/create_users.yml
+|4,39,1,0,1666374567,"~/data-secret/create_users.yml"
+-'  1  0  ~/data-secret/create_users.yml
+|4,39,1,0,1666374567,"~/data-secret/create_users.yml"
+-'  1  0  ~/data-secret/create_users.yml
+|4,39,1,0,1666374567,"~/data-secret/create_users.yml"
+-'  1  0  ~/data-secret/create_users.yml
+|4,39,1,0,1666374567,"~/data-secret/create_users.yml"
+-'  1  0  ~/data-secret/create_users.yml
+|4,39,1,0,1666374567,"~/data-secret/create_users.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
+-'  50  26  ~/data-variables/playbook.yml
+|4,39,50,26,1666374258,"~/data-variables/playbook.yml"
 -'  50  26  ~/data-variables/playbook.yml
 |4,39,50,26,1666374258,"~/data-variables/playbook.yml"
 -'  50  26  ~/data-variables/playbook.yml
@@ -212,102 +292,22 @@ $_
 |4,39,47,9,1666374203,"~/data-variables/playbook.yml"
 -'  47  9  ~/data-variables/playbook.yml
 |4,39,47,9,1666374203,"~/data-variables/playbook.yml"
--'  45  9  ~/data-variables/playbook.yml
-|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
--'  45  9  ~/data-variables/playbook.yml
-|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
--'  45  9  ~/data-variables/playbook.yml
-|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
--'  45  9  ~/data-variables/playbook.yml
-|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
--'  45  9  ~/data-variables/playbook.yml
-|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
--'  45  9  ~/data-variables/playbook.yml
-|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
--'  45  9  ~/data-variables/playbook.yml
-|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
--'  45  9  ~/data-variables/playbook.yml
-|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
--'  45  9  ~/data-variables/playbook.yml
-|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
--'  45  9  ~/data-variables/playbook.yml
-|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
--'  45  9  ~/data-variables/playbook.yml
-|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
--'  45  9  ~/data-variables/playbook.yml
-|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
--'  45  9  ~/data-variables/playbook.yml
-|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
--'  45  9  ~/data-variables/playbook.yml
-|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
--'  45  9  ~/data-variables/playbook.yml
-|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
--'  45  9  ~/data-variables/playbook.yml
-|4,39,45,9,1666374198,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
--'  1  8  ~/data-variables/playbook.yml
-|4,39,1,8,1666373732,"~/data-variables/playbook.yml"
+-'  47  9  ~/data-variables/playbook.yml
+|4,39,47,9,1666374203,"~/data-variables/playbook.yml"
+-'  47  9  ~/data-variables/playbook.yml
+|4,39,47,9,1666374203,"~/data-variables/playbook.yml"
+-'  47  9  ~/data-variables/playbook.yml
+|4,39,47,9,1666374203,"~/data-variables/playbook.yml"
+-'  47  9  ~/data-variables/playbook.yml
+|4,39,47,9,1666374203,"~/data-variables/playbook.yml"
 
 # History of marks within files (newest to oldest):
 
 > ~/README.md
-	*	1666375379	0
-	"	6	3
-	^	6	4
-	.	6	3
+	*	1666375460	0
+	"	6	2
+	^	6	3
+	.	6	2
 	+	1	30
 	+	1	23
 	+	1	0
@@ -325,7 +325,7 @@ $_
 	+	5	47
 	+	7	0
 	+	5	47
-	+	6	3
+	+	6	2
 
 > ~/data-secret/vault-pass
 	*	1666374934	0
