@@ -18,7 +18,7 @@ $:
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1666418165,,"wq"
+|2,0,1666419305,,"wq"
 :28
 |2,0,1666417726,,"28"
 :19
@@ -62,267 +62,303 @@ $:
 
 # Registers:
 ""0	LINE	0
-	> ###	:bulb: Writing Loops and Conditional Tasks
-|3,1,0,1,1,0,1666418143,"> ###	:bulb: Writing Loops and Conditional Tasks"
+	    - name: Install {{ web_package }}
+|3,1,0,1,1,0,1666418786,"    - name: Install {{ web_package }}"
 "1	LINE	0
-	        mode: '0400'
-|3,0,1,1,1,0,1666409741,"        mode: '0400'"
+	    - name: Install {{ db_package }}
+|3,0,1,1,1,0,1666418763,"    - name: Install {{ db_package }}"
 "2	LINE	0
-	        group: apache
-|3,0,2,1,1,0,1666409740,"        group: apache"
+	      ignore_errors: yes
+|3,0,2,1,1,0,1666418702,"      ignore_errors: yes"
 "3	LINE	0
-	        owner: apache
-|3,0,3,1,1,0,1666409739,"        owner: apache"
+	        mode: '0400'
+|3,0,3,1,1,0,1666409741,"        mode: '0400'"
 "4	LINE	0
-	        src: "{{ _src }}"
-|3,0,4,1,1,0,1666409424,"        src: \"{{ _src }}\""
+	        group: apache
+|3,0,4,1,1,0,1666409740,"        group: apache"
 "5	LINE	0
-	        group: root
-|3,0,5,1,1,0,1666409199,"        group: root"
+	        owner: apache
+|3,0,5,1,1,0,1666409739,"        owner: apache"
 "6	LINE	0
-	        owner: root
-|3,0,6,1,1,0,1666409198,"        owner: root"
+	        src: "{{ _src }}"
+|3,0,6,1,1,0,1666409424,"        src: \"{{ _src }}\""
 "7	LINE	0
-	ansible_facts['ansible_local']['custom']
-|3,0,7,1,1,0,1666376541,"ansible_facts['ansible_local']['custom']"
+	        group: root
+|3,0,7,1,1,0,1666409199,"        group: root"
 "8	LINE	0
-	    - name: Start {{ firewall_service }} 
-|3,0,8,1,1,0,1666373963,"    - name: Start {{ firewall_service }} "
+	        owner: root
+|3,0,8,1,1,0,1666409198,"        owner: root"
 "9	LINE	0
-	          - "{{   }}"
-|3,0,9,1,1,0,1666373880,"          - \"{{   }}\""
+	ansible_facts['ansible_local']['custom']
+|3,0,9,1,1,0,1666376541,"ansible_facts['ansible_local']['custom']"
 
 # File marks:
-'0  12  33  ~/README.md
-|4,48,12,33,1666418165,"~/README.md"
-'1  17  5  ~/control-handlers/configure_db.yml
-|4,49,17,5,1666417911,"~/control-handlers/configure_db.yml"
-'2  16  20  ~/control-handlers/configure_db.yml
-|4,50,16,20,1666417875,"~/control-handlers/configure_db.yml"
-'3  16  20  ~/control-handlers/configure_db.yml
-|4,51,16,20,1666417875,"~/control-handlers/configure_db.yml"
-'4  40  12  ~/control-handlers/configure_db.yml
-|4,52,40,12,1666417782,"~/control-handlers/configure_db.yml"
-'5  40  12  ~/control-handlers/configure_db.yml
-|4,53,40,12,1666417782,"~/control-handlers/configure_db.yml"
-'6  40  12  ~/control-handlers/configure_db.yml
-|4,54,40,12,1666417782,"~/control-handlers/configure_db.yml"
-'7  40  12  ~/control-handlers/configure_db.yml
-|4,55,40,12,1666417782,"~/control-handlers/configure_db.yml"
-'8  28  36  ~/control-handlers/configure_db.yml
-|4,56,28,36,1666417731,"~/control-handlers/configure_db.yml"
-'9  28  36  ~/control-handlers/configure_db.yml
-|4,57,28,36,1666417731,"~/control-handlers/configure_db.yml"
+'0  24  38  ~/control-errors/playbook.yml
+|4,48,24,38,1666419305,"~/control-errors/playbook.yml"
+'1  12  0  ~/control-errors/playbook.yml
+|4,49,12,0,1666419213,"~/control-errors/playbook.yml"
+'2  12  0  ~/control-errors/playbook.yml
+|4,50,12,0,1666419213,"~/control-errors/playbook.yml"
+'3  15  33  ~/control-errors/playbook.yml
+|4,51,15,33,1666419167,"~/control-errors/playbook.yml"
+'4  13  33  ~/control-errors/playbook.yml
+|4,52,13,33,1666419167,"~/control-errors/playbook.yml"
+'5  15  33  ~/control-errors/playbook.yml
+|4,53,15,33,1666419167,"~/control-errors/playbook.yml"
+'6  13  33  ~/control-errors/playbook.yml
+|4,54,13,33,1666419167,"~/control-errors/playbook.yml"
+'7  3  21  ~/control-errors/playbook.yml
+|4,55,3,21,1666419031,"~/control-errors/playbook.yml"
+'8  3  21  ~/control-errors/playbook.yml
+|4,56,3,21,1666419031,"~/control-errors/playbook.yml"
+'9  3  21  ~/control-errors/playbook.yml
+|4,57,3,21,1666419031,"~/control-errors/playbook.yml"
 
 # Jumplist (newest first):
--'  12  33  ~/README.md
-|4,39,12,33,1666418165,"~/README.md"
--'  11  47  ~/README.md
-|4,39,11,47,1666418139,"~/README.md"
--'  17  5  ~/control-handlers/configure_db.yml
-|4,39,17,5,1666417911,"~/control-handlers/configure_db.yml"
--'  17  5  ~/control-handlers/configure_db.yml
-|4,39,17,5,1666417911,"~/control-handlers/configure_db.yml"
--'  16  20  ~/control-handlers/configure_db.yml
-|4,39,16,20,1666417891,"~/control-handlers/configure_db.yml"
--'  16  20  ~/control-handlers/configure_db.yml
-|4,39,16,20,1666417891,"~/control-handlers/configure_db.yml"
--'  16  20  ~/control-handlers/configure_db.yml
-|4,39,16,20,1666417875,"~/control-handlers/configure_db.yml"
--'  16  20  ~/control-handlers/configure_db.yml
-|4,39,16,20,1666417875,"~/control-handlers/configure_db.yml"
--'  40  12  ~/control-handlers/configure_db.yml
-|4,39,40,12,1666417840,"~/control-handlers/configure_db.yml"
--'  40  12  ~/control-handlers/configure_db.yml
-|4,39,40,12,1666417840,"~/control-handlers/configure_db.yml"
--'  40  12  ~/control-handlers/configure_db.yml
-|4,39,40,12,1666417840,"~/control-handlers/configure_db.yml"
--'  40  12  ~/control-handlers/configure_db.yml
-|4,39,40,12,1666417840,"~/control-handlers/configure_db.yml"
--'  40  12  ~/control-handlers/configure_db.yml
-|4,39,40,12,1666417782,"~/control-handlers/configure_db.yml"
--'  40  12  ~/control-handlers/configure_db.yml
-|4,39,40,12,1666417782,"~/control-handlers/configure_db.yml"
--'  28  36  ~/control-handlers/configure_db.yml
-|4,39,28,36,1666417762,"~/control-handlers/configure_db.yml"
--'  28  36  ~/control-handlers/configure_db.yml
-|4,39,28,36,1666417762,"~/control-handlers/configure_db.yml"
--'  28  36  ~/control-handlers/configure_db.yml
-|4,39,28,36,1666417762,"~/control-handlers/configure_db.yml"
--'  28  36  ~/control-handlers/configure_db.yml
-|4,39,28,36,1666417762,"~/control-handlers/configure_db.yml"
--'  28  36  ~/control-handlers/configure_db.yml
-|4,39,28,36,1666417762,"~/control-handlers/configure_db.yml"
--'  28  36  ~/control-handlers/configure_db.yml
-|4,39,28,36,1666417762,"~/control-handlers/configure_db.yml"
--'  28  36  ~/control-handlers/configure_db.yml
-|4,39,28,36,1666417731,"~/control-handlers/configure_db.yml"
--'  28  36  ~/control-handlers/configure_db.yml
-|4,39,28,36,1666417731,"~/control-handlers/configure_db.yml"
--'  43  23  ~/control-handlers/configure_db.yml
-|4,39,43,23,1666417722,"~/control-handlers/configure_db.yml"
--'  43  23  ~/control-handlers/configure_db.yml
-|4,39,43,23,1666417722,"~/control-handlers/configure_db.yml"
--'  43  23  ~/control-handlers/configure_db.yml
-|4,39,43,23,1666417722,"~/control-handlers/configure_db.yml"
--'  43  23  ~/control-handlers/configure_db.yml
-|4,39,43,23,1666417722,"~/control-handlers/configure_db.yml"
--'  43  23  ~/control-handlers/configure_db.yml
-|4,39,43,23,1666417722,"~/control-handlers/configure_db.yml"
--'  43  23  ~/control-handlers/configure_db.yml
-|4,39,43,23,1666417722,"~/control-handlers/configure_db.yml"
--'  43  23  ~/control-handlers/configure_db.yml
-|4,39,43,23,1666417722,"~/control-handlers/configure_db.yml"
--'  43  23  ~/control-handlers/configure_db.yml
-|4,39,43,23,1666417722,"~/control-handlers/configure_db.yml"
--'  43  23  ~/control-handlers/configure_db.yml
-|4,39,43,23,1666417693,"~/control-handlers/configure_db.yml"
--'  43  23  ~/control-handlers/configure_db.yml
-|4,39,43,23,1666417693,"~/control-handlers/configure_db.yml"
--'  1  0  ~/control-handlers/configure_db.yml
-|4,39,1,0,1666417089,"~/control-handlers/configure_db.yml"
--'  1  0  ~/control-handlers/configure_db.yml
-|4,39,1,0,1666417089,"~/control-handlers/configure_db.yml"
--'  1  0  ~/control-handlers/configure_db.yml
-|4,39,1,0,1666417089,"~/control-handlers/configure_db.yml"
--'  1  0  ~/control-handlers/configure_db.yml
-|4,39,1,0,1666417089,"~/control-handlers/configure_db.yml"
--'  1  0  ~/control-handlers/configure_db.yml
-|4,39,1,0,1666417089,"~/control-handlers/configure_db.yml"
--'  1  0  ~/control-handlers/configure_db.yml
-|4,39,1,0,1666417089,"~/control-handlers/configure_db.yml"
--'  1  0  ~/control-handlers/configure_db.yml
-|4,39,1,0,1666417089,"~/control-handlers/configure_db.yml"
--'  1  0  ~/control-handlers/configure_db.yml
-|4,39,1,0,1666417089,"~/control-handlers/configure_db.yml"
--'  1  0  ~/control-handlers/configure_db.yml
-|4,39,1,0,1666417089,"~/control-handlers/configure_db.yml"
--'  1  0  ~/control-handlers/configure_db.yml
-|4,39,1,0,1666417089,"~/control-handlers/configure_db.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
--'  10  39  ~/control-flow/playbook.yml
-|4,39,10,39,1666412778,"~/control-flow/playbook.yml"
+-'  24  38  ~/control-errors/playbook.yml
+|4,39,24,38,1666419305,"~/control-errors/playbook.yml"
+-'  12  0  ~/control-errors/playbook.yml
+|4,39,12,0,1666419254,"~/control-errors/playbook.yml"
+-'  12  0  ~/control-errors/playbook.yml
+|4,39,12,0,1666419213,"~/control-errors/playbook.yml"
+-'  15  33  ~/control-errors/playbook.yml
+|4,39,15,33,1666419197,"~/control-errors/playbook.yml"
+-'  15  33  ~/control-errors/playbook.yml
+|4,39,15,33,1666419197,"~/control-errors/playbook.yml"
+-'  13  33  ~/control-errors/playbook.yml
+|4,39,13,33,1666419167,"~/control-errors/playbook.yml"
+-'  13  33  ~/control-errors/playbook.yml
+|4,39,13,33,1666419167,"~/control-errors/playbook.yml"
+-'  3  21  ~/control-errors/playbook.yml
+|4,39,3,21,1666419067,"~/control-errors/playbook.yml"
+-'  3  21  ~/control-errors/playbook.yml
+|4,39,3,21,1666419067,"~/control-errors/playbook.yml"
+-'  3  21  ~/control-errors/playbook.yml
+|4,39,3,21,1666419067,"~/control-errors/playbook.yml"
+-'  3  21  ~/control-errors/playbook.yml
+|4,39,3,21,1666419031,"~/control-errors/playbook.yml"
+-'  31  6  ~/control-errors/playbook.yml
+|4,39,31,6,1666419022,"~/control-errors/playbook.yml"
+-'  22  6  ~/control-errors/playbook.yml
+|4,39,22,6,1666419022,"~/control-errors/playbook.yml"
+-'  29  6  ~/control-errors/playbook.yml
+|4,39,29,6,1666419022,"~/control-errors/playbook.yml"
+-'  20  6  ~/control-errors/playbook.yml
+|4,39,20,6,1666419022,"~/control-errors/playbook.yml"
+-'  31  6  ~/control-errors/playbook.yml
+|4,39,31,6,1666419022,"~/control-errors/playbook.yml"
+-'  22  6  ~/control-errors/playbook.yml
+|4,39,22,6,1666419022,"~/control-errors/playbook.yml"
+-'  29  6  ~/control-errors/playbook.yml
+|4,39,29,6,1666419022,"~/control-errors/playbook.yml"
+-'  20  6  ~/control-errors/playbook.yml
+|4,39,20,6,1666419022,"~/control-errors/playbook.yml"
+-'  20  6  ~/control-errors/playbook.yml
+|4,39,20,6,1666418994,"~/control-errors/playbook.yml"
+-'  25  0  ~/control-errors/playbook.yml
+|4,39,25,0,1666418699,"~/control-errors/playbook.yml"
+-'  16  0  ~/control-errors/playbook.yml
+|4,39,16,0,1666418699,"~/control-errors/playbook.yml"
+-'  23  0  ~/control-errors/playbook.yml
+|4,39,23,0,1666418699,"~/control-errors/playbook.yml"
+-'  14  0  ~/control-errors/playbook.yml
+|4,39,14,0,1666418699,"~/control-errors/playbook.yml"
+-'  25  0  ~/control-errors/playbook.yml
+|4,39,25,0,1666418699,"~/control-errors/playbook.yml"
+-'  16  0  ~/control-errors/playbook.yml
+|4,39,16,0,1666418699,"~/control-errors/playbook.yml"
+-'  23  0  ~/control-errors/playbook.yml
+|4,39,23,0,1666418699,"~/control-errors/playbook.yml"
+-'  14  0  ~/control-errors/playbook.yml
+|4,39,14,0,1666418699,"~/control-errors/playbook.yml"
+-'  14  0  ~/control-errors/playbook.yml
+|4,39,14,0,1666418699,"~/control-errors/playbook.yml"
+-'  24  0  ~/control-errors/playbook.yml
+|4,39,24,0,1666418665,"~/control-errors/playbook.yml"
+-'  22  0  ~/control-errors/playbook.yml
+|4,39,22,0,1666418665,"~/control-errors/playbook.yml"
+-'  13  0  ~/control-errors/playbook.yml
+|4,39,13,0,1666418665,"~/control-errors/playbook.yml"
+-'  13  0  ~/control-errors/playbook.yml
+|4,39,13,0,1666418665,"~/control-errors/playbook.yml"
+-'  30  0  ~/control-errors/playbook.yml
+|4,39,30,0,1666418642,"~/control-errors/playbook.yml"
+-'  21  0  ~/control-errors/playbook.yml
+|4,39,21,0,1666418642,"~/control-errors/playbook.yml"
+-'  28  0  ~/control-errors/playbook.yml
+|4,39,28,0,1666418642,"~/control-errors/playbook.yml"
+-'  27  0  ~/control-errors/playbook.yml
+|4,39,27,0,1666418642,"~/control-errors/playbook.yml"
+-'  19  0  ~/control-errors/playbook.yml
+|4,39,19,0,1666418642,"~/control-errors/playbook.yml"
+-'  18  0  ~/control-errors/playbook.yml
+|4,39,18,0,1666418642,"~/control-errors/playbook.yml"
+-'  30  0  ~/control-errors/playbook.yml
+|4,39,30,0,1666418642,"~/control-errors/playbook.yml"
+-'  29  0  ~/control-errors/playbook.yml
+|4,39,29,0,1666418642,"~/control-errors/playbook.yml"
+-'  21  0  ~/control-errors/playbook.yml
+|4,39,21,0,1666418642,"~/control-errors/playbook.yml"
+-'  20  0  ~/control-errors/playbook.yml
+|4,39,20,0,1666418642,"~/control-errors/playbook.yml"
+-'  28  0  ~/control-errors/playbook.yml
+|4,39,28,0,1666418642,"~/control-errors/playbook.yml"
+-'  27  0  ~/control-errors/playbook.yml
+|4,39,27,0,1666418642,"~/control-errors/playbook.yml"
+-'  19  0  ~/control-errors/playbook.yml
+|4,39,19,0,1666418642,"~/control-errors/playbook.yml"
+-'  18  0  ~/control-errors/playbook.yml
+|4,39,18,0,1666418642,"~/control-errors/playbook.yml"
+-'  19  0  ~/control-errors/playbook.yml
+|4,39,19,0,1666418642,"~/control-errors/playbook.yml"
+-'  18  0  ~/control-errors/playbook.yml
+|4,39,18,0,1666418642,"~/control-errors/playbook.yml"
+-'  26  0  ~/control-errors/playbook.yml
+|4,39,26,0,1666418619,"~/control-errors/playbook.yml"
+-'  17  0  ~/control-errors/playbook.yml
+|4,39,17,0,1666418619,"~/control-errors/playbook.yml"
+-'  28  0  ~/control-errors/playbook.yml
+|4,39,28,0,1666418619,"~/control-errors/playbook.yml"
+-'  27  0  ~/control-errors/playbook.yml
+|4,39,27,0,1666418619,"~/control-errors/playbook.yml"
+-'  19  0  ~/control-errors/playbook.yml
+|4,39,19,0,1666418619,"~/control-errors/playbook.yml"
+-'  18  0  ~/control-errors/playbook.yml
+|4,39,18,0,1666418619,"~/control-errors/playbook.yml"
+-'  26  0  ~/control-errors/playbook.yml
+|4,39,26,0,1666418619,"~/control-errors/playbook.yml"
+-'  25  0  ~/control-errors/playbook.yml
+|4,39,25,0,1666418619,"~/control-errors/playbook.yml"
+-'  17  0  ~/control-errors/playbook.yml
+|4,39,17,0,1666418619,"~/control-errors/playbook.yml"
+-'  16  0  ~/control-errors/playbook.yml
+|4,39,16,0,1666418619,"~/control-errors/playbook.yml"
+-'  17  0  ~/control-errors/playbook.yml
+|4,39,17,0,1666418619,"~/control-errors/playbook.yml"
+-'  16  0  ~/control-errors/playbook.yml
+|4,39,16,0,1666418619,"~/control-errors/playbook.yml"
+-'  1  0  ~/control-errors/playbook.yml
+|4,39,1,0,1666418319,"~/control-errors/playbook.yml"
+-'  1  0  ~/control-errors/playbook.yml
+|4,39,1,0,1666418319,"~/control-errors/playbook.yml"
+-'  1  0  ~/control-errors/playbook.yml
+|4,39,1,0,1666418319,"~/control-errors/playbook.yml"
+-'  1  0  ~/control-errors/playbook.yml
+|4,39,1,0,1666418319,"~/control-errors/playbook.yml"
+-'  1  0  ~/control-errors/playbook.yml
+|4,39,1,0,1666418319,"~/control-errors/playbook.yml"
+-'  1  0  ~/control-errors/playbook.yml
+|4,39,1,0,1666418319,"~/control-errors/playbook.yml"
+-'  1  0  ~/control-errors/playbook.yml
+|4,39,1,0,1666418319,"~/control-errors/playbook.yml"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
+-'  13  33  ~/README.md
+|4,39,13,33,1666418270,"~/README.md"
 
 # History of marks within files (newest to oldest):
 
+> ~/control-errors/playbook.yml
+	*	1666419304	0
+	"	24	38
+	^	24	39
+	.	24	38
+	+	6	8
+	+	30	0
+	+	18	36
+	+	22	33
+	+	23	22
+	+	23	26
+	+	27	24
+	+	28	18
+	+	25	0
+	+	23	26
+	+	19	11
+	+	21	9
+	+	25	12
+	+	27	0
+	+	20	0
+	+	26	0
+	+	20	7
+	+	21	8
+	+	18	23
+	+	26	0
+	+	34	25
+	+	35	25
+	+	34	35
+	+	36	0
+	+	31	0
+	+	3	21
+	+	17	0
+	+	15	33
+	+	12	0
+	+	24	38
+
 > ~/README.md
-	*	1666418164	0
-	"	12	33
-	^	12	34
-	.	12	33
+	*	1666418269	0
+	"	13	33
+	^	13	34
+	.	13	33
 	+	1	30
 	+	1	23
 	+	1	0
@@ -350,6 +386,7 @@ $:
 	+	10	44
 	+	11	47
 	+	12	33
+	+	13	33
 
 > ~/control-handlers/configure_db.yml
 	*	1666417910	0
