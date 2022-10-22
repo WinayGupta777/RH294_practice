@@ -5,3 +5,4 @@
 ## :bookmark_tabs: Managing Variables and Facts
 ###	:bulb: Managing Secrets
 ###	:bulb: Managing Facts
+###	:dvd: Managing Variables and Facts
