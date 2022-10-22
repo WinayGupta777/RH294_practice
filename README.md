@@ -6,3 +6,6 @@
 > ###	:bulb: Managing Secrets
 > ###	:bulb: Managing Facts
 > ###	:dvd: LAB - Managing Variables and Facts
+---
+## :bookmark_tabs: Implementing Task Control
+> ###	:bulb: Writing Loops and Conditional Tasks
