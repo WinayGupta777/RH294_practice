@@ -1,0 +1,9 @@
+- hosts: servers
+  become: yes
+  remote_user: devops
+  tasks:
+    - name: Fetch file
+      fetch:
+        src: /var/log/secure
+        dest: "secure-backups/{{ inventory_hostname }}/secure"
+        flat: yes

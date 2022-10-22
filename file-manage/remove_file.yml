@@ -1,0 +1,8 @@
+- hosts: all
+  remote_user: devops
+  tasks:
+    - file:
+        path: /home/devops/users.txt
+        state: absent
+
+

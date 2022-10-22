@@ -1,0 +1,10 @@
+- hosts: servers
+  become: yes
+  remote_user: devops
+  tasks:
+    - file:
+        path: /home/devops/users.txt
+        seuser: _default
+        serole: _default
+        setype: _default
+        selevel: _default

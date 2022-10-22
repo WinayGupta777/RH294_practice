@@ -1,0 +1,9 @@
+- hosts: all
+  remote_user: devops
+  tasks:
+    - blockinfile:
+        path: /home/devops/users.txt
+        block: |
+          This block of text consists of two lines.
+          They have been added by the blockinfile module.
+

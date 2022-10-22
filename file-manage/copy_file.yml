@@ -1,0 +1,14 @@
+- hosts: servers
+  become: yes
+  remote_user: devops
+  tasks:
+    - name: Copy files
+      copy:
+        src: files/users.txt
+        dest: /home/devops/users.txt
+        owner: devops
+        group: devops
+        mode: '0640'
+        setype: samba_share_t
+
+

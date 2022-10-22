@@ -1,0 +1,7 @@
+- hosts: all
+  remote_user: devops
+  tasks:
+    - lineinfile:
+        path: /home/devops/users.txt
+        line: "This line was added by the lineinfile module."
+        state: present

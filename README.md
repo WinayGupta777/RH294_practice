@@ -12,3 +12,6 @@
 > ###	:bulb: Implementing Handlers
 > ###	:bulb: Handling Task Failure
 > ###	:dvd: LAB - Implementing Task Control
+
+## :bookmark_tabs: Deploying Files to Managed Hosts
+> ###	:bulb: Modifying and Copying Files to Hosts
