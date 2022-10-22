@@ -17,10 +17,10 @@
 $: 
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1666438486,,"q"
 :wq
-|2,0,1666438409,,"wq"
+|2,0,1666439725,,"wq"
+:q
+|2,0,1666439530,,"q"
 :qw
 |2,0,1666436832,,"qw"
 :9
@@ -68,8 +68,8 @@ $:
 
 # Registers:
 ""0	LINE	0
-	inventory = inventory1
-|3,1,0,1,1,0,1666437869,"inventory = inventory1"
+	> ###	:bulb: Selecting Hosts with Host Patterns
+|3,1,0,1,1,0,1666439700,"> ###	:bulb: Selecting Hosts with Host Patterns"
 "1	LINE	0
 	> ###	:dvd: LAB - Implementing Task Control
 |3,0,1,1,1,0,1666436050,"> ###	:dvd: LAB - Implementing Task Control"
@@ -99,236 +99,236 @@ $:
 |3,0,9,1,1,0,1666409198,"        owner: root"
 
 # File marks:
-'0  22  46  ~/README.md
-|4,48,22,46,1666438486,"~/README.md"
-'1  3  14  ~/projects-host/playbook.yml
-|4,49,3,14,1666438409,"~/projects-host/playbook.yml"
-'2  3  14  ~/projects-host/playbook.yml
-|4,50,3,14,1666438347,"~/projects-host/playbook.yml"
-'3  2  0  ~/projects-host/playbook.yml
-|4,51,2,0,1666437943,"~/projects-host/playbook.yml"
-'4  2  0  ~/projects-host/playbook.yml
-|4,52,2,0,1666437943,"~/projects-host/playbook.yml"
-'5  2  0  ~/projects-host/playbook.yml
-|4,53,2,0,1666437943,"~/projects-host/playbook.yml"
-'6  2  0  ~/projects-host/playbook.yml
-|4,54,2,0,1666437943,"~/projects-host/playbook.yml"
-'7  3  21  ~/projects-host/ansible.cfg
-|4,55,3,21,1666437905,"~/projects-host/ansible.cfg"
-'8  3  0  ~/projects-host/ansible.cfg
-|4,56,3,0,1666437875,"~/projects-host/ansible.cfg"
-'9  22  46  ~/README.md
-|4,57,22,46,1666437809,"~/README.md"
+'0  23  41  ~/README.md
+|4,48,23,41,1666439725,"~/README.md"
+'1  25  16  ~/projects-file/playbook.yml
+|4,49,25,16,1666439648,"~/projects-file/playbook.yml"
+'2  27  3  ~/projects-file/playbook.yml
+|4,50,27,3,1666439621,"~/projects-file/playbook.yml"
+'3  27  3  ~/projects-file/playbook.yml
+|4,51,27,3,1666439621,"~/projects-file/playbook.yml"
+'4  7  9  ~/projects-file/plays/test.yml
+|4,52,7,9,1666439530,"~/projects-file/plays/test.yml"
+'5  17  16  ~/projects-file/playbook.yml
+|4,53,17,16,1666439512,"~/projects-file/playbook.yml"
+'6  17  16  ~/projects-file/playbook.yml
+|4,54,17,16,1666439512,"~/projects-file/playbook.yml"
+'7  17  16  ~/projects-file/playbook.yml
+|4,55,17,16,1666439512,"~/projects-file/playbook.yml"
+'8  17  16  ~/projects-file/playbook.yml
+|4,56,17,16,1666439512,"~/projects-file/playbook.yml"
+'9  2  6  ~/projects-file/playbook.yml
+|4,57,2,6,1666439445,"~/projects-file/playbook.yml"
 
 # Jumplist (newest first):
+-'  23  41  ~/README.md
+|4,39,23,41,1666439725,"~/README.md"
+-'  22  46  ~/README.md
+|4,39,22,46,1666439686,"~/README.md"
+-'  25  16  ~/projects-file/playbook.yml
+|4,39,25,16,1666439648,"~/projects-file/playbook.yml"
+-'  25  16  ~/projects-file/playbook.yml
+|4,39,25,16,1666439648,"~/projects-file/playbook.yml"
+-'  27  3  ~/projects-file/playbook.yml
+|4,39,27,3,1666439641,"~/projects-file/playbook.yml"
+-'  27  3  ~/projects-file/playbook.yml
+|4,39,27,3,1666439641,"~/projects-file/playbook.yml"
+-'  27  3  ~/projects-file/playbook.yml
+|4,39,27,3,1666439621,"~/projects-file/playbook.yml"
+-'  27  3  ~/projects-file/playbook.yml
+|4,39,27,3,1666439621,"~/projects-file/playbook.yml"
+-'  17  16  ~/projects-file/playbook.yml
+|4,39,17,16,1666439540,"~/projects-file/playbook.yml"
+-'  17  16  ~/projects-file/playbook.yml
+|4,39,17,16,1666439540,"~/projects-file/playbook.yml"
+-'  17  16  ~/projects-file/playbook.yml
+|4,39,17,16,1666439540,"~/projects-file/playbook.yml"
+-'  17  16  ~/projects-file/playbook.yml
+|4,39,17,16,1666439540,"~/projects-file/playbook.yml"
+-'  7  9  ~/projects-file/plays/test.yml
+|4,39,7,9,1666439530,"~/projects-file/plays/test.yml"
+-'  7  9  ~/projects-file/plays/test.yml
+|4,39,7,9,1666439530,"~/projects-file/plays/test.yml"
+-'  7  9  ~/projects-file/plays/test.yml
+|4,39,7,9,1666439530,"~/projects-file/plays/test.yml"
+-'  7  9  ~/projects-file/plays/test.yml
+|4,39,7,9,1666439530,"~/projects-file/plays/test.yml"
+-'  7  9  ~/projects-file/plays/test.yml
+|4,39,7,9,1666439530,"~/projects-file/plays/test.yml"
+-'  7  9  ~/projects-file/plays/test.yml
+|4,39,7,9,1666439530,"~/projects-file/plays/test.yml"
+-'  7  9  ~/projects-file/plays/test.yml
+|4,39,7,9,1666439530,"~/projects-file/plays/test.yml"
+-'  7  9  ~/projects-file/plays/test.yml
+|4,39,7,9,1666439530,"~/projects-file/plays/test.yml"
+-'  1  0  ~/projects-file/plays/test.yml
+|4,39,1,0,1666439521,"~/projects-file/plays/test.yml"
+-'  1  0  ~/projects-file/plays/test.yml
+|4,39,1,0,1666439521,"~/projects-file/plays/test.yml"
+-'  1  0  ~/projects-file/plays/test.yml
+|4,39,1,0,1666439521,"~/projects-file/plays/test.yml"
+-'  1  0  ~/projects-file/plays/test.yml
+|4,39,1,0,1666439521,"~/projects-file/plays/test.yml"
+-'  1  0  ~/projects-file/plays/test.yml
+|4,39,1,0,1666439521,"~/projects-file/plays/test.yml"
+-'  1  0  ~/projects-file/plays/test.yml
+|4,39,1,0,1666439521,"~/projects-file/plays/test.yml"
+-'  1  0  ~/projects-file/plays/test.yml
+|4,39,1,0,1666439521,"~/projects-file/plays/test.yml"
+-'  1  0  ~/projects-file/plays/test.yml
+|4,39,1,0,1666439521,"~/projects-file/plays/test.yml"
+-'  17  16  ~/projects-file/playbook.yml
+|4,39,17,16,1666439512,"~/projects-file/playbook.yml"
+-'  17  16  ~/projects-file/playbook.yml
+|4,39,17,16,1666439512,"~/projects-file/playbook.yml"
+-'  17  16  ~/projects-file/playbook.yml
+|4,39,17,16,1666439512,"~/projects-file/playbook.yml"
+-'  17  16  ~/projects-file/playbook.yml
+|4,39,17,16,1666439512,"~/projects-file/playbook.yml"
+-'  2  6  ~/projects-file/playbook.yml
+|4,39,2,6,1666439502,"~/projects-file/playbook.yml"
+-'  2  6  ~/projects-file/playbook.yml
+|4,39,2,6,1666439502,"~/projects-file/playbook.yml"
+-'  2  6  ~/projects-file/playbook.yml
+|4,39,2,6,1666439502,"~/projects-file/playbook.yml"
+-'  2  6  ~/projects-file/playbook.yml
+|4,39,2,6,1666439502,"~/projects-file/playbook.yml"
+-'  2  6  ~/projects-file/playbook.yml
+|4,39,2,6,1666439502,"~/projects-file/playbook.yml"
+-'  2  6  ~/projects-file/playbook.yml
+|4,39,2,6,1666439502,"~/projects-file/playbook.yml"
+-'  2  6  ~/projects-file/playbook.yml
+|4,39,2,6,1666439502,"~/projects-file/playbook.yml"
+-'  2  6  ~/projects-file/playbook.yml
+|4,39,2,6,1666439502,"~/projects-file/playbook.yml"
+-'  2  6  ~/projects-file/playbook.yml
+|4,39,2,6,1666439445,"~/projects-file/playbook.yml"
+-'  2  6  ~/projects-file/playbook.yml
+|4,39,2,6,1666439445,"~/projects-file/playbook.yml"
+-'  2  6  ~/projects-file/playbook.yml
+|4,39,2,6,1666439445,"~/projects-file/playbook.yml"
+-'  2  6  ~/projects-file/playbook.yml
+|4,39,2,6,1666439445,"~/projects-file/playbook.yml"
+-'  22  37  ~/projects-file/playbook.yml
+|4,39,22,37,1666439438,"~/projects-file/playbook.yml"
+-'  21  37  ~/projects-file/playbook.yml
+|4,39,21,37,1666439438,"~/projects-file/playbook.yml"
+-'  22  37  ~/projects-file/playbook.yml
+|4,39,22,37,1666439438,"~/projects-file/playbook.yml"
+-'  21  37  ~/projects-file/playbook.yml
+|4,39,21,37,1666439438,"~/projects-file/playbook.yml"
+-'  22  37  ~/projects-file/playbook.yml
+|4,39,22,37,1666439438,"~/projects-file/playbook.yml"
+-'  21  37  ~/projects-file/playbook.yml
+|4,39,21,37,1666439438,"~/projects-file/playbook.yml"
+-'  22  37  ~/projects-file/playbook.yml
+|4,39,22,37,1666439438,"~/projects-file/playbook.yml"
+-'  21  37  ~/projects-file/playbook.yml
+|4,39,21,37,1666439438,"~/projects-file/playbook.yml"
+-'  22  37  ~/projects-file/playbook.yml
+|4,39,22,37,1666439438,"~/projects-file/playbook.yml"
+-'  21  37  ~/projects-file/playbook.yml
+|4,39,21,37,1666439438,"~/projects-file/playbook.yml"
+-'  22  37  ~/projects-file/playbook.yml
+|4,39,22,37,1666439438,"~/projects-file/playbook.yml"
+-'  21  37  ~/projects-file/playbook.yml
+|4,39,21,37,1666439438,"~/projects-file/playbook.yml"
+-'  22  37  ~/projects-file/playbook.yml
+|4,39,22,37,1666439438,"~/projects-file/playbook.yml"
+-'  21  37  ~/projects-file/playbook.yml
+|4,39,21,37,1666439438,"~/projects-file/playbook.yml"
+-'  22  37  ~/projects-file/playbook.yml
+|4,39,22,37,1666439438,"~/projects-file/playbook.yml"
+-'  21  37  ~/projects-file/playbook.yml
+|4,39,21,37,1666439438,"~/projects-file/playbook.yml"
+-'  21  37  ~/projects-file/playbook.yml
+|4,39,21,37,1666439419,"~/projects-file/playbook.yml"
+-'  21  37  ~/projects-file/playbook.yml
+|4,39,21,37,1666439419,"~/projects-file/playbook.yml"
+-'  21  37  ~/projects-file/playbook.yml
+|4,39,21,37,1666439419,"~/projects-file/playbook.yml"
+-'  21  37  ~/projects-file/playbook.yml
+|4,39,21,37,1666439419,"~/projects-file/playbook.yml"
+-'  1  0  ~/projects-file/playbook.yml
+|4,39,1,0,1666438989,"~/projects-file/playbook.yml"
+-'  1  0  ~/projects-file/playbook.yml
+|4,39,1,0,1666438989,"~/projects-file/playbook.yml"
+-'  1  0  ~/projects-file/playbook.yml
+|4,39,1,0,1666438989,"~/projects-file/playbook.yml"
+-'  1  0  ~/projects-file/playbook.yml
+|4,39,1,0,1666438989,"~/projects-file/playbook.yml"
+-'  1  0  ~/projects-file/playbook.yml
+|4,39,1,0,1666438989,"~/projects-file/playbook.yml"
+-'  1  0  ~/projects-file/playbook.yml
+|4,39,1,0,1666438989,"~/projects-file/playbook.yml"
+-'  1  0  ~/projects-file/playbook.yml
+|4,39,1,0,1666438989,"~/projects-file/playbook.yml"
+-'  1  0  ~/projects-file/playbook.yml
+|4,39,1,0,1666438989,"~/projects-file/playbook.yml"
+-'  1  0  ~/projects-file/playbook.yml
+|4,39,1,0,1666438989,"~/projects-file/playbook.yml"
+-'  1  0  ~/projects-file/playbook.yml
+|4,39,1,0,1666438989,"~/projects-file/playbook.yml"
+-'  1  0  ~/projects-file/playbook.yml
+|4,39,1,0,1666438989,"~/projects-file/playbook.yml"
+-'  1  0  ~/projects-file/playbook.yml
+|4,39,1,0,1666438989,"~/projects-file/playbook.yml"
+-'  1  0  ~/projects-file/playbook.yml
+|4,39,1,0,1666438989,"~/projects-file/playbook.yml"
+-'  1  0  ~/projects-file/playbook.yml
+|4,39,1,0,1666438989,"~/projects-file/playbook.yml"
+-'  1  0  ~/projects-file/playbook.yml
+|4,39,1,0,1666438989,"~/projects-file/playbook.yml"
+-'  1  0  ~/projects-file/playbook.yml
+|4,39,1,0,1666438989,"~/projects-file/playbook.yml"
 -'  22  46  ~/README.md
 |4,39,22,46,1666438486,"~/README.md"
--'  3  14  ~/projects-host/playbook.yml
-|4,39,3,14,1666438409,"~/projects-host/playbook.yml"
--'  3  14  ~/projects-host/playbook.yml
-|4,39,3,14,1666438409,"~/projects-host/playbook.yml"
--'  3  14  ~/projects-host/playbook.yml
-|4,39,3,14,1666438347,"~/projects-host/playbook.yml"
--'  3  14  ~/projects-host/playbook.yml
-|4,39,3,14,1666438347,"~/projects-host/playbook.yml"
--'  2  0  ~/projects-host/playbook.yml
-|4,39,2,0,1666438342,"~/projects-host/playbook.yml"
--'  2  0  ~/projects-host/playbook.yml
-|4,39,2,0,1666438342,"~/projects-host/playbook.yml"
--'  2  0  ~/projects-host/playbook.yml
-|4,39,2,0,1666438342,"~/projects-host/playbook.yml"
--'  2  0  ~/projects-host/playbook.yml
-|4,39,2,0,1666438342,"~/projects-host/playbook.yml"
--'  2  0  ~/projects-host/playbook.yml
-|4,39,2,0,1666437943,"~/projects-host/playbook.yml"
--'  2  0  ~/projects-host/playbook.yml
-|4,39,2,0,1666437943,"~/projects-host/playbook.yml"
--'  1  0  ~/projects-host/playbook.yml
-|4,39,1,0,1666437929,"~/projects-host/playbook.yml"
--'  1  0  ~/projects-host/playbook.yml
-|4,39,1,0,1666437929,"~/projects-host/playbook.yml"
--'  1  0  ~/projects-host/playbook.yml
-|4,39,1,0,1666437929,"~/projects-host/playbook.yml"
--'  1  0  ~/projects-host/playbook.yml
-|4,39,1,0,1666437929,"~/projects-host/playbook.yml"
--'  1  0  ~/projects-host/playbook.yml
-|4,39,1,0,1666437929,"~/projects-host/playbook.yml"
--'  1  0  ~/projects-host/playbook.yml
-|4,39,1,0,1666437929,"~/projects-host/playbook.yml"
--'  3  21  ~/projects-host/ansible.cfg
-|4,39,3,21,1666437905,"~/projects-host/ansible.cfg"
--'  3  21  ~/projects-host/ansible.cfg
-|4,39,3,21,1666437905,"~/projects-host/ansible.cfg"
--'  3  21  ~/projects-host/ansible.cfg
-|4,39,3,21,1666437905,"~/projects-host/ansible.cfg"
--'  3  21  ~/projects-host/ansible.cfg
-|4,39,3,21,1666437905,"~/projects-host/ansible.cfg"
--'  3  21  ~/projects-host/ansible.cfg
-|4,39,3,21,1666437905,"~/projects-host/ansible.cfg"
--'  3  21  ~/projects-host/ansible.cfg
-|4,39,3,21,1666437905,"~/projects-host/ansible.cfg"
--'  3  21  ~/projects-host/ansible.cfg
-|4,39,3,21,1666437905,"~/projects-host/ansible.cfg"
--'  3  21  ~/projects-host/ansible.cfg
-|4,39,3,21,1666437905,"~/projects-host/ansible.cfg"
--'  3  21  ~/projects-host/ansible.cfg
-|4,39,3,21,1666437905,"~/projects-host/ansible.cfg"
--'  3  21  ~/projects-host/ansible.cfg
-|4,39,3,21,1666437905,"~/projects-host/ansible.cfg"
--'  3  21  ~/projects-host/ansible.cfg
-|4,39,3,21,1666437905,"~/projects-host/ansible.cfg"
--'  3  21  ~/projects-host/ansible.cfg
-|4,39,3,21,1666437905,"~/projects-host/ansible.cfg"
--'  3  21  ~/projects-host/ansible.cfg
-|4,39,3,21,1666437905,"~/projects-host/ansible.cfg"
--'  3  21  ~/projects-host/ansible.cfg
-|4,39,3,21,1666437905,"~/projects-host/ansible.cfg"
--'  3  21  ~/projects-host/ansible.cfg
-|4,39,3,21,1666437905,"~/projects-host/ansible.cfg"
--'  3  21  ~/projects-host/ansible.cfg
-|4,39,3,21,1666437905,"~/projects-host/ansible.cfg"
--'  3  0  ~/projects-host/ansible.cfg
-|4,39,3,0,1666437875,"~/projects-host/ansible.cfg"
--'  3  0  ~/projects-host/ansible.cfg
-|4,39,3,0,1666437875,"~/projects-host/ansible.cfg"
--'  3  0  ~/projects-host/ansible.cfg
-|4,39,3,0,1666437875,"~/projects-host/ansible.cfg"
--'  3  0  ~/projects-host/ansible.cfg
-|4,39,3,0,1666437875,"~/projects-host/ansible.cfg"
--'  3  0  ~/projects-host/ansible.cfg
-|4,39,3,0,1666437875,"~/projects-host/ansible.cfg"
--'  3  0  ~/projects-host/ansible.cfg
-|4,39,3,0,1666437875,"~/projects-host/ansible.cfg"
--'  3  0  ~/projects-host/ansible.cfg
-|4,39,3,0,1666437875,"~/projects-host/ansible.cfg"
--'  3  0  ~/projects-host/ansible.cfg
-|4,39,3,0,1666437875,"~/projects-host/ansible.cfg"
--'  3  0  ~/projects-host/ansible.cfg
-|4,39,3,0,1666437875,"~/projects-host/ansible.cfg"
--'  3  0  ~/projects-host/ansible.cfg
-|4,39,3,0,1666437875,"~/projects-host/ansible.cfg"
--'  3  0  ~/projects-host/ansible.cfg
-|4,39,3,0,1666437875,"~/projects-host/ansible.cfg"
--'  3  0  ~/projects-host/ansible.cfg
-|4,39,3,0,1666437875,"~/projects-host/ansible.cfg"
--'  3  0  ~/projects-host/ansible.cfg
-|4,39,3,0,1666437875,"~/projects-host/ansible.cfg"
--'  3  0  ~/projects-host/ansible.cfg
-|4,39,3,0,1666437875,"~/projects-host/ansible.cfg"
--'  3  0  ~/projects-host/ansible.cfg
-|4,39,3,0,1666437875,"~/projects-host/ansible.cfg"
--'  3  0  ~/projects-host/ansible.cfg
-|4,39,3,0,1666437875,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
--'  1  0  ~/projects-host/ansible.cfg
-|4,39,1,0,1666437857,"~/projects-host/ansible.cfg"
 -'  22  46  ~/README.md
-|4,39,22,46,1666437809,"~/README.md"
+|4,39,22,46,1666438486,"~/README.md"
 -'  22  46  ~/README.md
-|4,39,22,46,1666437809,"~/README.md"
+|4,39,22,46,1666438486,"~/README.md"
 -'  22  46  ~/README.md
-|4,39,22,46,1666437809,"~/README.md"
+|4,39,22,46,1666438486,"~/README.md"
 -'  22  46  ~/README.md
-|4,39,22,46,1666437809,"~/README.md"
+|4,39,22,46,1666438486,"~/README.md"
 -'  22  46  ~/README.md
-|4,39,22,46,1666437809,"~/README.md"
+|4,39,22,46,1666438486,"~/README.md"
 -'  22  46  ~/README.md
-|4,39,22,46,1666437809,"~/README.md"
+|4,39,22,46,1666438486,"~/README.md"
 -'  22  46  ~/README.md
-|4,39,22,46,1666437809,"~/README.md"
+|4,39,22,46,1666438486,"~/README.md"
 -'  22  46  ~/README.md
-|4,39,22,46,1666437809,"~/README.md"
+|4,39,22,46,1666438486,"~/README.md"
 -'  22  46  ~/README.md
-|4,39,22,46,1666437809,"~/README.md"
+|4,39,22,46,1666438486,"~/README.md"
 -'  22  46  ~/README.md
-|4,39,22,46,1666437809,"~/README.md"
+|4,39,22,46,1666438486,"~/README.md"
 -'  22  46  ~/README.md
-|4,39,22,46,1666437809,"~/README.md"
+|4,39,22,46,1666438486,"~/README.md"
 -'  22  46  ~/README.md
-|4,39,22,46,1666437809,"~/README.md"
+|4,39,22,46,1666438486,"~/README.md"
 -'  22  46  ~/README.md
-|4,39,22,46,1666437809,"~/README.md"
+|4,39,22,46,1666438486,"~/README.md"
 -'  22  46  ~/README.md
-|4,39,22,46,1666437809,"~/README.md"
+|4,39,22,46,1666438486,"~/README.md"
 -'  22  46  ~/README.md
-|4,39,22,46,1666437809,"~/README.md"
+|4,39,22,46,1666438486,"~/README.md"
 -'  22  46  ~/README.md
-|4,39,22,46,1666437809,"~/README.md"
+|4,39,22,46,1666438486,"~/README.md"
 -'  22  46  ~/README.md
-|4,39,22,46,1666437809,"~/README.md"
+|4,39,22,46,1666438486,"~/README.md"
 -'  22  46  ~/README.md
-|4,39,22,46,1666437809,"~/README.md"
+|4,39,22,46,1666438486,"~/README.md"
 -'  22  46  ~/README.md
-|4,39,22,46,1666437809,"~/README.md"
+|4,39,22,46,1666438486,"~/README.md"
 
 # History of marks within files (newest to oldest):
 
 > ~/README.md
-	*	1666438486	0
-	"	22	46
-	^	22	47
-	.	22	46
+	*	1666439724	0
+	"	23	41
+	^	23	42
+	.	23	41
 	+	1	30
 	+	1	23
 	+	1	0
@@ -380,7 +380,44 @@ $:
 	+	21	53
 	+	21	55
 	+	22	50
-	+	22	46
+	+	22	47
+	+	23	41
+
+> ~/projects-file/playbook.yml
+	*	1666439646	0
+	"	25	16
+	^	25	17
+	.	25	16
+	+	1	2
+	+	2	1
+	+	1	28
+	+	1	18
+	+	4	13
+	+	10	0
+	+	19	13
+	+	10	13
+	+	9	0
+	+	10	13
+	+	19	13
+	+	11	39
+	+	15	0
+	+	21	10
+	+	18	0
+	+	15	14
+	+	16	9
+	+	22	37
+	+	2	6
+	+	17	16
+	+	27	36
+	+	24	1
+	+	25	0
+	+	26	1
+	+	27	3
+	+	25	16
+
+> ~/projects-file/plays/test.yml
+	*	1666439529	0
+	"	7	9
 
 > ~/projects-host/playbook.yml
 	*	1666438408	0
@@ -558,97 +595,3 @@ $:
 	+	11	5
 	+	12	7
 	+	15	12
-
-> ~/control-review/playbook.yml
-	*	1666423487	0
-	"	48	11
-	^	48	12
-	.	48	11
-	+	10	43
-	+	14	0
-	+	11	39
-	+	12	6
-	+	11	0
-	+	10	0
-	+	11	28
-	+	12	29
-	+	9	47
-	+	16	48
-	+	19	21
-	+	8	0
-	+	6	24
-	+	7	24
-	+	8	0
-	+	18	30
-	+	19	21
-	+	20	0
-	+	29	0
-	+	28	0
-	+	27	0
-	+	31	9
-	+	37	0
-	+	34	36
-	+	36	21
-	+	41	15
-	+	42	37
-	+	40	30
-	+	41	28
-	+	50	0
-	+	44	4
-	+	45	11
-	+	48	64
-	+	48	109
-	+	48	102
-	+	49	0
-	+	57	0
-	+	60	31
-	+	61	0
-	+	62	31
-	+	63	16
-	+	31	4
-	+	45	4
-	+	32	0
-	+	46	0
-	+	51	0
-	+	45	4
-	+	46	0
-	+	45	5
-	+	46	7
-	+	47	9
-	+	48	11
-
-> ~/control-errors/playbook.yml
-	*	1666419304	0
-	"	24	38
-	^	24	39
-	.	24	38
-	+	6	8
-	+	30	0
-	+	18	36
-	+	22	33
-	+	23	22
-	+	23	26
-	+	27	24
-	+	28	18
-	+	25	0
-	+	23	26
-	+	19	11
-	+	21	9
-	+	25	12
-	+	27	0
-	+	20	0
-	+	26	0
-	+	20	7
-	+	21	8
-	+	18	23
-	+	26	0
-	+	34	25
-	+	35	25
-	+	34	35
-	+	36	0
-	+	31	0
-	+	3	21
-	+	17	0
-	+	15	33
-	+	12	0
-	+	24	38

@@ -1,0 +1,27 @@
+- name: Configure web server
+  hosts: servera.lab.example.com
+  tasks:
+    - name: T1
+      import_tasks: tasks/environment.yml
+      vars:
+        package: httpd
+        service: httpd
+
+    - name: T2
+      include_tasks: tasks/firewall.yml
+      vars:
+        firewall_pkg: firewalld
+        firewall_svc: firewalld
+        rule: 
+          - http
+          - https
+
+    - name: T3
+      import_tasks: tasks/placeholder.yml
+      vars:
+        file: /var/www/html/index.html
+
+ 
+- import_playbook: plays/test.yml
+  vars:
+    url: http://servera.lab.example.com
