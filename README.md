@@ -22,3 +22,6 @@
 > ###	:bulb: Selecting Hosts with Host Patterns
 > ###	:bulb: Including and Importing Files
 > ###	:dvd: LAB - Managing Complex Plays and Playbooks
+
+## :warning: Troubleshooting Ansible
+> ###	:bulb: Troubleshooting Playbooks
