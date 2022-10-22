@@ -18,9 +18,9 @@ $:
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1666449843,,"wq"
+|2,0,1666456119,,"wq"
 :q
-|2,0,1666449561,,"q"
+|2,0,1666455706,,"q"
 :w
 |2,0,1666440676,,"w"
 :qw
@@ -68,8 +68,8 @@ $:
 
 # Registers:
 ""0	LINE	0
-	> ###	:bulb: Including and Importing Files
-|3,1,0,1,1,0,1666449814,"> ###	:bulb: Including and Importing Files"
+	> ###	:bulb: Troubleshooting Playbooks
+|3,1,0,1,1,0,1666456107,"> ###	:bulb: Troubleshooting Playbooks"
 "1	LINE	0
 	    state: started
 |3,0,1,1,1,0,1666440749,"    state: started"
@@ -113,236 +113,236 @@ $:
 |3,0,9,1,7,0,1666440573,"    name: httpd","    state: latest","","- name: Enable and start httpd","  service:","    name: httpd","    enabled: true"
 
 # File marks:
-'0  27  37  ~/README.md
-|4,48,27,37,1666449843,"~/README.md"
-'1  46  21  ~/troubleshoot-playbook/samba.yml
-|4,49,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
-'2  1  0  ~/troubleshoot-playbook/samba.
-|4,50,1,0,1666449561,"~/troubleshoot-playbook/samba."
-'3  2  14  ~/troubleshoot-playbook/inventory
-|4,51,2,14,1666449495,"~/troubleshoot-playbook/inventory"
-'4  14  33  ~/troubleshoot-playbook/samba.yml
-|4,52,14,33,1666449222,"~/troubleshoot-playbook/samba.yml"
-'5  14  33  ~/troubleshoot-playbook/samba.yml
-|4,53,14,33,1666449222,"~/troubleshoot-playbook/samba.yml"
-'6  44  2  ~/troubleshoot-playbook/samba.yml
-|4,54,44,2,1666449176,"~/troubleshoot-playbook/samba.yml"
-'7  44  2  ~/troubleshoot-playbook/samba.yml
-|4,55,44,2,1666449176,"~/troubleshoot-playbook/samba.yml"
-'8  44  2  ~/troubleshoot-playbook/samba.yml
-|4,56,44,2,1666449176,"~/troubleshoot-playbook/samba.yml"
-'9  44  2  ~/troubleshoot-playbook/samba.yml
-|4,57,44,2,1666449176,"~/troubleshoot-playbook/samba.yml"
+'0  28  49  ~/README.md
+|4,48,28,49,1666456119,"~/README.md"
+'1  53  0  ~/troubleshoot-host/mailrelay.yml
+|4,49,53,0,1666455938,"~/troubleshoot-host/mailrelay.yml"
+'2  46  0  ~/troubleshoot-host/mailrelay.yml
+|4,50,46,0,1666455706,"~/troubleshoot-host/mailrelay.yml"
+'3  46  0  ~/troubleshoot-host/mailrelay.yml
+|4,51,46,0,1666455706,"~/troubleshoot-host/mailrelay.yml"
+'4  34  0  ~/troubleshoot-host/mailrelay.yml
+|4,52,34,0,1666455568,"~/troubleshoot-host/mailrelay.yml"
+'5  34  0  ~/troubleshoot-host/mailrelay.yml
+|4,53,34,0,1666455568,"~/troubleshoot-host/mailrelay.yml"
+'6  34  0  ~/troubleshoot-host/mailrelay.yml
+|4,54,34,0,1666455568,"~/troubleshoot-host/mailrelay.yml"
+'7  34  0  ~/troubleshoot-host/mailrelay.yml
+|4,55,34,0,1666455568,"~/troubleshoot-host/mailrelay.yml"
+'8  27  37  ~/README.md
+|4,56,27,37,1666449843,"~/README.md"
+'9  27  37  ~/README.md
+|4,57,27,37,1666449843,"~/README.md"
 
 # Jumplist (newest first):
+-'  28  49  ~/README.md
+|4,39,28,49,1666456119,"~/README.md"
+-'  27  37  ~/README.md
+|4,39,27,37,1666456104,"~/README.md"
+-'  53  0  ~/troubleshoot-host/mailrelay.yml
+|4,39,53,0,1666455938,"~/troubleshoot-host/mailrelay.yml"
+-'  53  0  ~/troubleshoot-host/mailrelay.yml
+|4,39,53,0,1666455938,"~/troubleshoot-host/mailrelay.yml"
+-'  46  0  ~/troubleshoot-host/mailrelay.yml
+|4,39,46,0,1666455890,"~/troubleshoot-host/mailrelay.yml"
+-'  46  0  ~/troubleshoot-host/mailrelay.yml
+|4,39,46,0,1666455890,"~/troubleshoot-host/mailrelay.yml"
+-'  46  0  ~/troubleshoot-host/mailrelay.yml
+|4,39,46,0,1666455706,"~/troubleshoot-host/mailrelay.yml"
+-'  46  0  ~/troubleshoot-host/mailrelay.yml
+|4,39,46,0,1666455706,"~/troubleshoot-host/mailrelay.yml"
+-'  34  0  ~/troubleshoot-host/mailrelay.yml
+|4,39,34,0,1666455620,"~/troubleshoot-host/mailrelay.yml"
+-'  34  0  ~/troubleshoot-host/mailrelay.yml
+|4,39,34,0,1666455620,"~/troubleshoot-host/mailrelay.yml"
+-'  34  0  ~/troubleshoot-host/mailrelay.yml
+|4,39,34,0,1666455620,"~/troubleshoot-host/mailrelay.yml"
+-'  34  0  ~/troubleshoot-host/mailrelay.yml
+|4,39,34,0,1666455620,"~/troubleshoot-host/mailrelay.yml"
+-'  34  0  ~/troubleshoot-host/mailrelay.yml
+|4,39,34,0,1666455568,"~/troubleshoot-host/mailrelay.yml"
+-'  34  0  ~/troubleshoot-host/mailrelay.yml
+|4,39,34,0,1666455568,"~/troubleshoot-host/mailrelay.yml"
+-'  1  0  ~/troubleshoot-host/mailrelay.yml
+|4,39,1,0,1666455519,"~/troubleshoot-host/mailrelay.yml"
+-'  1  0  ~/troubleshoot-host/mailrelay.yml
+|4,39,1,0,1666455519,"~/troubleshoot-host/mailrelay.yml"
+-'  1  0  ~/troubleshoot-host/mailrelay.yml
+|4,39,1,0,1666455519,"~/troubleshoot-host/mailrelay.yml"
+-'  1  0  ~/troubleshoot-host/mailrelay.yml
+|4,39,1,0,1666455519,"~/troubleshoot-host/mailrelay.yml"
+-'  1  0  ~/troubleshoot-host/mailrelay.yml
+|4,39,1,0,1666455519,"~/troubleshoot-host/mailrelay.yml"
+-'  1  0  ~/troubleshoot-host/mailrelay.yml
+|4,39,1,0,1666455519,"~/troubleshoot-host/mailrelay.yml"
 -'  27  37  ~/README.md
 |4,39,27,37,1666449843,"~/README.md"
+-'  27  37  ~/README.md
+|4,39,27,37,1666449843,"~/README.md"
+-'  27  37  ~/README.md
+|4,39,27,37,1666449843,"~/README.md"
+-'  27  37  ~/README.md
+|4,39,27,37,1666449843,"~/README.md"
+-'  27  37  ~/README.md
+|4,39,27,37,1666449843,"~/README.md"
+-'  27  37  ~/README.md
+|4,39,27,37,1666449843,"~/README.md"
+-'  27  37  ~/README.md
+|4,39,27,37,1666449843,"~/README.md"
+-'  27  37  ~/README.md
+|4,39,27,37,1666449843,"~/README.md"
+-'  24  53  ~/README.md
+|4,39,24,53,1666449689,"~/README.md"
+-'  24  53  ~/README.md
+|4,39,24,53,1666449689,"~/README.md"
+-'  24  53  ~/README.md
+|4,39,24,53,1666449689,"~/README.md"
+-'  24  53  ~/README.md
+|4,39,24,53,1666449689,"~/README.md"
+-'  24  53  ~/README.md
+|4,39,24,53,1666449689,"~/README.md"
+-'  24  53  ~/README.md
+|4,39,24,53,1666449689,"~/README.md"
+-'  24  53  ~/README.md
+|4,39,24,53,1666449689,"~/README.md"
+-'  24  53  ~/README.md
+|4,39,24,53,1666449689,"~/README.md"
 -'  24  53  ~/README.md
 |4,39,24,53,1666449689,"~/README.md"
 -'  46  21  ~/troubleshoot-playbook/samba.yml
 |4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
 -'  46  21  ~/troubleshoot-playbook/samba.yml
 |4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
+-'  46  21  ~/troubleshoot-playbook/samba.yml
+|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
 -'  14  33  ~/troubleshoot-playbook/samba.yml
 |4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
 -'  14  33  ~/troubleshoot-playbook/samba.yml
 |4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  1  0  ~/troubleshoot-playbook/samba.
-|4,39,1,0,1666449561,"~/troubleshoot-playbook/samba."
--'  1  0  ~/troubleshoot-playbook/samba.
-|4,39,1,0,1666449561,"~/troubleshoot-playbook/samba."
--'  1  0  ~/troubleshoot-playbook/samba.
-|4,39,1,0,1666449561,"~/troubleshoot-playbook/samba."
--'  1  0  ~/troubleshoot-playbook/samba.
-|4,39,1,0,1666449561,"~/troubleshoot-playbook/samba."
--'  2  14  ~/troubleshoot-playbook/inventory
-|4,39,2,14,1666449495,"~/troubleshoot-playbook/inventory"
--'  2  14  ~/troubleshoot-playbook/inventory
-|4,39,2,14,1666449495,"~/troubleshoot-playbook/inventory"
--'  2  14  ~/troubleshoot-playbook/inventory
-|4,39,2,14,1666449495,"~/troubleshoot-playbook/inventory"
--'  2  14  ~/troubleshoot-playbook/inventory
-|4,39,2,14,1666449495,"~/troubleshoot-playbook/inventory"
--'  2  14  ~/troubleshoot-playbook/inventory
-|4,39,2,14,1666449495,"~/troubleshoot-playbook/inventory"
--'  2  14  ~/troubleshoot-playbook/inventory
-|4,39,2,14,1666449495,"~/troubleshoot-playbook/inventory"
--'  2  14  ~/troubleshoot-playbook/inventory
-|4,39,2,14,1666449495,"~/troubleshoot-playbook/inventory"
--'  2  14  ~/troubleshoot-playbook/inventory
-|4,39,2,14,1666449495,"~/troubleshoot-playbook/inventory"
--'  1  0  ~/troubleshoot-playbook/inventory
-|4,39,1,0,1666449485,"~/troubleshoot-playbook/inventory"
--'  1  0  ~/troubleshoot-playbook/inventory
-|4,39,1,0,1666449485,"~/troubleshoot-playbook/inventory"
--'  1  0  ~/troubleshoot-playbook/inventory
-|4,39,1,0,1666449485,"~/troubleshoot-playbook/inventory"
--'  1  0  ~/troubleshoot-playbook/inventory
-|4,39,1,0,1666449485,"~/troubleshoot-playbook/inventory"
--'  1  0  ~/troubleshoot-playbook/inventory
-|4,39,1,0,1666449485,"~/troubleshoot-playbook/inventory"
--'  1  0  ~/troubleshoot-playbook/inventory
-|4,39,1,0,1666449485,"~/troubleshoot-playbook/inventory"
--'  1  0  ~/troubleshoot-playbook/inventory
-|4,39,1,0,1666449485,"~/troubleshoot-playbook/inventory"
--'  1  0  ~/troubleshoot-playbook/inventory
-|4,39,1,0,1666449485,"~/troubleshoot-playbook/inventory"
 -'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449222,"~/troubleshoot-playbook/samba.yml"
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
 -'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449222,"~/troubleshoot-playbook/samba.yml"
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
 -'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449222,"~/troubleshoot-playbook/samba.yml"
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
 -'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449222,"~/troubleshoot-playbook/samba.yml"
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
 -'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449222,"~/troubleshoot-playbook/samba.yml"
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
 -'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449222,"~/troubleshoot-playbook/samba.yml"
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
 -'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449222,"~/troubleshoot-playbook/samba.yml"
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
 -'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449222,"~/troubleshoot-playbook/samba.yml"
--'  44  2  ~/troubleshoot-playbook/samba.yml
-|4,39,44,2,1666449191,"~/troubleshoot-playbook/samba.yml"
--'  44  2  ~/troubleshoot-playbook/samba.yml
-|4,39,44,2,1666449191,"~/troubleshoot-playbook/samba.yml"
--'  44  2  ~/troubleshoot-playbook/samba.yml
-|4,39,44,2,1666449191,"~/troubleshoot-playbook/samba.yml"
--'  44  2  ~/troubleshoot-playbook/samba.yml
-|4,39,44,2,1666449191,"~/troubleshoot-playbook/samba.yml"
--'  44  2  ~/troubleshoot-playbook/samba.yml
-|4,39,44,2,1666449191,"~/troubleshoot-playbook/samba.yml"
--'  44  2  ~/troubleshoot-playbook/samba.yml
-|4,39,44,2,1666449191,"~/troubleshoot-playbook/samba.yml"
--'  44  2  ~/troubleshoot-playbook/samba.yml
-|4,39,44,2,1666449191,"~/troubleshoot-playbook/samba.yml"
--'  44  2  ~/troubleshoot-playbook/samba.yml
-|4,39,44,2,1666449191,"~/troubleshoot-playbook/samba.yml"
--'  44  2  ~/troubleshoot-playbook/samba.yml
-|4,39,44,2,1666449191,"~/troubleshoot-playbook/samba.yml"
--'  44  2  ~/troubleshoot-playbook/samba.yml
-|4,39,44,2,1666449191,"~/troubleshoot-playbook/samba.yml"
--'  44  2  ~/troubleshoot-playbook/samba.yml
-|4,39,44,2,1666449176,"~/troubleshoot-playbook/samba.yml"
--'  44  2  ~/troubleshoot-playbook/samba.yml
-|4,39,44,2,1666449176,"~/troubleshoot-playbook/samba.yml"
--'  44  2  ~/troubleshoot-playbook/samba.yml
-|4,39,44,2,1666449176,"~/troubleshoot-playbook/samba.yml"
--'  44  2  ~/troubleshoot-playbook/samba.yml
-|4,39,44,2,1666449176,"~/troubleshoot-playbook/samba.yml"
--'  44  2  ~/troubleshoot-playbook/samba.yml
-|4,39,44,2,1666449176,"~/troubleshoot-playbook/samba.yml"
--'  44  2  ~/troubleshoot-playbook/samba.yml
-|4,39,44,2,1666449176,"~/troubleshoot-playbook/samba.yml"
--'  44  2  ~/troubleshoot-playbook/samba.yml
-|4,39,44,2,1666449176,"~/troubleshoot-playbook/samba.yml"
--'  44  2  ~/troubleshoot-playbook/samba.yml
-|4,39,44,2,1666449176,"~/troubleshoot-playbook/samba.yml"
--'  8  16  ~/troubleshoot-playbook/samba.yml
-|4,39,8,16,1666449081,"~/troubleshoot-playbook/samba.yml"
--'  8  16  ~/troubleshoot-playbook/samba.yml
-|4,39,8,16,1666449081,"~/troubleshoot-playbook/samba.yml"
--'  8  16  ~/troubleshoot-playbook/samba.yml
-|4,39,8,16,1666449081,"~/troubleshoot-playbook/samba.yml"
--'  8  16  ~/troubleshoot-playbook/samba.yml
-|4,39,8,16,1666449081,"~/troubleshoot-playbook/samba.yml"
--'  8  16  ~/troubleshoot-playbook/samba.yml
-|4,39,8,16,1666449081,"~/troubleshoot-playbook/samba.yml"
--'  8  16  ~/troubleshoot-playbook/samba.yml
-|4,39,8,16,1666449081,"~/troubleshoot-playbook/samba.yml"
--'  8  16  ~/troubleshoot-playbook/samba.yml
-|4,39,8,16,1666449081,"~/troubleshoot-playbook/samba.yml"
--'  8  16  ~/troubleshoot-playbook/samba.yml
-|4,39,8,16,1666449081,"~/troubleshoot-playbook/samba.yml"
--'  8  16  ~/troubleshoot-playbook/samba.yml
-|4,39,8,16,1666449081,"~/troubleshoot-playbook/samba.yml"
--'  8  16  ~/troubleshoot-playbook/samba.yml
-|4,39,8,16,1666449081,"~/troubleshoot-playbook/samba.yml"
--'  8  16  ~/troubleshoot-playbook/samba.yml
-|4,39,8,16,1666449081,"~/troubleshoot-playbook/samba.yml"
--'  8  16  ~/troubleshoot-playbook/samba.yml
-|4,39,8,16,1666449081,"~/troubleshoot-playbook/samba.yml"
--'  8  16  ~/troubleshoot-playbook/samba.yml
-|4,39,8,16,1666449081,"~/troubleshoot-playbook/samba.yml"
--'  8  16  ~/troubleshoot-playbook/samba.yml
-|4,39,8,16,1666449081,"~/troubleshoot-playbook/samba.yml"
--'  8  16  ~/troubleshoot-playbook/samba.yml
-|4,39,8,16,1666449081,"~/troubleshoot-playbook/samba.yml"
--'  8  16  ~/troubleshoot-playbook/samba.yml
-|4,39,8,16,1666449081,"~/troubleshoot-playbook/samba.yml"
--'  8  16  ~/troubleshoot-playbook/samba.yml
-|4,39,8,16,1666449081,"~/troubleshoot-playbook/samba.yml"
--'  8  16  ~/troubleshoot-playbook/samba.yml
-|4,39,8,16,1666449081,"~/troubleshoot-playbook/samba.yml"
--'  8  16  ~/troubleshoot-playbook/samba.yml
-|4,39,8,16,1666449058,"~/troubleshoot-playbook/samba.yml"
--'  8  16  ~/troubleshoot-playbook/samba.yml
-|4,39,8,16,1666449058,"~/troubleshoot-playbook/samba.yml"
--'  8  16  ~/troubleshoot-playbook/samba.yml
-|4,39,8,16,1666449058,"~/troubleshoot-playbook/samba.yml"
--'  8  16  ~/troubleshoot-playbook/samba.yml
-|4,39,8,16,1666449058,"~/troubleshoot-playbook/samba.yml"
--'  8  16  ~/troubleshoot-playbook/samba.yml
-|4,39,8,16,1666449058,"~/troubleshoot-playbook/samba.yml"
--'  8  16  ~/troubleshoot-playbook/samba.yml
-|4,39,8,16,1666449058,"~/troubleshoot-playbook/samba.yml"
--'  8  16  ~/troubleshoot-playbook/samba.yml
-|4,39,8,16,1666449058,"~/troubleshoot-playbook/samba.yml"
--'  8  16  ~/troubleshoot-playbook/samba.yml
-|4,39,8,16,1666449058,"~/troubleshoot-playbook/samba.yml"
--'  8  0  ~/troubleshoot-playbook/samba.yml
-|4,39,8,0,1666449005,"~/troubleshoot-playbook/samba.yml"
--'  8  0  ~/troubleshoot-playbook/samba.yml
-|4,39,8,0,1666449005,"~/troubleshoot-playbook/samba.yml"
--'  8  0  ~/troubleshoot-playbook/samba.yml
-|4,39,8,0,1666449005,"~/troubleshoot-playbook/samba.yml"
--'  8  0  ~/troubleshoot-playbook/samba.yml
-|4,39,8,0,1666449005,"~/troubleshoot-playbook/samba.yml"
--'  8  0  ~/troubleshoot-playbook/samba.yml
-|4,39,8,0,1666449005,"~/troubleshoot-playbook/samba.yml"
--'  8  0  ~/troubleshoot-playbook/samba.yml
-|4,39,8,0,1666449005,"~/troubleshoot-playbook/samba.yml"
--'  8  0  ~/troubleshoot-playbook/samba.yml
-|4,39,8,0,1666449005,"~/troubleshoot-playbook/samba.yml"
--'  8  0  ~/troubleshoot-playbook/samba.yml
-|4,39,8,0,1666449005,"~/troubleshoot-playbook/samba.yml"
--'  1  0  ~/troubleshoot-playbook/samba.yml
-|4,39,1,0,1666448976,"~/troubleshoot-playbook/samba.yml"
--'  1  0  ~/troubleshoot-playbook/samba.yml
-|4,39,1,0,1666448976,"~/troubleshoot-playbook/samba.yml"
--'  1  0  ~/troubleshoot-playbook/samba.yml
-|4,39,1,0,1666448976,"~/troubleshoot-playbook/samba.yml"
--'  1  0  ~/troubleshoot-playbook/samba.yml
-|4,39,1,0,1666448976,"~/troubleshoot-playbook/samba.yml"
--'  1  0  ~/troubleshoot-playbook/samba.yml
-|4,39,1,0,1666448976,"~/troubleshoot-playbook/samba.yml"
--'  1  0  ~/troubleshoot-playbook/samba.yml
-|4,39,1,0,1666448976,"~/troubleshoot-playbook/samba.yml"
--'  1  0  ~/troubleshoot-playbook/samba.yml
-|4,39,1,0,1666448976,"~/troubleshoot-playbook/samba.yml"
--'  1  0  ~/troubleshoot-playbook/samba.yml
-|4,39,1,0,1666448976,"~/troubleshoot-playbook/samba.yml"
--'  1  0  ~/troubleshoot-playbook/samba.yml
-|4,39,1,0,1666448976,"~/troubleshoot-playbook/samba.yml"
--'  1  0  ~/troubleshoot-playbook/samba.yml
-|4,39,1,0,1666448976,"~/troubleshoot-playbook/samba.yml"
--'  1  0  ~/troubleshoot-playbook/samba.yml
-|4,39,1,0,1666448976,"~/troubleshoot-playbook/samba.yml"
--'  1  0  ~/troubleshoot-playbook/samba.yml
-|4,39,1,0,1666448976,"~/troubleshoot-playbook/samba.yml"
--'  1  0  ~/troubleshoot-playbook/samba.yml
-|4,39,1,0,1666448976,"~/troubleshoot-playbook/samba.yml"
--'  1  0  ~/troubleshoot-playbook/samba.yml
-|4,39,1,0,1666448976,"~/troubleshoot-playbook/samba.yml"
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
+-'  14  33  ~/troubleshoot-playbook/samba.yml
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
+-'  14  33  ~/troubleshoot-playbook/samba.yml
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
+-'  14  33  ~/troubleshoot-playbook/samba.yml
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
+-'  14  33  ~/troubleshoot-playbook/samba.yml
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
+-'  14  33  ~/troubleshoot-playbook/samba.yml
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
+-'  14  33  ~/troubleshoot-playbook/samba.yml
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
+-'  14  33  ~/troubleshoot-playbook/samba.yml
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
+-'  14  33  ~/troubleshoot-playbook/samba.yml
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
+-'  14  33  ~/troubleshoot-playbook/samba.yml
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
+-'  14  33  ~/troubleshoot-playbook/samba.yml
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
+-'  14  33  ~/troubleshoot-playbook/samba.yml
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
+-'  14  33  ~/troubleshoot-playbook/samba.yml
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
+-'  14  33  ~/troubleshoot-playbook/samba.yml
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
+-'  14  33  ~/troubleshoot-playbook/samba.yml
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
+-'  14  33  ~/troubleshoot-playbook/samba.yml
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
+-'  14  33  ~/troubleshoot-playbook/samba.yml
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
+-'  14  33  ~/troubleshoot-playbook/samba.yml
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
+-'  14  33  ~/troubleshoot-playbook/samba.yml
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
+-'  14  33  ~/troubleshoot-playbook/samba.yml
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
+-'  14  33  ~/troubleshoot-playbook/samba.yml
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
+-'  14  33  ~/troubleshoot-playbook/samba.yml
+|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
 
 # History of marks within files (newest to oldest):
 
 > ~/README.md
-	*	1666449843	0
-	"	27	37
-	^	27	38
-	.	27	37
+	*	1666456119	0
+	"	28	49
+	^	28	50
+	.	28	49
 	+	1	30
 	+	1	23
 	+	1	0
@@ -402,6 +402,14 @@ $:
 	+	26	36
 	+	27	0
 	+	27	37
+	+	28	49
+
+> ~/troubleshoot-host/mailrelay.yml
+	*	1666455937	0
+	"	53	0
+	^	53	0
+	.	53	0
+	+	53	0
 
 > ~/troubleshoot-playbook/samba.yml
 	*	1666449582	0
@@ -619,8 +627,4 @@ $:
 
 > ~/file-template/motd.ym
 	*	1666435026	0
-	"	1	0
-
-> ~/file-template/files/motd.j2
-	*	1666434965	0
 	"	1	0
