@@ -21,3 +21,4 @@
 ## :bookmark_tabs: Managing Complex Plays and Playbooks
 > ###	:bulb: Selecting Hosts with Host Patterns
 > ###	:bulb: Including and Importing Files
+> ###	:dvd: LAB - Managing Complex Plays and Playbooks

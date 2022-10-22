@@ -1,0 +1,17 @@
+---
+- name: Install and configure web service
+  hosts:
+    - '*.lab.example.com'
+  tasks:
+    - name: Web tasks
+      import_tasks: tasks/web_tasks.yml
+
+    - name: Firewall tasks
+      import_tasks: tasks/firewall_tasks.yml
+
+
+  handlers:
+    - name: restart httpd
+      service:
+        name: httpd
+        state: restarted

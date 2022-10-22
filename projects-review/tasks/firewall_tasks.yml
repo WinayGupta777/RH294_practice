@@ -1,0 +1,12 @@
+- name: Install & Enable
+  import_tasks: tasks/install_and_enable.yml
+  vars:
+    pkg: firewalld
+    svc: firewalld
+
+- name: Open the port for http
+  firewalld:
+    service: http
+    immediate: true
+    permanent: true
+    state: enabled

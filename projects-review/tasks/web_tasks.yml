@@ -1,0 +1,16 @@
+- name: Install & Enable
+  import_tasks: tasks/install_and_enable.yml
+  vars:
+    pkg: httpd
+    svc: httpd
+
+- name: Tuning configuration installed
+  copy:
+    src: files/tune.conf
+    dest: /etc/httpd/conf.d/tune.conf
+    owner: root
+    group: root
+    mode: 0644
+  notify:
+    - restart httpd
+
