@@ -17,3 +17,6 @@
 > ###	:bulb: Modifying and Copying Files to Hosts
 > ###	:bulb: Deploying Custom Files with Jinja2 Templates
 > ###	:dvd: LAB - Deploying Files to Managed Hosts
+
+## :bookmark_tabs: Managing Complex Plays and Playbooks
+> ###	:bulb: Selecting Hosts with Host Patterns
