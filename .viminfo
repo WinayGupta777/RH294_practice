@@ -17,12 +17,14 @@
 $: 
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1666456119,,"wq"
 :q
-|2,0,1666455706,,"q"
+|2,0,1666458250,,"q"
+:wq
+|2,0,1666458164,,"wq"
 :w
-|2,0,1666440676,,"w"
+|2,0,1666458030,,"w"
+:13
+|2,0,1666457500,,"13"
 :qw
 |2,0,1666436832,,"qw"
 :9
@@ -67,9 +69,9 @@ $:
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
-	> ###	:bulb: Troubleshooting Playbooks
-|3,1,0,1,1,0,1666456107,"> ###	:bulb: Troubleshooting Playbooks"
+"0	LINE	0
+	> ###	:dvd: LAB - Managing Complex Plays and Playbooks
+|3,0,0,1,1,0,1666456188,"> ###	:dvd: LAB - Managing Complex Plays and Playbooks"
 "1	LINE	0
 	    state: started
 |3,0,1,1,1,0,1666440749,"    state: started"
@@ -111,238 +113,241 @@ $:
 	    name: httpd
 	    enabled: true
 |3,0,9,1,7,0,1666440573,"    name: httpd","    state: latest","","- name: Enable and start httpd","  service:","    name: httpd","    enabled: true"
+""-	CHAR	0
+	s
+|3,1,36,0,1,0,1666457997,"s"
 
 # File marks:
-'0  28  49  ~/README.md
-|4,48,28,49,1666456119,"~/README.md"
-'1  53  0  ~/troubleshoot-host/mailrelay.yml
-|4,49,53,0,1666455938,"~/troubleshoot-host/mailrelay.yml"
-'2  46  0  ~/troubleshoot-host/mailrelay.yml
-|4,50,46,0,1666455706,"~/troubleshoot-host/mailrelay.yml"
-'3  46  0  ~/troubleshoot-host/mailrelay.yml
-|4,51,46,0,1666455706,"~/troubleshoot-host/mailrelay.yml"
-'4  34  0  ~/troubleshoot-host/mailrelay.yml
-|4,52,34,0,1666455568,"~/troubleshoot-host/mailrelay.yml"
-'5  34  0  ~/troubleshoot-host/mailrelay.yml
-|4,53,34,0,1666455568,"~/troubleshoot-host/mailrelay.yml"
-'6  34  0  ~/troubleshoot-host/mailrelay.yml
-|4,54,34,0,1666455568,"~/troubleshoot-host/mailrelay.yml"
-'7  34  0  ~/troubleshoot-host/mailrelay.yml
-|4,55,34,0,1666455568,"~/troubleshoot-host/mailrelay.yml"
-'8  27  37  ~/README.md
-|4,56,27,37,1666449843,"~/README.md"
-'9  27  37  ~/README.md
-|4,57,27,37,1666449843,"~/README.md"
+'0  29  40  ~/README.md
+|4,48,29,40,1666458250,"~/README.md"
+'1  5  12  ~/troubleshoot-review/secure-web.yml
+|4,49,5,12,1666458164,"~/troubleshoot-review/secure-web.yml"
+'2  2  59  ~/troubleshoot-review/inventory
+|4,50,2,59,1666458130,"~/troubleshoot-review/inventory"
+'3  6  19  ~/troubleshoot-review/secure-web.yml
+|4,51,6,19,1666457999,"~/troubleshoot-review/secure-web.yml"
+'4  5  19  ~/troubleshoot-review/secure-web.yml
+|4,52,5,19,1666457999,"~/troubleshoot-review/secure-web.yml"
+'5  14  18  ~/troubleshoot-review/secure-web.yml
+|4,53,14,18,1666457515,"~/troubleshoot-review/secure-web.yml"
+'6  14  18  ~/troubleshoot-review/secure-web.yml
+|4,54,14,18,1666457515,"~/troubleshoot-review/secure-web.yml"
+'7  13  18  ~/troubleshoot-review/secure-web.yml
+|4,55,13,18,1666457515,"~/troubleshoot-review/secure-web.yml"
+'8  13  18  ~/troubleshoot-review/secure-web.yml
+|4,56,13,18,1666457515,"~/troubleshoot-review/secure-web.yml"
+'9  43  11  ~/troubleshoot-review/secure-web.yml
+|4,57,43,11,1666457489,"~/troubleshoot-review/secure-web.yml"
 
 # Jumplist (newest first):
--'  28  49  ~/README.md
-|4,39,28,49,1666456119,"~/README.md"
--'  27  37  ~/README.md
-|4,39,27,37,1666456104,"~/README.md"
--'  53  0  ~/troubleshoot-host/mailrelay.yml
-|4,39,53,0,1666455938,"~/troubleshoot-host/mailrelay.yml"
--'  53  0  ~/troubleshoot-host/mailrelay.yml
-|4,39,53,0,1666455938,"~/troubleshoot-host/mailrelay.yml"
--'  46  0  ~/troubleshoot-host/mailrelay.yml
-|4,39,46,0,1666455890,"~/troubleshoot-host/mailrelay.yml"
--'  46  0  ~/troubleshoot-host/mailrelay.yml
-|4,39,46,0,1666455890,"~/troubleshoot-host/mailrelay.yml"
--'  46  0  ~/troubleshoot-host/mailrelay.yml
-|4,39,46,0,1666455706,"~/troubleshoot-host/mailrelay.yml"
--'  46  0  ~/troubleshoot-host/mailrelay.yml
-|4,39,46,0,1666455706,"~/troubleshoot-host/mailrelay.yml"
--'  34  0  ~/troubleshoot-host/mailrelay.yml
-|4,39,34,0,1666455620,"~/troubleshoot-host/mailrelay.yml"
--'  34  0  ~/troubleshoot-host/mailrelay.yml
-|4,39,34,0,1666455620,"~/troubleshoot-host/mailrelay.yml"
--'  34  0  ~/troubleshoot-host/mailrelay.yml
-|4,39,34,0,1666455620,"~/troubleshoot-host/mailrelay.yml"
--'  34  0  ~/troubleshoot-host/mailrelay.yml
-|4,39,34,0,1666455620,"~/troubleshoot-host/mailrelay.yml"
--'  34  0  ~/troubleshoot-host/mailrelay.yml
-|4,39,34,0,1666455568,"~/troubleshoot-host/mailrelay.yml"
--'  34  0  ~/troubleshoot-host/mailrelay.yml
-|4,39,34,0,1666455568,"~/troubleshoot-host/mailrelay.yml"
--'  1  0  ~/troubleshoot-host/mailrelay.yml
-|4,39,1,0,1666455519,"~/troubleshoot-host/mailrelay.yml"
--'  1  0  ~/troubleshoot-host/mailrelay.yml
-|4,39,1,0,1666455519,"~/troubleshoot-host/mailrelay.yml"
--'  1  0  ~/troubleshoot-host/mailrelay.yml
-|4,39,1,0,1666455519,"~/troubleshoot-host/mailrelay.yml"
--'  1  0  ~/troubleshoot-host/mailrelay.yml
-|4,39,1,0,1666455519,"~/troubleshoot-host/mailrelay.yml"
--'  1  0  ~/troubleshoot-host/mailrelay.yml
-|4,39,1,0,1666455519,"~/troubleshoot-host/mailrelay.yml"
--'  1  0  ~/troubleshoot-host/mailrelay.yml
-|4,39,1,0,1666455519,"~/troubleshoot-host/mailrelay.yml"
--'  27  37  ~/README.md
-|4,39,27,37,1666449843,"~/README.md"
--'  27  37  ~/README.md
-|4,39,27,37,1666449843,"~/README.md"
--'  27  37  ~/README.md
-|4,39,27,37,1666449843,"~/README.md"
--'  27  37  ~/README.md
-|4,39,27,37,1666449843,"~/README.md"
--'  27  37  ~/README.md
-|4,39,27,37,1666449843,"~/README.md"
--'  27  37  ~/README.md
-|4,39,27,37,1666449843,"~/README.md"
--'  27  37  ~/README.md
-|4,39,27,37,1666449843,"~/README.md"
--'  27  37  ~/README.md
-|4,39,27,37,1666449843,"~/README.md"
--'  24  53  ~/README.md
-|4,39,24,53,1666449689,"~/README.md"
--'  24  53  ~/README.md
-|4,39,24,53,1666449689,"~/README.md"
--'  24  53  ~/README.md
-|4,39,24,53,1666449689,"~/README.md"
--'  24  53  ~/README.md
-|4,39,24,53,1666449689,"~/README.md"
--'  24  53  ~/README.md
-|4,39,24,53,1666449689,"~/README.md"
--'  24  53  ~/README.md
-|4,39,24,53,1666449689,"~/README.md"
--'  24  53  ~/README.md
-|4,39,24,53,1666449689,"~/README.md"
--'  24  53  ~/README.md
-|4,39,24,53,1666449689,"~/README.md"
--'  24  53  ~/README.md
-|4,39,24,53,1666449689,"~/README.md"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  46  21  ~/troubleshoot-playbook/samba.yml
-|4,39,46,21,1666449583,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
--'  14  33  ~/troubleshoot-playbook/samba.yml
-|4,39,14,33,1666449564,"~/troubleshoot-playbook/samba.yml"
+-'  29  40  ~/README.md
+|4,39,29,40,1666458250,"~/README.md"
+-'  5  12  ~/troubleshoot-review/secure-web.yml
+|4,39,5,12,1666458164,"~/troubleshoot-review/secure-web.yml"
+-'  5  12  ~/troubleshoot-review/secure-web.yml
+|4,39,5,12,1666458164,"~/troubleshoot-review/secure-web.yml"
+-'  2  59  ~/troubleshoot-review/inventory
+|4,39,2,59,1666458130,"~/troubleshoot-review/inventory"
+-'  2  59  ~/troubleshoot-review/inventory
+|4,39,2,59,1666458130,"~/troubleshoot-review/inventory"
+-'  1  0  ~/troubleshoot-review/inventory
+|4,39,1,0,1666458106,"~/troubleshoot-review/inventory"
+-'  1  0  ~/troubleshoot-review/inventory
+|4,39,1,0,1666458106,"~/troubleshoot-review/inventory"
+-'  6  19  ~/troubleshoot-review/secure-web.yml
+|4,39,6,19,1666458021,"~/troubleshoot-review/secure-web.yml"
+-'  6  19  ~/troubleshoot-review/secure-web.yml
+|4,39,6,19,1666458021,"~/troubleshoot-review/secure-web.yml"
+-'  5  19  ~/troubleshoot-review/secure-web.yml
+|4,39,5,19,1666457999,"~/troubleshoot-review/secure-web.yml"
+-'  5  19  ~/troubleshoot-review/secure-web.yml
+|4,39,5,19,1666457999,"~/troubleshoot-review/secure-web.yml"
+-'  5  19  ~/troubleshoot-review/secure-web.yml
+|4,39,5,19,1666457999,"~/troubleshoot-review/secure-web.yml"
+-'  5  19  ~/troubleshoot-review/secure-web.yml
+|4,39,5,19,1666457999,"~/troubleshoot-review/secure-web.yml"
+-'  14  18  ~/troubleshoot-review/secure-web.yml
+|4,39,14,18,1666457985,"~/troubleshoot-review/secure-web.yml"
+-'  13  18  ~/troubleshoot-review/secure-web.yml
+|4,39,13,18,1666457985,"~/troubleshoot-review/secure-web.yml"
+-'  13  18  ~/troubleshoot-review/secure-web.yml
+|4,39,13,18,1666457985,"~/troubleshoot-review/secure-web.yml"
+-'  14  18  ~/troubleshoot-review/secure-web.yml
+|4,39,14,18,1666457985,"~/troubleshoot-review/secure-web.yml"
+-'  13  18  ~/troubleshoot-review/secure-web.yml
+|4,39,13,18,1666457985,"~/troubleshoot-review/secure-web.yml"
+-'  13  18  ~/troubleshoot-review/secure-web.yml
+|4,39,13,18,1666457985,"~/troubleshoot-review/secure-web.yml"
+-'  13  18  ~/troubleshoot-review/secure-web.yml
+|4,39,13,18,1666457515,"~/troubleshoot-review/secure-web.yml"
+-'  13  18  ~/troubleshoot-review/secure-web.yml
+|4,39,13,18,1666457515,"~/troubleshoot-review/secure-web.yml"
+-'  13  18  ~/troubleshoot-review/secure-web.yml
+|4,39,13,18,1666457515,"~/troubleshoot-review/secure-web.yml"
+-'  13  18  ~/troubleshoot-review/secure-web.yml
+|4,39,13,18,1666457515,"~/troubleshoot-review/secure-web.yml"
+-'  43  11  ~/troubleshoot-review/secure-web.yml
+|4,39,43,11,1666457499,"~/troubleshoot-review/secure-web.yml"
+-'  42  11  ~/troubleshoot-review/secure-web.yml
+|4,39,42,11,1666457499,"~/troubleshoot-review/secure-web.yml"
+-'  42  11  ~/troubleshoot-review/secure-web.yml
+|4,39,42,11,1666457499,"~/troubleshoot-review/secure-web.yml"
+-'  42  11  ~/troubleshoot-review/secure-web.yml
+|4,39,42,11,1666457499,"~/troubleshoot-review/secure-web.yml"
+-'  42  11  ~/troubleshoot-review/secure-web.yml
+|4,39,42,11,1666457499,"~/troubleshoot-review/secure-web.yml"
+-'  43  11  ~/troubleshoot-review/secure-web.yml
+|4,39,43,11,1666457499,"~/troubleshoot-review/secure-web.yml"
+-'  42  11  ~/troubleshoot-review/secure-web.yml
+|4,39,42,11,1666457499,"~/troubleshoot-review/secure-web.yml"
+-'  42  11  ~/troubleshoot-review/secure-web.yml
+|4,39,42,11,1666457499,"~/troubleshoot-review/secure-web.yml"
+-'  42  11  ~/troubleshoot-review/secure-web.yml
+|4,39,42,11,1666457499,"~/troubleshoot-review/secure-web.yml"
+-'  42  11  ~/troubleshoot-review/secure-web.yml
+|4,39,42,11,1666457499,"~/troubleshoot-review/secure-web.yml"
+-'  42  11  ~/troubleshoot-review/secure-web.yml
+|4,39,42,11,1666457489,"~/troubleshoot-review/secure-web.yml"
+-'  42  11  ~/troubleshoot-review/secure-web.yml
+|4,39,42,11,1666457489,"~/troubleshoot-review/secure-web.yml"
+-'  42  11  ~/troubleshoot-review/secure-web.yml
+|4,39,42,11,1666457489,"~/troubleshoot-review/secure-web.yml"
+-'  42  11  ~/troubleshoot-review/secure-web.yml
+|4,39,42,11,1666457489,"~/troubleshoot-review/secure-web.yml"
+-'  8  16  ~/troubleshoot-review/secure-web.yml
+|4,39,8,16,1666457467,"~/troubleshoot-review/secure-web.yml"
+-'  7  16  ~/troubleshoot-review/secure-web.yml
+|4,39,7,16,1666457467,"~/troubleshoot-review/secure-web.yml"
+-'  7  16  ~/troubleshoot-review/secure-web.yml
+|4,39,7,16,1666457467,"~/troubleshoot-review/secure-web.yml"
+-'  7  16  ~/troubleshoot-review/secure-web.yml
+|4,39,7,16,1666457467,"~/troubleshoot-review/secure-web.yml"
+-'  7  16  ~/troubleshoot-review/secure-web.yml
+|4,39,7,16,1666457467,"~/troubleshoot-review/secure-web.yml"
+-'  7  16  ~/troubleshoot-review/secure-web.yml
+|4,39,7,16,1666457467,"~/troubleshoot-review/secure-web.yml"
+-'  7  16  ~/troubleshoot-review/secure-web.yml
+|4,39,7,16,1666457467,"~/troubleshoot-review/secure-web.yml"
+-'  8  16  ~/troubleshoot-review/secure-web.yml
+|4,39,8,16,1666457467,"~/troubleshoot-review/secure-web.yml"
+-'  7  16  ~/troubleshoot-review/secure-web.yml
+|4,39,7,16,1666457467,"~/troubleshoot-review/secure-web.yml"
+-'  7  16  ~/troubleshoot-review/secure-web.yml
+|4,39,7,16,1666457467,"~/troubleshoot-review/secure-web.yml"
+-'  7  16  ~/troubleshoot-review/secure-web.yml
+|4,39,7,16,1666457467,"~/troubleshoot-review/secure-web.yml"
+-'  7  16  ~/troubleshoot-review/secure-web.yml
+|4,39,7,16,1666457467,"~/troubleshoot-review/secure-web.yml"
+-'  7  16  ~/troubleshoot-review/secure-web.yml
+|4,39,7,16,1666457467,"~/troubleshoot-review/secure-web.yml"
+-'  7  16  ~/troubleshoot-review/secure-web.yml
+|4,39,7,16,1666457467,"~/troubleshoot-review/secure-web.yml"
+-'  7  16  ~/troubleshoot-review/secure-web.yml
+|4,39,7,16,1666457456,"~/troubleshoot-review/secure-web.yml"
+-'  7  16  ~/troubleshoot-review/secure-web.yml
+|4,39,7,16,1666457456,"~/troubleshoot-review/secure-web.yml"
+-'  7  16  ~/troubleshoot-review/secure-web.yml
+|4,39,7,16,1666457456,"~/troubleshoot-review/secure-web.yml"
+-'  7  16  ~/troubleshoot-review/secure-web.yml
+|4,39,7,16,1666457456,"~/troubleshoot-review/secure-web.yml"
+-'  49  0  ~/troubleshoot-review/secure-web.yml
+|4,39,49,0,1666457435,"~/troubleshoot-review/secure-web.yml"
+-'  48  0  ~/troubleshoot-review/secure-web.yml
+|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
+-'  48  0  ~/troubleshoot-review/secure-web.yml
+|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
+-'  48  0  ~/troubleshoot-review/secure-web.yml
+|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
+-'  48  0  ~/troubleshoot-review/secure-web.yml
+|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
+-'  48  0  ~/troubleshoot-review/secure-web.yml
+|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
+-'  48  0  ~/troubleshoot-review/secure-web.yml
+|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
+-'  48  0  ~/troubleshoot-review/secure-web.yml
+|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
+-'  48  0  ~/troubleshoot-review/secure-web.yml
+|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
+-'  49  0  ~/troubleshoot-review/secure-web.yml
+|4,39,49,0,1666457435,"~/troubleshoot-review/secure-web.yml"
+-'  48  0  ~/troubleshoot-review/secure-web.yml
+|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
+-'  48  0  ~/troubleshoot-review/secure-web.yml
+|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
+-'  48  0  ~/troubleshoot-review/secure-web.yml
+|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
+-'  48  0  ~/troubleshoot-review/secure-web.yml
+|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
+-'  48  0  ~/troubleshoot-review/secure-web.yml
+|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
+-'  48  0  ~/troubleshoot-review/secure-web.yml
+|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
+-'  48  0  ~/troubleshoot-review/secure-web.yml
+|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
+-'  48  0  ~/troubleshoot-review/secure-web.yml
+|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  18  0  ~/troubleshoot-review/vhosts.conf
+|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
 
 # History of marks within files (newest to oldest):
 
 > ~/README.md
-	*	1666456119	0
-	"	28	49
-	^	28	50
-	.	28	49
+	*	1666458249	0
+	"	29	40
+	^	29	41
+	.	29	40
 	+	1	30
 	+	1	23
 	+	1	0
@@ -403,6 +408,42 @@ $:
 	+	27	0
 	+	27	37
 	+	28	49
+	+	29	40
+
+> ~/troubleshoot-review/secure-web.yml
+	*	1666458163	0
+	"	5	12
+	^	5	13
+	.	5	12
+	+	9	36
+	+	40	7
+	+	41	8
+	+	42	9
+	+	43	10
+	+	44	11
+	+	15	18
+	+	7	15
+	+	6	12
+	+	8	16
+	+	39	7
+	+	40	8
+	+	41	9
+	+	42	10
+	+	43	11
+	+	14	18
+	+	6	20
+	+	5	12
+
+> ~/troubleshoot-review/inventory
+	*	1666458129	0
+	"	2	59
+	^	2	60
+	.	2	59
+	+	2	59
+
+> ~/troubleshoot-review/vhosts.conf
+	*	1666457380	0
+	"	18	0
 
 > ~/troubleshoot-host/mailrelay.yml
 	*	1666455937	0
@@ -608,23 +649,3 @@ $:
 	+	13	0
 	+	14	0
 	+	3	20
-
-> ~/file-template/motd.j2
-	*	1666435124	0
-	"	5	4
-	^	5	5
-	.	6	0
-	+	5	43
-	+	5	0
-	+	4	0
-	+	3	53
-	+	1	3
-	+	6	0
-
-> ~/file-template/files/motd.yml
-	*	1666435046	0
-	"	1	0
-
-> ~/file-template/motd.ym
-	*	1666435026	0
-	"	1	0
