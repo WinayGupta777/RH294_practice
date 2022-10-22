@@ -15,3 +15,4 @@
 
 ## :bookmark_tabs: Deploying Files to Managed Hosts
 > ###	:bulb: Modifying and Copying Files to Hosts
+> ###	:bulb: Deploying Custom Files with Jinja2 Templates

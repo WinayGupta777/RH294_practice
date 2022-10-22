@@ -1,0 +1,13 @@
+- hosts: webservers
+  become: yes
+  remote_user: devops
+  vars:
+    system_owner: carla@graphic.con.in
+  tasks:
+    - name: Copy template file
+      template:
+        src: motd.j2
+        dest: /etc/motd
+        owner: root
+        group: root
+        mode: '0644'

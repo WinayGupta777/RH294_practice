@@ -18,7 +18,9 @@ $:
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1666429241,,"wq"
+|2,0,1666435349,,"wq"
+:q
+|2,0,1666435051,,"q"
 :w
 |2,0,1666427181,,"w"
 :40
@@ -41,8 +43,6 @@ $:
 |2,0,1666370770,,"15"
 :5
 |2,0,1666370646,,"5"
-:q
-|2,0,1666363825,,"q"
 :%s /-/_/
 |2,0,1666363385,,"%s /-/_/"
 :%s /-/=/
@@ -64,8 +64,8 @@ $:
 
 # Registers:
 ""0	LINE	0
-	        seuser: _defaults
-|3,1,0,1,1,0,1666428735,"        seuser: _defaults"
+	----
+|3,1,0,1,1,0,1666435112,"----"
 "1	LINE	0
 	    - name: Install {{ db_package }}
 |3,0,1,1,1,0,1666418763,"    - name: Install {{ db_package }}"
@@ -95,230 +95,322 @@ $:
 |3,0,9,1,1,0,1666376541,"ansible_facts['ansible_local']['custom']"
 
 # File marks:
-'0  7  0  ~/file-manage/remove_file.yml
-|4,48,7,0,1666429241,"~/file-manage/remove_file.yml"
-'1  9  0  ~/file-manage/add_block.yml
-|4,49,9,0,1666429158,"~/file-manage/add_block.yml"
-'2  2  20  ~/file-manage/add_line.yml
-|4,50,2,20,1666428986,"~/file-manage/add_line.yml"
-'3  7  21  ~/file-manage/add_line.yml
-|4,51,7,21,1666428917,"~/file-manage/add_line.yml"
-'4  6  21  ~/file-manage/add_line.yml
-|4,52,6,21,1666428917,"~/file-manage/add_line.yml"
-'5  7  0  ~/file-manage/add_line.yml
-|4,53,7,0,1666428901,"~/file-manage/add_line.yml"
-'6  6  0  ~/file-manage/add_line.yml
-|4,54,6,0,1666428901,"~/file-manage/add_line.yml"
-'7  10  24  ~/file-manage/selinux_defaults.yml
-|4,55,10,24,1666428792,"~/file-manage/selinux_defaults.yml"
-'8  10  24  ~/file-manage/selinux_defaults.yml
-|4,56,10,24,1666428792,"~/file-manage/selinux_defaults.yml"
-'9  3  7  ~/file-manage/copy_file.yml
-|4,57,3,7,1666428508,"~/file-manage/copy_file.yml"
+'0  3  20  ~/file-template/motd.yml
+|4,48,3,20,1666435349,"~/file-template/motd.yml"
+'1  2  12  ~/file-template/motd.yml
+|4,49,2,12,1666435321,"~/file-template/motd.yml"
+'2  2  12  ~/file-template/motd.yml
+|4,50,2,12,1666435321,"~/file-template/motd.yml"
+'3  13  19  ~/file-template/motd.yml
+|4,51,13,19,1666435301,"~/file-template/motd.yml"
+'4  13  19  ~/file-template/motd.yml
+|4,52,13,19,1666435301,"~/file-template/motd.yml"
+'5  12  19  ~/file-template/motd.yml
+|4,53,12,19,1666435301,"~/file-template/motd.yml"
+'6  12  19  ~/file-template/motd.yml
+|4,54,12,19,1666435301,"~/file-template/motd.yml"
+'7  5  4  ~/file-template/motd.j2
+|4,55,5,4,1666435125,"~/file-template/motd.j2"
+'8  1  0  ~/file-template/files/motd.yml
+|4,56,1,0,1666435051,"~/file-template/files/motd.yml"
+'9  1  0  ~/file-template/motd.ym
+|4,57,1,0,1666435026,"~/file-template/motd.ym"
 
 # Jumplist (newest first):
--'  7  0  ~/file-manage/remove_file.yml
-|4,39,7,0,1666429241,"~/file-manage/remove_file.yml"
--'  1  0  ~/file-manage/remove_file.yml
-|4,39,1,0,1666429190,"~/file-manage/remove_file.yml"
--'  9  0  ~/file-manage/add_block.yml
-|4,39,9,0,1666429158,"~/file-manage/add_block.yml"
--'  9  0  ~/file-manage/add_block.yml
-|4,39,9,0,1666429158,"~/file-manage/add_block.yml"
--'  1  0  ~/file-manage/add_block.yml
-|4,39,1,0,1666429045,"~/file-manage/add_block.yml"
--'  1  0  ~/file-manage/add_block.yml
-|4,39,1,0,1666429045,"~/file-manage/add_block.yml"
--'  2  20  ~/file-manage/add_line.yml
-|4,39,2,20,1666428986,"~/file-manage/add_line.yml"
--'  2  20  ~/file-manage/add_line.yml
-|4,39,2,20,1666428986,"~/file-manage/add_line.yml"
--'  2  20  ~/file-manage/add_line.yml
-|4,39,2,20,1666428986,"~/file-manage/add_line.yml"
--'  2  20  ~/file-manage/add_line.yml
-|4,39,2,20,1666428986,"~/file-manage/add_line.yml"
--'  7  21  ~/file-manage/add_line.yml
-|4,39,7,21,1666428953,"~/file-manage/add_line.yml"
--'  7  21  ~/file-manage/add_line.yml
-|4,39,7,21,1666428953,"~/file-manage/add_line.yml"
--'  7  21  ~/file-manage/add_line.yml
-|4,39,7,21,1666428953,"~/file-manage/add_line.yml"
--'  7  21  ~/file-manage/add_line.yml
-|4,39,7,21,1666428953,"~/file-manage/add_line.yml"
--'  6  21  ~/file-manage/add_line.yml
-|4,39,6,21,1666428917,"~/file-manage/add_line.yml"
--'  6  21  ~/file-manage/add_line.yml
-|4,39,6,21,1666428917,"~/file-manage/add_line.yml"
--'  6  21  ~/file-manage/add_line.yml
-|4,39,6,21,1666428917,"~/file-manage/add_line.yml"
--'  6  21  ~/file-manage/add_line.yml
-|4,39,6,21,1666428917,"~/file-manage/add_line.yml"
--'  6  0  ~/file-manage/add_line.yml
-|4,39,6,0,1666428901,"~/file-manage/add_line.yml"
--'  6  0  ~/file-manage/add_line.yml
-|4,39,6,0,1666428901,"~/file-manage/add_line.yml"
--'  6  0  ~/file-manage/add_line.yml
-|4,39,6,0,1666428901,"~/file-manage/add_line.yml"
--'  6  0  ~/file-manage/add_line.yml
-|4,39,6,0,1666428901,"~/file-manage/add_line.yml"
--'  1  0  ~/file-manage/add_line.yml
-|4,39,1,0,1666428826,"~/file-manage/add_line.yml"
--'  1  0  ~/file-manage/add_line.yml
-|4,39,1,0,1666428826,"~/file-manage/add_line.yml"
--'  1  0  ~/file-manage/add_line.yml
-|4,39,1,0,1666428826,"~/file-manage/add_line.yml"
--'  1  0  ~/file-manage/add_line.yml
-|4,39,1,0,1666428826,"~/file-manage/add_line.yml"
--'  1  0  ~/file-manage/add_line.yml
-|4,39,1,0,1666428826,"~/file-manage/add_line.yml"
--'  1  0  ~/file-manage/add_line.yml
-|4,39,1,0,1666428826,"~/file-manage/add_line.yml"
--'  1  0  ~/file-manage/add_line.yml
-|4,39,1,0,1666428826,"~/file-manage/add_line.yml"
--'  1  0  ~/file-manage/add_line.yml
-|4,39,1,0,1666428826,"~/file-manage/add_line.yml"
--'  1  0  ~/file-manage/add_line.yml
-|4,39,1,0,1666428826,"~/file-manage/add_line.yml"
--'  1  0  ~/file-manage/add_line.yml
-|4,39,1,0,1666428826,"~/file-manage/add_line.yml"
--'  1  0  ~/file-manage/add_line.yml
-|4,39,1,0,1666428826,"~/file-manage/add_line.yml"
--'  1  0  ~/file-manage/add_line.yml
-|4,39,1,0,1666428826,"~/file-manage/add_line.yml"
--'  10  24  ~/file-manage/selinux_defaults.yml
-|4,39,10,24,1666428792,"~/file-manage/selinux_defaults.yml"
--'  10  24  ~/file-manage/selinux_defaults.yml
-|4,39,10,24,1666428792,"~/file-manage/selinux_defaults.yml"
--'  10  24  ~/file-manage/selinux_defaults.yml
-|4,39,10,24,1666428792,"~/file-manage/selinux_defaults.yml"
--'  10  24  ~/file-manage/selinux_defaults.yml
-|4,39,10,24,1666428792,"~/file-manage/selinux_defaults.yml"
--'  10  24  ~/file-manage/selinux_defaults.yml
-|4,39,10,24,1666428792,"~/file-manage/selinux_defaults.yml"
--'  10  24  ~/file-manage/selinux_defaults.yml
-|4,39,10,24,1666428792,"~/file-manage/selinux_defaults.yml"
--'  10  24  ~/file-manage/selinux_defaults.yml
-|4,39,10,24,1666428792,"~/file-manage/selinux_defaults.yml"
--'  10  24  ~/file-manage/selinux_defaults.yml
-|4,39,10,24,1666428792,"~/file-manage/selinux_defaults.yml"
--'  10  24  ~/file-manage/selinux_defaults.yml
-|4,39,10,24,1666428792,"~/file-manage/selinux_defaults.yml"
--'  10  24  ~/file-manage/selinux_defaults.yml
-|4,39,10,24,1666428792,"~/file-manage/selinux_defaults.yml"
--'  10  24  ~/file-manage/selinux_defaults.yml
-|4,39,10,24,1666428792,"~/file-manage/selinux_defaults.yml"
--'  10  24  ~/file-manage/selinux_defaults.yml
-|4,39,10,24,1666428792,"~/file-manage/selinux_defaults.yml"
--'  10  24  ~/file-manage/selinux_defaults.yml
-|4,39,10,24,1666428792,"~/file-manage/selinux_defaults.yml"
--'  10  24  ~/file-manage/selinux_defaults.yml
-|4,39,10,24,1666428792,"~/file-manage/selinux_defaults.yml"
--'  10  24  ~/file-manage/selinux_defaults.yml
-|4,39,10,24,1666428792,"~/file-manage/selinux_defaults.yml"
--'  10  24  ~/file-manage/selinux_defaults.yml
-|4,39,10,24,1666428792,"~/file-manage/selinux_defaults.yml"
--'  10  24  ~/file-manage/selinux_defaults.yml
-|4,39,10,24,1666428792,"~/file-manage/selinux_defaults.yml"
--'  10  24  ~/file-manage/selinux_defaults.yml
-|4,39,10,24,1666428792,"~/file-manage/selinux_defaults.yml"
--'  10  24  ~/file-manage/selinux_defaults.yml
-|4,39,10,24,1666428792,"~/file-manage/selinux_defaults.yml"
--'  10  24  ~/file-manage/selinux_defaults.yml
-|4,39,10,24,1666428792,"~/file-manage/selinux_defaults.yml"
--'  10  24  ~/file-manage/selinux_defaults.yml
-|4,39,10,24,1666428792,"~/file-manage/selinux_defaults.yml"
--'  10  24  ~/file-manage/selinux_defaults.yml
-|4,39,10,24,1666428792,"~/file-manage/selinux_defaults.yml"
--'  10  24  ~/file-manage/selinux_defaults.yml
-|4,39,10,24,1666428792,"~/file-manage/selinux_defaults.yml"
--'  10  24  ~/file-manage/selinux_defaults.yml
-|4,39,10,24,1666428792,"~/file-manage/selinux_defaults.yml"
--'  1  0  ~/file-manage/selinux_defaults.yml
-|4,39,1,0,1666428642,"~/file-manage/selinux_defaults.yml"
--'  1  0  ~/file-manage/selinux_defaults.yml
-|4,39,1,0,1666428642,"~/file-manage/selinux_defaults.yml"
--'  1  0  ~/file-manage/selinux_defaults.yml
-|4,39,1,0,1666428642,"~/file-manage/selinux_defaults.yml"
--'  1  0  ~/file-manage/selinux_defaults.yml
-|4,39,1,0,1666428642,"~/file-manage/selinux_defaults.yml"
--'  1  0  ~/file-manage/selinux_defaults.yml
-|4,39,1,0,1666428642,"~/file-manage/selinux_defaults.yml"
--'  1  0  ~/file-manage/selinux_defaults.yml
-|4,39,1,0,1666428642,"~/file-manage/selinux_defaults.yml"
--'  1  0  ~/file-manage/selinux_defaults.yml
-|4,39,1,0,1666428642,"~/file-manage/selinux_defaults.yml"
--'  1  0  ~/file-manage/selinux_defaults.yml
-|4,39,1,0,1666428642,"~/file-manage/selinux_defaults.yml"
--'  1  0  ~/file-manage/selinux_defaults.yml
-|4,39,1,0,1666428642,"~/file-manage/selinux_defaults.yml"
--'  1  0  ~/file-manage/selinux_defaults.yml
-|4,39,1,0,1666428642,"~/file-manage/selinux_defaults.yml"
--'  1  0  ~/file-manage/selinux_defaults.yml
-|4,39,1,0,1666428642,"~/file-manage/selinux_defaults.yml"
--'  1  0  ~/file-manage/selinux_defaults.yml
-|4,39,1,0,1666428642,"~/file-manage/selinux_defaults.yml"
--'  1  0  ~/file-manage/selinux_defaults.yml
-|4,39,1,0,1666428642,"~/file-manage/selinux_defaults.yml"
--'  1  0  ~/file-manage/selinux_defaults.yml
-|4,39,1,0,1666428642,"~/file-manage/selinux_defaults.yml"
--'  1  0  ~/file-manage/selinux_defaults.yml
-|4,39,1,0,1666428642,"~/file-manage/selinux_defaults.yml"
--'  1  0  ~/file-manage/selinux_defaults.yml
-|4,39,1,0,1666428642,"~/file-manage/selinux_defaults.yml"
--'  1  0  ~/file-manage/selinux_defaults.yml
-|4,39,1,0,1666428642,"~/file-manage/selinux_defaults.yml"
--'  1  0  ~/file-manage/selinux_defaults.yml
-|4,39,1,0,1666428642,"~/file-manage/selinux_defaults.yml"
--'  1  0  ~/file-manage/selinux_defaults.yml
-|4,39,1,0,1666428642,"~/file-manage/selinux_defaults.yml"
--'  1  0  ~/file-manage/selinux_defaults.yml
-|4,39,1,0,1666428642,"~/file-manage/selinux_defaults.yml"
--'  1  0  ~/file-manage/selinux_defaults.yml
-|4,39,1,0,1666428642,"~/file-manage/selinux_defaults.yml"
--'  1  0  ~/file-manage/selinux_defaults.yml
-|4,39,1,0,1666428642,"~/file-manage/selinux_defaults.yml"
--'  1  0  ~/file-manage/selinux_defaults.yml
-|4,39,1,0,1666428642,"~/file-manage/selinux_defaults.yml"
--'  1  0  ~/file-manage/selinux_defaults.yml
-|4,39,1,0,1666428642,"~/file-manage/selinux_defaults.yml"
--'  3  7  ~/file-manage/copy_file.yml
-|4,39,3,7,1666428508,"~/file-manage/copy_file.yml"
--'  3  7  ~/file-manage/copy_file.yml
-|4,39,3,7,1666428508,"~/file-manage/copy_file.yml"
--'  3  7  ~/file-manage/copy_file.yml
-|4,39,3,7,1666428508,"~/file-manage/copy_file.yml"
--'  3  7  ~/file-manage/copy_file.yml
-|4,39,3,7,1666428508,"~/file-manage/copy_file.yml"
--'  3  7  ~/file-manage/copy_file.yml
-|4,39,3,7,1666428508,"~/file-manage/copy_file.yml"
--'  3  7  ~/file-manage/copy_file.yml
-|4,39,3,7,1666428508,"~/file-manage/copy_file.yml"
--'  3  7  ~/file-manage/copy_file.yml
-|4,39,3,7,1666428508,"~/file-manage/copy_file.yml"
--'  3  7  ~/file-manage/copy_file.yml
-|4,39,3,7,1666428508,"~/file-manage/copy_file.yml"
--'  3  7  ~/file-manage/copy_file.yml
-|4,39,3,7,1666428508,"~/file-manage/copy_file.yml"
--'  3  7  ~/file-manage/copy_file.yml
-|4,39,3,7,1666428508,"~/file-manage/copy_file.yml"
--'  3  7  ~/file-manage/copy_file.yml
-|4,39,3,7,1666428508,"~/file-manage/copy_file.yml"
--'  3  7  ~/file-manage/copy_file.yml
-|4,39,3,7,1666428508,"~/file-manage/copy_file.yml"
--'  3  7  ~/file-manage/copy_file.yml
-|4,39,3,7,1666428508,"~/file-manage/copy_file.yml"
--'  3  7  ~/file-manage/copy_file.yml
-|4,39,3,7,1666428508,"~/file-manage/copy_file.yml"
--'  3  7  ~/file-manage/copy_file.yml
-|4,39,3,7,1666428508,"~/file-manage/copy_file.yml"
--'  3  7  ~/file-manage/copy_file.yml
-|4,39,3,7,1666428508,"~/file-manage/copy_file.yml"
--'  3  7  ~/file-manage/copy_file.yml
-|4,39,3,7,1666428508,"~/file-manage/copy_file.yml"
--'  3  7  ~/file-manage/copy_file.yml
-|4,39,3,7,1666428508,"~/file-manage/copy_file.yml"
+-'  3  20  ~/file-template/motd.yml
+|4,39,3,20,1666435349,"~/file-template/motd.yml"
+-'  2  12  ~/file-template/motd.yml
+|4,39,2,12,1666435338,"~/file-template/motd.yml"
+-'  2  12  ~/file-template/motd.yml
+|4,39,2,12,1666435321,"~/file-template/motd.yml"
+-'  13  19  ~/file-template/motd.yml
+|4,39,13,19,1666435315,"~/file-template/motd.yml"
+-'  12  19  ~/file-template/motd.yml
+|4,39,12,19,1666435315,"~/file-template/motd.yml"
+-'  12  19  ~/file-template/motd.yml
+|4,39,12,19,1666435301,"~/file-template/motd.yml"
+-'  1  0  ~/file-template/motd.yml
+|4,39,1,0,1666435131,"~/file-template/motd.yml"
+-'  1  0  ~/file-template/motd.yml
+|4,39,1,0,1666435131,"~/file-template/motd.yml"
+-'  1  0  ~/file-template/motd.yml
+|4,39,1,0,1666435131,"~/file-template/motd.yml"
+-'  5  4  ~/file-template/motd.j2
+|4,39,5,4,1666435125,"~/file-template/motd.j2"
+-'  5  4  ~/file-template/motd.j2
+|4,39,5,4,1666435125,"~/file-template/motd.j2"
+-'  5  4  ~/file-template/motd.j2
+|4,39,5,4,1666435125,"~/file-template/motd.j2"
+-'  5  4  ~/file-template/motd.j2
+|4,39,5,4,1666435125,"~/file-template/motd.j2"
+-'  5  4  ~/file-template/motd.j2
+|4,39,5,4,1666435125,"~/file-template/motd.j2"
+-'  5  4  ~/file-template/motd.j2
+|4,39,5,4,1666435125,"~/file-template/motd.j2"
+-'  5  4  ~/file-template/motd.j2
+|4,39,5,4,1666435125,"~/file-template/motd.j2"
+-'  5  4  ~/file-template/motd.j2
+|4,39,5,4,1666435125,"~/file-template/motd.j2"
+-'  1  0  ~/file-template/motd.j2
+|4,39,1,0,1666435060,"~/file-template/motd.j2"
+-'  1  0  ~/file-template/motd.j2
+|4,39,1,0,1666435060,"~/file-template/motd.j2"
+-'  1  0  ~/file-template/motd.j2
+|4,39,1,0,1666435060,"~/file-template/motd.j2"
+-'  1  0  ~/file-template/motd.j2
+|4,39,1,0,1666435060,"~/file-template/motd.j2"
+-'  1  0  ~/file-template/motd.j2
+|4,39,1,0,1666435060,"~/file-template/motd.j2"
+-'  1  0  ~/file-template/motd.j2
+|4,39,1,0,1666435060,"~/file-template/motd.j2"
+-'  1  0  ~/file-template/motd.j2
+|4,39,1,0,1666435060,"~/file-template/motd.j2"
+-'  1  0  ~/file-template/motd.j2
+|4,39,1,0,1666435060,"~/file-template/motd.j2"
+-'  1  0  ~/file-template/files/motd.yml
+|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
+-'  1  0  ~/file-template/files/motd.yml
+|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
+-'  1  0  ~/file-template/files/motd.yml
+|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
+-'  1  0  ~/file-template/files/motd.yml
+|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
+-'  1  0  ~/file-template/files/motd.yml
+|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
+-'  1  0  ~/file-template/files/motd.yml
+|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
+-'  1  0  ~/file-template/files/motd.yml
+|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
+-'  1  0  ~/file-template/files/motd.yml
+|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
+-'  1  0  ~/file-template/files/motd.yml
+|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
+-'  1  0  ~/file-template/files/motd.yml
+|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
+-'  1  0  ~/file-template/files/motd.yml
+|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
+-'  1  0  ~/file-template/files/motd.yml
+|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
+-'  1  0  ~/file-template/files/motd.yml
+|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
+-'  1  0  ~/file-template/files/motd.yml
+|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
+-'  1  0  ~/file-template/files/motd.yml
+|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
+-'  1  0  ~/file-template/files/motd.yml
+|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/motd.ym
+|4,39,1,0,1666435026,"~/file-template/motd.ym"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  1  0  ~/file-template/files/motd.j2
+|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
 
 # History of marks within files (newest to oldest):
+
+> ~/file-template/motd.yml
+	*	1666435348	0
+	"	3	20
+	^	3	21
+	.	3	20
+	+	4	8
+	+	13	20
+	+	6	0
+	+	5	37
+	+	13	20
+	+	13	0
+	+	14	0
+	+	3	20
+
+> ~/file-template/motd.j2
+	*	1666435124	0
+	"	5	4
+	^	5	5
+	.	6	0
+	+	5	43
+	+	5	0
+	+	4	0
+	+	3	53
+	+	1	3
+	+	6	0
+
+> ~/file-template/files/motd.yml
+	*	1666435046	0
+	"	1	0
+
+> ~/file-template/motd.ym
+	*	1666435026	0
+	"	1	0
+
+> ~/file-template/files/motd.j2
+	*	1666434965	0
+	"	1	0
+
+> ~/file-template/files/motd.
+	*	1666434942	0
+	"	1	0
+
+> ~/README.md
+	*	1666434837	0
+	"	18	56
+	^	18	57
+	.	18	47
+	+	1	30
+	+	1	23
+	+	1	0
+	+	3	35
+	+	5	0
+	+	5	30
+	+	2	2
+	+	4	3
+	+	5	63
+	+	5	290
+	+	5	17
+	+	3	17
+	+	1	3
+	+	3	3
+	+	5	47
+	+	7	25
+	+	5	47
+	+	6	27
+	+	7	25
+	+	8	1
+	+	7	1
+	+	6	1
+	+	8	17
+	+	9	2
+	+	10	44
+	+	11	47
+	+	12	33
+	+	13	34
+	+	14	0
+	+	14	42
+	+	9	0
+	+	4	0
+	+	2	0
+	+	15	0
+	+	16	0
+	+	16	45
+	+	16	51
+	+	17	34
+	+	16	51
+	+	17	34
+	+	17	48
+	+	18	47
+	+	18	55
+	+	18	47
 
 > ~/file-manage/remove_file.yml
 	*	1666429241	0
@@ -391,53 +483,6 @@ $:
 	+	8	62
 	+	9	16
 	+	3	20
-
-> ~/README.md
-	*	1666427214	0
-	"	17	48
-	^	17	49
-	.	17	48
-	+	1	30
-	+	1	23
-	+	1	0
-	+	3	35
-	+	5	0
-	+	5	30
-	+	2	2
-	+	4	3
-	+	5	63
-	+	5	290
-	+	5	17
-	+	3	17
-	+	1	3
-	+	3	3
-	+	5	47
-	+	7	25
-	+	5	47
-	+	6	27
-	+	7	25
-	+	8	1
-	+	7	1
-	+	6	1
-	+	8	17
-	+	9	2
-	+	10	44
-	+	11	47
-	+	12	33
-	+	13	34
-	+	14	0
-	+	14	42
-	+	9	0
-	+	4	0
-	+	2	0
-	+	15	0
-	+	16	0
-	+	16	45
-	+	16	51
-	+	17	34
-	+	16	51
-	+	17	34
-	+	17	48
 
 > ~/.gitignore
 	*	1666427027	0
@@ -667,109 +712,3 @@ $:
 	+	4	0
 	+	3	0
 	+	1	22
-
-> ~/data-facts/playbook.yml
-	*	1666376471	0
-	"	14	60
-	^	14	61
-	.	14	60
-	+	5	19
-	+	1	1
-	+	2	1
-	+	7	57
-	+	12	21
-	+	14	46
-	+	13	45
-	+	12	52
-	+	13	51
-	+	14	55
-	+	7	55
-	+	12	57
-	+	13	58
-	+	14	60
-
-> ~/data-facts/setup_facts.yml
-	*	1666375899	0
-	"	14	0
-	^	14	0
-	.	15	0
-	+	3	7
-	+	2	12
-	+	4	43
-	+	14	0
-	+	4	43
-	+	14	0
-	+	7	34
-	+	8	19
-	+	15	0
-
-> ~/data-facts/custom.fact
-	*	1666375647	0
-	"	1	8
-	^	1	9
-	.	2	0
-	+	5	13
-	+	5	0
-	+	4	0
-	+	3	0
-	+	2	0
-
-> ~/data-secret/vault-pass
-	*	1666374934	0
-	"	1	5
-	^	1	6
-	.	1	5
-	+	1	5
-
-> ~/data-secret/create_users.yml
-	*	1666374845	0
-	"	11	21
-	^	11	22
-	.	11	21
-	+	9	14
-	+	3	20
-	+	9	13
-	+	5	15
-	+	9	30
-	+	10	32
-	+	11	21
-
-> ~/data-variables/playbook.yml
-	*	1666374256	0
-	"	50	26
-	^	50	27
-	.	50	26
-	+	1	18
-	+	10	0
-	+	1	19
-	+	11	11
-	+	9	13
-	+	8	30
-	+	14	16
-	+	15	0
-	+	16	0
-	+	17	0
-	+	16	16
-	+	15	28
-	+	14	23
-	+	19	40
-	+	20	0
-	+	21	22
-	+	23	20
-	+	24	0
-	+	25	0
-	+	25	23
-	+	27	28
-	+	21	33
-	+	29	20
-	+	33	38
-	+	34	38
-	+	39	21
-	+	38	24
-	+	39	22
-	+	42	24
-	+	48	43
-	+	49	24
-	+	44	11
-	+	2	12
-	+	50	26
