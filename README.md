@@ -9,3 +9,4 @@
 ---
 ## :bookmark_tabs: Implementing Task Control
 > ###	:bulb: Writing Loops and Conditional Tasks
+> ###	:bulb: Implementing Handlers
