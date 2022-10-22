@@ -1,0 +1,64 @@
+---
+- name: Playbook Control Lab
+  hosts: webservers
+  vars_files: vars.yml
+  tasks:
+      #Fail Fast Message
+    - name: System checks
+      fail:
+        msg: "System does not meets requirement !!"
+      when: 
+        - ansible_memtotal_mb <= min_ram_mb
+        - ansible_distribution != "RedHat"
+
+
+    #Install all Packages
+    - name: Ensure required packages are present
+      package:
+        name: "{{ packages }}"
+        state: latest
+
+    #Enable and start services
+    - name: Start service
+      service:
+        name: "{{ item }}"
+        state: started
+        enabled: yes
+      loop: "{{ services }}"
+
+
+    #Block of config tasks
+    - block:
+        - name: Check for directory
+          file:
+            path: "{{ ssl_cert_dir }}"
+            state: directory
+            recurse: yes
+
+        - name: Copy all files
+          copy:
+            src: "{{ item.src }}"
+            dest: "{{ item.dest }}"
+          loop: "{{ web_config_files }}"
+          notify: restart web service
+      
+      rescue:
+        - name: Display Message
+          debug:
+            msg: "One or more of the configuration changes failed, but the web service is still active."
+
+    #Configure the firewall
+    - name: Allow HTTPS connections
+      firewalld:
+        service: https
+        state: enabled
+        permanent: yes
+        immediate: yes
+
+  #Add handlers
+  handlers:
+    - name: restart web service
+      service:
+        name: "{{ web_service }}"
+        state: restarted
+        enabled: yes

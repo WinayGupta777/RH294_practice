@@ -18,7 +18,9 @@ $:
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1666419305,,"wq"
+|2,0,1666427027,,"wq"
+:40
+|2,0,1666423231,,"40"
 :28
 |2,0,1666417726,,"28"
 :19
@@ -62,8 +64,11 @@ $:
 
 # Registers:
 ""0	LINE	0
-	    - name: Install {{ web_package }}
-|3,1,0,1,1,0,1666418786,"    - name: Install {{ web_package }}"
+	      service:
+	        name: "{{ item }}"
+	        state: started
+	        enabled: yes
+|3,1,0,1,4,0,1666423242,"      service:","        name: \"{{ item }}\"","        state: started","        enabled: yes"
 "1	LINE	0
 	    - name: Install {{ db_package }}
 |3,0,1,1,1,0,1666418763,"    - name: Install {{ db_package }}"
@@ -93,230 +98,339 @@ $:
 |3,0,9,1,1,0,1666376541,"ansible_facts['ansible_local']['custom']"
 
 # File marks:
-'0  24  38  ~/control-errors/playbook.yml
-|4,48,24,38,1666419305,"~/control-errors/playbook.yml"
-'1  12  0  ~/control-errors/playbook.yml
-|4,49,12,0,1666419213,"~/control-errors/playbook.yml"
-'2  12  0  ~/control-errors/playbook.yml
-|4,50,12,0,1666419213,"~/control-errors/playbook.yml"
-'3  15  33  ~/control-errors/playbook.yml
-|4,51,15,33,1666419167,"~/control-errors/playbook.yml"
-'4  13  33  ~/control-errors/playbook.yml
-|4,52,13,33,1666419167,"~/control-errors/playbook.yml"
-'5  15  33  ~/control-errors/playbook.yml
-|4,53,15,33,1666419167,"~/control-errors/playbook.yml"
-'6  13  33  ~/control-errors/playbook.yml
-|4,54,13,33,1666419167,"~/control-errors/playbook.yml"
-'7  3  21  ~/control-errors/playbook.yml
-|4,55,3,21,1666419031,"~/control-errors/playbook.yml"
-'8  3  21  ~/control-errors/playbook.yml
-|4,56,3,21,1666419031,"~/control-errors/playbook.yml"
-'9  3  21  ~/control-errors/playbook.yml
-|4,57,3,21,1666419031,"~/control-errors/playbook.yml"
+'0  15  12  ~/.gitignore
+|4,48,15,12,1666427027,"~/.gitignore"
+'1  48  11  ~/control-review/playbook.yml
+|4,49,48,11,1666423488,"~/control-review/playbook.yml"
+'2  46  6  ~/control-review/playbook.yml
+|4,50,46,6,1666423464,"~/control-review/playbook.yml"
+'3  46  6  ~/control-review/playbook.yml
+|4,51,46,6,1666423464,"~/control-review/playbook.yml"
+'4  51  4  ~/control-review/playbook.yml
+|4,52,51,4,1666423448,"~/control-review/playbook.yml"
+'5  51  4  ~/control-review/playbook.yml
+|4,53,51,4,1666423448,"~/control-review/playbook.yml"
+'6  51  4  ~/control-review/playbook.yml
+|4,54,51,4,1666423448,"~/control-review/playbook.yml"
+'7  51  4  ~/control-review/playbook.yml
+|4,55,51,4,1666423448,"~/control-review/playbook.yml"
+'8  18  7  ~/control-review/playbook.yml
+|4,56,18,7,1666423411,"~/control-review/playbook.yml"
+'9  18  7  ~/control-review/playbook.yml
+|4,57,18,7,1666423411,"~/control-review/playbook.yml"
 
 # Jumplist (newest first):
--'  24  38  ~/control-errors/playbook.yml
-|4,39,24,38,1666419305,"~/control-errors/playbook.yml"
--'  12  0  ~/control-errors/playbook.yml
-|4,39,12,0,1666419254,"~/control-errors/playbook.yml"
--'  12  0  ~/control-errors/playbook.yml
-|4,39,12,0,1666419213,"~/control-errors/playbook.yml"
--'  15  33  ~/control-errors/playbook.yml
-|4,39,15,33,1666419197,"~/control-errors/playbook.yml"
--'  15  33  ~/control-errors/playbook.yml
-|4,39,15,33,1666419197,"~/control-errors/playbook.yml"
--'  13  33  ~/control-errors/playbook.yml
-|4,39,13,33,1666419167,"~/control-errors/playbook.yml"
--'  13  33  ~/control-errors/playbook.yml
-|4,39,13,33,1666419167,"~/control-errors/playbook.yml"
--'  3  21  ~/control-errors/playbook.yml
-|4,39,3,21,1666419067,"~/control-errors/playbook.yml"
--'  3  21  ~/control-errors/playbook.yml
-|4,39,3,21,1666419067,"~/control-errors/playbook.yml"
--'  3  21  ~/control-errors/playbook.yml
-|4,39,3,21,1666419067,"~/control-errors/playbook.yml"
--'  3  21  ~/control-errors/playbook.yml
-|4,39,3,21,1666419031,"~/control-errors/playbook.yml"
--'  31  6  ~/control-errors/playbook.yml
-|4,39,31,6,1666419022,"~/control-errors/playbook.yml"
--'  22  6  ~/control-errors/playbook.yml
-|4,39,22,6,1666419022,"~/control-errors/playbook.yml"
--'  29  6  ~/control-errors/playbook.yml
-|4,39,29,6,1666419022,"~/control-errors/playbook.yml"
--'  20  6  ~/control-errors/playbook.yml
-|4,39,20,6,1666419022,"~/control-errors/playbook.yml"
--'  31  6  ~/control-errors/playbook.yml
-|4,39,31,6,1666419022,"~/control-errors/playbook.yml"
--'  22  6  ~/control-errors/playbook.yml
-|4,39,22,6,1666419022,"~/control-errors/playbook.yml"
--'  29  6  ~/control-errors/playbook.yml
-|4,39,29,6,1666419022,"~/control-errors/playbook.yml"
--'  20  6  ~/control-errors/playbook.yml
-|4,39,20,6,1666419022,"~/control-errors/playbook.yml"
--'  20  6  ~/control-errors/playbook.yml
-|4,39,20,6,1666418994,"~/control-errors/playbook.yml"
--'  25  0  ~/control-errors/playbook.yml
-|4,39,25,0,1666418699,"~/control-errors/playbook.yml"
--'  16  0  ~/control-errors/playbook.yml
-|4,39,16,0,1666418699,"~/control-errors/playbook.yml"
--'  23  0  ~/control-errors/playbook.yml
-|4,39,23,0,1666418699,"~/control-errors/playbook.yml"
--'  14  0  ~/control-errors/playbook.yml
-|4,39,14,0,1666418699,"~/control-errors/playbook.yml"
--'  25  0  ~/control-errors/playbook.yml
-|4,39,25,0,1666418699,"~/control-errors/playbook.yml"
--'  16  0  ~/control-errors/playbook.yml
-|4,39,16,0,1666418699,"~/control-errors/playbook.yml"
--'  23  0  ~/control-errors/playbook.yml
-|4,39,23,0,1666418699,"~/control-errors/playbook.yml"
--'  14  0  ~/control-errors/playbook.yml
-|4,39,14,0,1666418699,"~/control-errors/playbook.yml"
--'  14  0  ~/control-errors/playbook.yml
-|4,39,14,0,1666418699,"~/control-errors/playbook.yml"
--'  24  0  ~/control-errors/playbook.yml
-|4,39,24,0,1666418665,"~/control-errors/playbook.yml"
--'  22  0  ~/control-errors/playbook.yml
-|4,39,22,0,1666418665,"~/control-errors/playbook.yml"
--'  13  0  ~/control-errors/playbook.yml
-|4,39,13,0,1666418665,"~/control-errors/playbook.yml"
--'  13  0  ~/control-errors/playbook.yml
-|4,39,13,0,1666418665,"~/control-errors/playbook.yml"
--'  30  0  ~/control-errors/playbook.yml
-|4,39,30,0,1666418642,"~/control-errors/playbook.yml"
--'  21  0  ~/control-errors/playbook.yml
-|4,39,21,0,1666418642,"~/control-errors/playbook.yml"
--'  28  0  ~/control-errors/playbook.yml
-|4,39,28,0,1666418642,"~/control-errors/playbook.yml"
--'  27  0  ~/control-errors/playbook.yml
-|4,39,27,0,1666418642,"~/control-errors/playbook.yml"
--'  19  0  ~/control-errors/playbook.yml
-|4,39,19,0,1666418642,"~/control-errors/playbook.yml"
--'  18  0  ~/control-errors/playbook.yml
-|4,39,18,0,1666418642,"~/control-errors/playbook.yml"
--'  30  0  ~/control-errors/playbook.yml
-|4,39,30,0,1666418642,"~/control-errors/playbook.yml"
--'  29  0  ~/control-errors/playbook.yml
-|4,39,29,0,1666418642,"~/control-errors/playbook.yml"
--'  21  0  ~/control-errors/playbook.yml
-|4,39,21,0,1666418642,"~/control-errors/playbook.yml"
--'  20  0  ~/control-errors/playbook.yml
-|4,39,20,0,1666418642,"~/control-errors/playbook.yml"
--'  28  0  ~/control-errors/playbook.yml
-|4,39,28,0,1666418642,"~/control-errors/playbook.yml"
--'  27  0  ~/control-errors/playbook.yml
-|4,39,27,0,1666418642,"~/control-errors/playbook.yml"
--'  19  0  ~/control-errors/playbook.yml
-|4,39,19,0,1666418642,"~/control-errors/playbook.yml"
--'  18  0  ~/control-errors/playbook.yml
-|4,39,18,0,1666418642,"~/control-errors/playbook.yml"
--'  19  0  ~/control-errors/playbook.yml
-|4,39,19,0,1666418642,"~/control-errors/playbook.yml"
--'  18  0  ~/control-errors/playbook.yml
-|4,39,18,0,1666418642,"~/control-errors/playbook.yml"
--'  26  0  ~/control-errors/playbook.yml
-|4,39,26,0,1666418619,"~/control-errors/playbook.yml"
--'  17  0  ~/control-errors/playbook.yml
-|4,39,17,0,1666418619,"~/control-errors/playbook.yml"
--'  28  0  ~/control-errors/playbook.yml
-|4,39,28,0,1666418619,"~/control-errors/playbook.yml"
--'  27  0  ~/control-errors/playbook.yml
-|4,39,27,0,1666418619,"~/control-errors/playbook.yml"
--'  19  0  ~/control-errors/playbook.yml
-|4,39,19,0,1666418619,"~/control-errors/playbook.yml"
--'  18  0  ~/control-errors/playbook.yml
-|4,39,18,0,1666418619,"~/control-errors/playbook.yml"
--'  26  0  ~/control-errors/playbook.yml
-|4,39,26,0,1666418619,"~/control-errors/playbook.yml"
--'  25  0  ~/control-errors/playbook.yml
-|4,39,25,0,1666418619,"~/control-errors/playbook.yml"
--'  17  0  ~/control-errors/playbook.yml
-|4,39,17,0,1666418619,"~/control-errors/playbook.yml"
--'  16  0  ~/control-errors/playbook.yml
-|4,39,16,0,1666418619,"~/control-errors/playbook.yml"
--'  17  0  ~/control-errors/playbook.yml
-|4,39,17,0,1666418619,"~/control-errors/playbook.yml"
--'  16  0  ~/control-errors/playbook.yml
-|4,39,16,0,1666418619,"~/control-errors/playbook.yml"
--'  1  0  ~/control-errors/playbook.yml
-|4,39,1,0,1666418319,"~/control-errors/playbook.yml"
--'  1  0  ~/control-errors/playbook.yml
-|4,39,1,0,1666418319,"~/control-errors/playbook.yml"
--'  1  0  ~/control-errors/playbook.yml
-|4,39,1,0,1666418319,"~/control-errors/playbook.yml"
--'  1  0  ~/control-errors/playbook.yml
-|4,39,1,0,1666418319,"~/control-errors/playbook.yml"
--'  1  0  ~/control-errors/playbook.yml
-|4,39,1,0,1666418319,"~/control-errors/playbook.yml"
--'  1  0  ~/control-errors/playbook.yml
-|4,39,1,0,1666418319,"~/control-errors/playbook.yml"
--'  1  0  ~/control-errors/playbook.yml
-|4,39,1,0,1666418319,"~/control-errors/playbook.yml"
+-'  15  12  ~/.gitignore
+|4,39,15,12,1666427027,"~/.gitignore"
+-'  12  7  ~/.gitignore
+|4,39,12,7,1666427020,"~/.gitignore"
+-'  48  11  ~/control-review/playbook.yml
+|4,39,48,11,1666423488,"~/control-review/playbook.yml"
+-'  48  11  ~/control-review/playbook.yml
+|4,39,48,11,1666423488,"~/control-review/playbook.yml"
+-'  46  6  ~/control-review/playbook.yml
+|4,39,46,6,1666423472,"~/control-review/playbook.yml"
+-'  46  6  ~/control-review/playbook.yml
+|4,39,46,6,1666423472,"~/control-review/playbook.yml"
+-'  46  6  ~/control-review/playbook.yml
+|4,39,46,6,1666423464,"~/control-review/playbook.yml"
+-'  46  6  ~/control-review/playbook.yml
+|4,39,46,6,1666423464,"~/control-review/playbook.yml"
+-'  51  4  ~/control-review/playbook.yml
+|4,39,51,4,1666423453,"~/control-review/playbook.yml"
+-'  51  4  ~/control-review/playbook.yml
+|4,39,51,4,1666423453,"~/control-review/playbook.yml"
+-'  51  4  ~/control-review/playbook.yml
+|4,39,51,4,1666423453,"~/control-review/playbook.yml"
+-'  51  4  ~/control-review/playbook.yml
+|4,39,51,4,1666423453,"~/control-review/playbook.yml"
+-'  51  4  ~/control-review/playbook.yml
+|4,39,51,4,1666423448,"~/control-review/playbook.yml"
+-'  51  4  ~/control-review/playbook.yml
+|4,39,51,4,1666423448,"~/control-review/playbook.yml"
+-'  18  7  ~/control-review/playbook.yml
+|4,39,18,7,1666423418,"~/control-review/playbook.yml"
+-'  18  7  ~/control-review/playbook.yml
+|4,39,18,7,1666423418,"~/control-review/playbook.yml"
+-'  18  7  ~/control-review/playbook.yml
+|4,39,18,7,1666423418,"~/control-review/playbook.yml"
+-'  18  7  ~/control-review/playbook.yml
+|4,39,18,7,1666423418,"~/control-review/playbook.yml"
+-'  18  7  ~/control-review/playbook.yml
+|4,39,18,7,1666423418,"~/control-review/playbook.yml"
+-'  18  7  ~/control-review/playbook.yml
+|4,39,18,7,1666423418,"~/control-review/playbook.yml"
+-'  18  7  ~/control-review/playbook.yml
+|4,39,18,7,1666423411,"~/control-review/playbook.yml"
+-'  18  7  ~/control-review/playbook.yml
+|4,39,18,7,1666423411,"~/control-review/playbook.yml"
+-'  55  16  ~/control-review/playbook.yml
+|4,39,55,16,1666423344,"~/control-review/playbook.yml"
+-'  55  16  ~/control-review/playbook.yml
+|4,39,55,16,1666423344,"~/control-review/playbook.yml"
+-'  55  16  ~/control-review/playbook.yml
+|4,39,55,16,1666423344,"~/control-review/playbook.yml"
+-'  55  16  ~/control-review/playbook.yml
+|4,39,55,16,1666423344,"~/control-review/playbook.yml"
+-'  55  16  ~/control-review/playbook.yml
+|4,39,55,16,1666423344,"~/control-review/playbook.yml"
+-'  55  16  ~/control-review/playbook.yml
+|4,39,55,16,1666423344,"~/control-review/playbook.yml"
+-'  55  16  ~/control-review/playbook.yml
+|4,39,55,16,1666423344,"~/control-review/playbook.yml"
+-'  55  16  ~/control-review/playbook.yml
+|4,39,55,16,1666423344,"~/control-review/playbook.yml"
+-'  55  16  ~/control-review/playbook.yml
+|4,39,55,16,1666423330,"~/control-review/playbook.yml"
+-'  55  16  ~/control-review/playbook.yml
+|4,39,55,16,1666423330,"~/control-review/playbook.yml"
+-'  1  0  ~/control-review/playbook.yml
+|4,39,1,0,1666420118,"~/control-review/playbook.yml"
+-'  1  0  ~/control-review/playbook.yml
+|4,39,1,0,1666420118,"~/control-review/playbook.yml"
+-'  1  0  ~/control-review/playbook.yml
+|4,39,1,0,1666420118,"~/control-review/playbook.yml"
+-'  1  0  ~/control-review/playbook.yml
+|4,39,1,0,1666420118,"~/control-review/playbook.yml"
+-'  1  0  ~/control-review/playbook.yml
+|4,39,1,0,1666420118,"~/control-review/playbook.yml"
+-'  1  0  ~/control-review/playbook.yml
+|4,39,1,0,1666420118,"~/control-review/playbook.yml"
+-'  1  0  ~/control-review/playbook.yml
+|4,39,1,0,1666420118,"~/control-review/playbook.yml"
+-'  1  0  ~/control-review/playbook.yml
+|4,39,1,0,1666420118,"~/control-review/playbook.yml"
+-'  1  0  ~/control-review/playbook.yml
+|4,39,1,0,1666420118,"~/control-review/playbook.yml"
+-'  1  0  ~/control-review/playbook.yml
+|4,39,1,0,1666420118,"~/control-review/playbook.yml"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
+-'  14  42  ~/README.md
+|4,39,14,42,1666419843,"~/README.md"
 -'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
+|4,39,13,33,1666419790,"~/README.md"
 -'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
+|4,39,13,33,1666419790,"~/README.md"
 -'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
+|4,39,13,33,1666419790,"~/README.md"
 -'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
+|4,39,13,33,1666419790,"~/README.md"
 -'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
+|4,39,13,33,1666419790,"~/README.md"
 -'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
+|4,39,13,33,1666419790,"~/README.md"
 -'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
+|4,39,13,33,1666419790,"~/README.md"
 -'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
+|4,39,13,33,1666419790,"~/README.md"
 -'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
+|4,39,13,33,1666419790,"~/README.md"
 -'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
+|4,39,13,33,1666419790,"~/README.md"
 -'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
+|4,39,13,33,1666419790,"~/README.md"
 -'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
+|4,39,13,33,1666419790,"~/README.md"
 -'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
+|4,39,13,33,1666419790,"~/README.md"
 -'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
+|4,39,13,33,1666419790,"~/README.md"
 -'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
+|4,39,13,33,1666419790,"~/README.md"
 -'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
+|4,39,13,33,1666419790,"~/README.md"
 -'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
+|4,39,13,33,1666419790,"~/README.md"
 -'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
+|4,39,13,33,1666419790,"~/README.md"
 -'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
+|4,39,13,33,1666419790,"~/README.md"
 -'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
+|4,39,13,33,1666419790,"~/README.md"
 -'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
+|4,39,13,33,1666419790,"~/README.md"
 -'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
+|4,39,13,33,1666419790,"~/README.md"
 -'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
+|4,39,13,33,1666419790,"~/README.md"
 -'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
--'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
--'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
--'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
--'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
--'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
--'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
--'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
--'  13  33  ~/README.md
-|4,39,13,33,1666418270,"~/README.md"
+|4,39,13,33,1666419790,"~/README.md"
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	*	1666427027	0
+	"	15	12
+	^	15	13
+	.	15	12
+	+	1	15
+	+	11	12
+	+	13	9
+	+	11	5
+	+	12	7
+	+	15	12
+
+> ~/control-review/playbook.yml
+	*	1666423487	0
+	"	48	11
+	^	48	12
+	.	48	11
+	+	10	43
+	+	14	0
+	+	11	39
+	+	12	6
+	+	11	0
+	+	10	0
+	+	11	28
+	+	12	29
+	+	9	47
+	+	16	48
+	+	19	21
+	+	8	0
+	+	6	24
+	+	7	24
+	+	8	0
+	+	18	30
+	+	19	21
+	+	20	0
+	+	29	0
+	+	28	0
+	+	27	0
+	+	31	9
+	+	37	0
+	+	34	36
+	+	36	21
+	+	41	15
+	+	42	37
+	+	40	30
+	+	41	28
+	+	50	0
+	+	44	4
+	+	45	11
+	+	48	64
+	+	48	109
+	+	48	102
+	+	49	0
+	+	57	0
+	+	60	31
+	+	61	0
+	+	62	31
+	+	63	16
+	+	31	4
+	+	45	4
+	+	32	0
+	+	46	0
+	+	51	0
+	+	45	4
+	+	46	0
+	+	45	5
+	+	46	7
+	+	47	9
+	+	48	11
+
+> ~/README.md
+	*	1666419842	0
+	"	14	42
+	^	14	43
+	.	2	0
+	+	1	30
+	+	1	23
+	+	1	0
+	+	3	35
+	+	5	0
+	+	5	30
+	+	2	2
+	+	4	3
+	+	5	63
+	+	5	290
+	+	5	17
+	+	3	17
+	+	1	3
+	+	3	3
+	+	5	47
+	+	7	25
+	+	5	47
+	+	6	27
+	+	7	25
+	+	8	1
+	+	7	1
+	+	6	1
+	+	8	17
+	+	9	2
+	+	10	44
+	+	11	47
+	+	12	33
+	+	13	34
+	+	14	0
+	+	14	42
+	+	9	0
+	+	4	0
+	+	2	0
 
 > ~/control-errors/playbook.yml
 	*	1666419304	0
@@ -353,40 +467,6 @@ $:
 	+	15	33
 	+	12	0
 	+	24	38
-
-> ~/README.md
-	*	1666418269	0
-	"	13	33
-	^	13	34
-	.	13	33
-	+	1	30
-	+	1	23
-	+	1	0
-	+	3	35
-	+	5	0
-	+	5	30
-	+	2	2
-	+	4	3
-	+	5	63
-	+	5	290
-	+	5	17
-	+	3	17
-	+	1	3
-	+	3	3
-	+	5	47
-	+	7	25
-	+	5	47
-	+	6	27
-	+	7	25
-	+	8	1
-	+	7	1
-	+	6	1
-	+	8	17
-	+	9	2
-	+	10	44
-	+	11	47
-	+	12	33
-	+	13	33
 
 > ~/control-handlers/configure_db.yml
 	*	1666417910	0
@@ -617,17 +697,6 @@ $:
 	+	2	12
 	+	50	26
 
-> ~/.gitignore
-	*	1666371364	0
-	"	12	7
-	^	12	8
-	.	12	7
-	+	1	15
-	+	11	12
-	+	13	9
-	+	11	5
-	+	12	7
-
 > ~/playbook-review/internet.yml
 	*	1666371156	0
 	"	51	23
@@ -756,12 +825,3 @@ $:
 	+	20	27
 	+	22	13
 	+	25	0
-
-> ~/ChapterInfo
-	*	1666362268	0
-	"	2	23
-	^	2	24
-	.	2	23
-	+	2	0
-	+	2	30
-	+	2	23
