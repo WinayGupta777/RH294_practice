@@ -18,7 +18,7 @@ $:
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1666411317,,"wq"
+|2,0,1666411783,,"wq"
 :w
 |2,0,1666409993,,"w"
 :50
@@ -93,36 +93,48 @@ $:
 |3,0,9,1,1,0,1666373880,"          - \"{{   }}\""
 
 # File marks:
-'0  48  68  ~/data-review/playbook.yml
-|4,48,48,68,1666411317,"~/data-review/playbook.yml"
-'1  48  60  ~/data-review/playbook.yml
-|4,49,48,60,1666411243,"~/data-review/playbook.yml"
-'2  90  2  ~/data-review/playbook.yml
-|4,50,90,2,1666411147,"~/data-review/playbook.yml"
+'0  8  15  ~/README.md
+|4,48,8,15,1666411783,"~/README.md"
+'1  48  68  ~/data-review/playbook.yml
+|4,49,48,68,1666411317,"~/data-review/playbook.yml"
+'2  48  60  ~/data-review/playbook.yml
+|4,50,48,60,1666411243,"~/data-review/playbook.yml"
 '3  90  2  ~/data-review/playbook.yml
 |4,51,90,2,1666411147,"~/data-review/playbook.yml"
 '4  90  2  ~/data-review/playbook.yml
 |4,52,90,2,1666411147,"~/data-review/playbook.yml"
 '5  90  2  ~/data-review/playbook.yml
 |4,53,90,2,1666411147,"~/data-review/playbook.yml"
-'6  17  24  ~/data-review/playbook.yml
-|4,54,17,24,1666411070,"~/data-review/playbook.yml"
-'7  16  24  ~/data-review/playbook.yml
-|4,55,16,24,1666411070,"~/data-review/playbook.yml"
-'8  17  24  ~/data-review/playbook.yml
-|4,56,17,24,1666411070,"~/data-review/playbook.yml"
-'9  16  24  ~/data-review/playbook.yml
-|4,57,16,24,1666411070,"~/data-review/playbook.yml"
+'6  90  2  ~/data-review/playbook.yml
+|4,54,90,2,1666411147,"~/data-review/playbook.yml"
+'7  17  24  ~/data-review/playbook.yml
+|4,55,17,24,1666411070,"~/data-review/playbook.yml"
+'8  16  24  ~/data-review/playbook.yml
+|4,56,16,24,1666411070,"~/data-review/playbook.yml"
+'9  17  24  ~/data-review/playbook.yml
+|4,57,17,24,1666411070,"~/data-review/playbook.yml"
 
 # Jumplist (newest first):
+-'  8  15  ~/README.md
+|4,39,8,15,1666411783,"~/README.md"
 -'  48  68  ~/data-review/playbook.yml
 |4,39,48,68,1666411317,"~/data-review/playbook.yml"
+-'  48  68  ~/data-review/playbook.yml
+|4,39,48,68,1666411317,"~/data-review/playbook.yml"
+-'  48  60  ~/data-review/playbook.yml
+|4,39,48,60,1666411243,"~/data-review/playbook.yml"
 -'  48  60  ~/data-review/playbook.yml
 |4,39,48,60,1666411243,"~/data-review/playbook.yml"
 -'  90  2  ~/data-review/playbook.yml
 |4,39,90,2,1666411202,"~/data-review/playbook.yml"
 -'  90  2  ~/data-review/playbook.yml
 |4,39,90,2,1666411202,"~/data-review/playbook.yml"
+-'  90  2  ~/data-review/playbook.yml
+|4,39,90,2,1666411202,"~/data-review/playbook.yml"
+-'  90  2  ~/data-review/playbook.yml
+|4,39,90,2,1666411202,"~/data-review/playbook.yml"
+-'  90  2  ~/data-review/playbook.yml
+|4,39,90,2,1666411147,"~/data-review/playbook.yml"
 -'  90  2  ~/data-review/playbook.yml
 |4,39,90,2,1666411147,"~/data-review/playbook.yml"
 -'  17  24  ~/data-review/playbook.yml
@@ -131,6 +143,18 @@ $:
 |4,39,17,24,1666411076,"~/data-review/playbook.yml"
 -'  17  24  ~/data-review/playbook.yml
 |4,39,17,24,1666411076,"~/data-review/playbook.yml"
+-'  17  24  ~/data-review/playbook.yml
+|4,39,17,24,1666411076,"~/data-review/playbook.yml"
+-'  17  24  ~/data-review/playbook.yml
+|4,39,17,24,1666411076,"~/data-review/playbook.yml"
+-'  17  24  ~/data-review/playbook.yml
+|4,39,17,24,1666411076,"~/data-review/playbook.yml"
+-'  16  24  ~/data-review/playbook.yml
+|4,39,16,24,1666411070,"~/data-review/playbook.yml"
+-'  16  24  ~/data-review/playbook.yml
+|4,39,16,24,1666411070,"~/data-review/playbook.yml"
+-'  16  24  ~/data-review/playbook.yml
+|4,39,16,24,1666411070,"~/data-review/playbook.yml"
 -'  16  24  ~/data-review/playbook.yml
 |4,39,16,24,1666411070,"~/data-review/playbook.yml"
 -'  16  24  ~/data-review/playbook.yml
@@ -149,6 +173,20 @@ $:
 |4,39,89,23,1666411048,"~/data-review/playbook.yml"
 -'  88  23  ~/data-review/playbook.yml
 |4,39,88,23,1666411048,"~/data-review/playbook.yml"
+-'  89  23  ~/data-review/playbook.yml
+|4,39,89,23,1666411048,"~/data-review/playbook.yml"
+-'  88  23  ~/data-review/playbook.yml
+|4,39,88,23,1666411048,"~/data-review/playbook.yml"
+-'  89  23  ~/data-review/playbook.yml
+|4,39,89,23,1666411048,"~/data-review/playbook.yml"
+-'  88  23  ~/data-review/playbook.yml
+|4,39,88,23,1666411048,"~/data-review/playbook.yml"
+-'  89  23  ~/data-review/playbook.yml
+|4,39,89,23,1666411048,"~/data-review/playbook.yml"
+-'  88  23  ~/data-review/playbook.yml
+|4,39,88,23,1666411048,"~/data-review/playbook.yml"
+-'  88  23  ~/data-review/playbook.yml
+|4,39,88,23,1666410991,"~/data-review/playbook.yml"
 -'  88  23  ~/data-review/playbook.yml
 |4,39,88,23,1666410991,"~/data-review/playbook.yml"
 -'  80  23  ~/data-review/playbook.yml
@@ -165,6 +203,22 @@ $:
 |4,39,79,23,1666410375,"~/data-review/playbook.yml"
 -'  79  23  ~/data-review/playbook.yml
 |4,39,79,23,1666410375,"~/data-review/playbook.yml"
+-'  80  23  ~/data-review/playbook.yml
+|4,39,80,23,1666410375,"~/data-review/playbook.yml"
+-'  79  23  ~/data-review/playbook.yml
+|4,39,79,23,1666410375,"~/data-review/playbook.yml"
+-'  80  23  ~/data-review/playbook.yml
+|4,39,80,23,1666410375,"~/data-review/playbook.yml"
+-'  79  23  ~/data-review/playbook.yml
+|4,39,79,23,1666410375,"~/data-review/playbook.yml"
+-'  80  23  ~/data-review/playbook.yml
+|4,39,80,23,1666410375,"~/data-review/playbook.yml"
+-'  79  23  ~/data-review/playbook.yml
+|4,39,79,23,1666410375,"~/data-review/playbook.yml"
+-'  79  23  ~/data-review/playbook.yml
+|4,39,79,23,1666410375,"~/data-review/playbook.yml"
+-'  79  23  ~/data-review/playbook.yml
+|4,39,79,23,1666410176,"~/data-review/playbook.yml"
 -'  79  23  ~/data-review/playbook.yml
 |4,39,79,23,1666410176,"~/data-review/playbook.yml"
 -'  1  18  ~/data-review/playbook.yml
@@ -179,6 +233,18 @@ $:
 |4,39,1,18,1666408878,"~/data-review/playbook.yml"
 -'  1  18  ~/data-review/playbook.yml
 |4,39,1,18,1666408878,"~/data-review/playbook.yml"
+-'  1  18  ~/data-review/playbook.yml
+|4,39,1,18,1666408878,"~/data-review/playbook.yml"
+-'  1  18  ~/data-review/playbook.yml
+|4,39,1,18,1666408878,"~/data-review/playbook.yml"
+-'  1  18  ~/data-review/playbook.yml
+|4,39,1,18,1666408878,"~/data-review/playbook.yml"
+-'  1  18  ~/data-review/playbook.yml
+|4,39,1,18,1666408878,"~/data-review/playbook.yml"
+-'  1  18  ~/data-review/playbook.yml
+|4,39,1,18,1666408878,"~/data-review/playbook.yml"
+-'  1  18  ~/data-review/playbook.yml
+|4,39,1,18,1666408878,"~/data-review/playbook.yml"
 -'  4  13  ~/data-review/vars.yml
 |4,39,4,13,1666408855,"~/data-review/vars.yml"
 -'  4  13  ~/data-review/vars.yml
@@ -249,74 +315,37 @@ $:
 |4,39,4,13,1666408855,"~/data-review/vars.yml"
 -'  4  13  ~/data-review/vars.yml
 |4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  4  13  ~/data-review/vars.yml
-|4,39,4,13,1666408855,"~/data-review/vars.yml"
--'  12  21  ~/data-review/vars.yml
-|4,39,12,21,1666408818,"~/data-review/vars.yml"
--'  12  21  ~/data-review/vars.yml
-|4,39,12,21,1666408818,"~/data-review/vars.yml"
--'  12  21  ~/data-review/vars.yml
-|4,39,12,21,1666408818,"~/data-review/vars.yml"
--'  12  21  ~/data-review/vars.yml
-|4,39,12,21,1666408818,"~/data-review/vars.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/README.md
+	*	1666411782	0
+	"	8	15
+	^	8	16
+	.	8	17
+	+	1	30
+	+	1	23
+	+	1	0
+	+	3	35
+	+	5	0
+	+	5	30
+	+	2	2
+	+	4	3
+	+	5	63
+	+	5	290
+	+	5	17
+	+	3	17
+	+	1	3
+	+	3	3
+	+	5	47
+	+	7	25
+	+	5	47
+	+	6	27
+	+	7	25
+	+	8	1
+	+	7	1
+	+	6	1
+	+	8	17
 
 > ~/data-review/playbook.yml
 	*	1666411315	0
@@ -401,32 +430,6 @@ $:
 	+	4	0
 	+	3	0
 	+	1	22
-
-> ~/README.md
-	*	1666408628	0
-	"	8	3
-	^	8	4
-	.	8	4
-	+	1	30
-	+	1	23
-	+	1	0
-	+	3	35
-	+	5	0
-	+	5	30
-	+	2	2
-	+	4	3
-	+	5	63
-	+	5	290
-	+	5	17
-	+	3	17
-	+	1	3
-	+	3	3
-	+	5	47
-	+	7	25
-	+	5	47
-	+	6	27
-	+	7	25
-	+	8	4
 
 > ~/data-facts/playbook.yml
 	*	1666376471	0
