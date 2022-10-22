@@ -17,10 +17,14 @@
 $: 
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1666435349,,"wq"
 :q
-|2,0,1666435051,,"q"
+|2,0,1666437371,,"q"
+:wq
+|2,0,1666436918,,"wq"
+:qw
+|2,0,1666436832,,"qw"
+:9
+|2,0,1666436229,,"9"
 :w
 |2,0,1666427181,,"w"
 :40
@@ -64,309 +68,269 @@ $:
 
 # Registers:
 ""0	LINE	0
-	----
-|3,1,0,1,1,0,1666435112,"----"
-"1	LINE	0
-	    - name: Install {{ db_package }}
-|3,0,1,1,1,0,1666418763,"    - name: Install {{ db_package }}"
-"2	LINE	0
-	      ignore_errors: yes
-|3,0,2,1,1,0,1666418702,"      ignore_errors: yes"
-"3	LINE	0
-	        mode: '0400'
-|3,0,3,1,1,0,1666409741,"        mode: '0400'"
-"4	LINE	0
-	        group: apache
-|3,0,4,1,1,0,1666409740,"        group: apache"
-"5	LINE	0
-	        owner: apache
-|3,0,5,1,1,0,1666409739,"        owner: apache"
-"6	LINE	0
-	        src: "{{ _src }}"
-|3,0,6,1,1,0,1666409424,"        src: \"{{ _src }}\""
-"7	LINE	0
-	        group: root
-|3,0,7,1,1,0,1666409199,"        group: root"
-"8	LINE	0
 	        owner: root
-|3,0,8,1,1,0,1666409198,"        owner: root"
+	        group: root
+	        mode: '0644'
+|3,1,0,1,3,0,1666436232,"        owner: root","        group: root","        mode: '0644'"
+"1	LINE	0
+	> ###	:dvd: LAB - Implementing Task Control
+|3,0,1,1,1,0,1666436050,"> ###	:dvd: LAB - Implementing Task Control"
+"2	LINE	0
+	    - name: Install {{ db_package }}
+|3,0,2,1,1,0,1666418763,"    - name: Install {{ db_package }}"
+"3	LINE	0
+	      ignore_errors: yes
+|3,0,3,1,1,0,1666418702,"      ignore_errors: yes"
+"4	LINE	0
+	        mode: '0400'
+|3,0,4,1,1,0,1666409741,"        mode: '0400'"
+"5	LINE	0
+	        group: apache
+|3,0,5,1,1,0,1666409740,"        group: apache"
+"6	LINE	0
+	        owner: apache
+|3,0,6,1,1,0,1666409739,"        owner: apache"
+"7	LINE	0
+	        src: "{{ _src }}"
+|3,0,7,1,1,0,1666409424,"        src: \"{{ _src }}\""
+"8	LINE	0
+	        group: root
+|3,0,8,1,1,0,1666409199,"        group: root"
 "9	LINE	0
-	ansible_facts['ansible_local']['custom']
-|3,0,9,1,1,0,1666376541,"ansible_facts['ansible_local']['custom']"
+	        owner: root
+|3,0,9,1,1,0,1666409198,"        owner: root"
 
 # File marks:
-'0  3  20  ~/file-template/motd.yml
-|4,48,3,20,1666435349,"~/file-template/motd.yml"
-'1  2  12  ~/file-template/motd.yml
-|4,49,2,12,1666435321,"~/file-template/motd.yml"
-'2  2  12  ~/file-template/motd.yml
-|4,50,2,12,1666435321,"~/file-template/motd.yml"
-'3  13  19  ~/file-template/motd.yml
-|4,51,13,19,1666435301,"~/file-template/motd.yml"
-'4  13  19  ~/file-template/motd.yml
-|4,52,13,19,1666435301,"~/file-template/motd.yml"
-'5  12  19  ~/file-template/motd.yml
-|4,53,12,19,1666435301,"~/file-template/motd.yml"
-'6  12  19  ~/file-template/motd.yml
-|4,54,12,19,1666435301,"~/file-template/motd.yml"
-'7  5  4  ~/file-template/motd.j2
-|4,55,5,4,1666435125,"~/file-template/motd.j2"
-'8  1  0  ~/file-template/files/motd.yml
-|4,56,1,0,1666435051,"~/file-template/files/motd.yml"
-'9  1  0  ~/file-template/motd.ym
-|4,57,1,0,1666435026,"~/file-template/motd.ym"
+'0  19  49  ~/README.md
+|4,48,19,49,1666437371,"~/README.md"
+'1  32  10  ~/file-review/motd.yml
+|4,49,32,10,1666436918,"~/file-review/motd.yml"
+'2  32  23  ~/file-review/motd.yml
+|4,50,32,23,1666436834,"~/file-review/motd.yml"
+'3  25  23  ~/file-review/motd.yml
+|4,51,25,23,1666436763,"~/file-review/motd.yml"
+'4  25  23  ~/file-review/motd.yml
+|4,52,25,23,1666436763,"~/file-review/motd.yml"
+'5  25  23  ~/file-review/motd.yml
+|4,53,25,23,1666436763,"~/file-review/motd.yml"
+'6  25  23  ~/file-review/motd.yml
+|4,54,25,23,1666436763,"~/file-review/motd.yml"
+'7  35  17  ~/file-review/motd.yml
+|4,55,35,17,1666436648,"~/file-review/motd.yml"
+'8  35  17  ~/file-review/motd.yml
+|4,56,35,17,1666436648,"~/file-review/motd.yml"
+'9  35  17  ~/file-review/motd.yml
+|4,57,35,17,1666436648,"~/file-review/motd.yml"
 
 # Jumplist (newest first):
--'  3  20  ~/file-template/motd.yml
-|4,39,3,20,1666435349,"~/file-template/motd.yml"
--'  2  12  ~/file-template/motd.yml
-|4,39,2,12,1666435338,"~/file-template/motd.yml"
--'  2  12  ~/file-template/motd.yml
-|4,39,2,12,1666435321,"~/file-template/motd.yml"
--'  13  19  ~/file-template/motd.yml
-|4,39,13,19,1666435315,"~/file-template/motd.yml"
--'  12  19  ~/file-template/motd.yml
-|4,39,12,19,1666435315,"~/file-template/motd.yml"
--'  12  19  ~/file-template/motd.yml
-|4,39,12,19,1666435301,"~/file-template/motd.yml"
--'  1  0  ~/file-template/motd.yml
-|4,39,1,0,1666435131,"~/file-template/motd.yml"
--'  1  0  ~/file-template/motd.yml
-|4,39,1,0,1666435131,"~/file-template/motd.yml"
--'  1  0  ~/file-template/motd.yml
-|4,39,1,0,1666435131,"~/file-template/motd.yml"
--'  5  4  ~/file-template/motd.j2
-|4,39,5,4,1666435125,"~/file-template/motd.j2"
--'  5  4  ~/file-template/motd.j2
-|4,39,5,4,1666435125,"~/file-template/motd.j2"
--'  5  4  ~/file-template/motd.j2
-|4,39,5,4,1666435125,"~/file-template/motd.j2"
--'  5  4  ~/file-template/motd.j2
-|4,39,5,4,1666435125,"~/file-template/motd.j2"
--'  5  4  ~/file-template/motd.j2
-|4,39,5,4,1666435125,"~/file-template/motd.j2"
--'  5  4  ~/file-template/motd.j2
-|4,39,5,4,1666435125,"~/file-template/motd.j2"
--'  5  4  ~/file-template/motd.j2
-|4,39,5,4,1666435125,"~/file-template/motd.j2"
--'  5  4  ~/file-template/motd.j2
-|4,39,5,4,1666435125,"~/file-template/motd.j2"
--'  1  0  ~/file-template/motd.j2
-|4,39,1,0,1666435060,"~/file-template/motd.j2"
--'  1  0  ~/file-template/motd.j2
-|4,39,1,0,1666435060,"~/file-template/motd.j2"
--'  1  0  ~/file-template/motd.j2
-|4,39,1,0,1666435060,"~/file-template/motd.j2"
--'  1  0  ~/file-template/motd.j2
-|4,39,1,0,1666435060,"~/file-template/motd.j2"
--'  1  0  ~/file-template/motd.j2
-|4,39,1,0,1666435060,"~/file-template/motd.j2"
--'  1  0  ~/file-template/motd.j2
-|4,39,1,0,1666435060,"~/file-template/motd.j2"
--'  1  0  ~/file-template/motd.j2
-|4,39,1,0,1666435060,"~/file-template/motd.j2"
--'  1  0  ~/file-template/motd.j2
-|4,39,1,0,1666435060,"~/file-template/motd.j2"
--'  1  0  ~/file-template/files/motd.yml
-|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
--'  1  0  ~/file-template/files/motd.yml
-|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
--'  1  0  ~/file-template/files/motd.yml
-|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
--'  1  0  ~/file-template/files/motd.yml
-|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
--'  1  0  ~/file-template/files/motd.yml
-|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
--'  1  0  ~/file-template/files/motd.yml
-|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
--'  1  0  ~/file-template/files/motd.yml
-|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
--'  1  0  ~/file-template/files/motd.yml
-|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
--'  1  0  ~/file-template/files/motd.yml
-|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
--'  1  0  ~/file-template/files/motd.yml
-|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
--'  1  0  ~/file-template/files/motd.yml
-|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
--'  1  0  ~/file-template/files/motd.yml
-|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
--'  1  0  ~/file-template/files/motd.yml
-|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
--'  1  0  ~/file-template/files/motd.yml
-|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
--'  1  0  ~/file-template/files/motd.yml
-|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
--'  1  0  ~/file-template/files/motd.yml
-|4,39,1,0,1666435051,"~/file-template/files/motd.yml"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/motd.ym
-|4,39,1,0,1666435026,"~/file-template/motd.ym"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
--'  1  0  ~/file-template/files/motd.j2
-|4,39,1,0,1666434965,"~/file-template/files/motd.j2"
+-'  19  49  ~/README.md
+|4,39,19,49,1666437371,"~/README.md"
+-'  32  10  ~/file-review/motd.yml
+|4,39,32,10,1666436918,"~/file-review/motd.yml"
+-'  32  10  ~/file-review/motd.yml
+|4,39,32,10,1666436918,"~/file-review/motd.yml"
+-'  32  23  ~/file-review/motd.yml
+|4,39,32,23,1666436834,"~/file-review/motd.yml"
+-'  32  23  ~/file-review/motd.yml
+|4,39,32,23,1666436834,"~/file-review/motd.yml"
+-'  25  23  ~/file-review/motd.yml
+|4,39,25,23,1666436790,"~/file-review/motd.yml"
+-'  25  23  ~/file-review/motd.yml
+|4,39,25,23,1666436790,"~/file-review/motd.yml"
+-'  25  23  ~/file-review/motd.yml
+|4,39,25,23,1666436790,"~/file-review/motd.yml"
+-'  25  23  ~/file-review/motd.yml
+|4,39,25,23,1666436790,"~/file-review/motd.yml"
+-'  25  23  ~/file-review/motd.yml
+|4,39,25,23,1666436763,"~/file-review/motd.yml"
+-'  25  23  ~/file-review/motd.yml
+|4,39,25,23,1666436763,"~/file-review/motd.yml"
+-'  35  17  ~/file-review/motd.yml
+|4,39,35,17,1666436737,"~/file-review/motd.yml"
+-'  35  17  ~/file-review/motd.yml
+|4,39,35,17,1666436737,"~/file-review/motd.yml"
+-'  35  17  ~/file-review/motd.yml
+|4,39,35,17,1666436737,"~/file-review/motd.yml"
+-'  35  17  ~/file-review/motd.yml
+|4,39,35,17,1666436737,"~/file-review/motd.yml"
+-'  35  17  ~/file-review/motd.yml
+|4,39,35,17,1666436737,"~/file-review/motd.yml"
+-'  35  17  ~/file-review/motd.yml
+|4,39,35,17,1666436737,"~/file-review/motd.yml"
+-'  35  17  ~/file-review/motd.yml
+|4,39,35,17,1666436648,"~/file-review/motd.yml"
+-'  35  17  ~/file-review/motd.yml
+|4,39,35,17,1666436648,"~/file-review/motd.yml"
+-'  32  11  ~/file-review/motd.yml
+|4,39,32,11,1666436514,"~/file-review/motd.yml"
+-'  32  11  ~/file-review/motd.yml
+|4,39,32,11,1666436514,"~/file-review/motd.yml"
+-'  32  11  ~/file-review/motd.yml
+|4,39,32,11,1666436514,"~/file-review/motd.yml"
+-'  32  11  ~/file-review/motd.yml
+|4,39,32,11,1666436514,"~/file-review/motd.yml"
+-'  32  11  ~/file-review/motd.yml
+|4,39,32,11,1666436497,"~/file-review/motd.yml"
+-'  32  11  ~/file-review/motd.yml
+|4,39,32,11,1666436497,"~/file-review/motd.yml"
+-'  34  11  ~/file-review/motd.yml
+|4,39,34,11,1666436487,"~/file-review/motd.yml"
+-'  34  11  ~/file-review/motd.yml
+|4,39,34,11,1666436487,"~/file-review/motd.yml"
+-'  34  11  ~/file-review/motd.yml
+|4,39,34,11,1666436487,"~/file-review/motd.yml"
+-'  34  11  ~/file-review/motd.yml
+|4,39,34,11,1666436487,"~/file-review/motd.yml"
+-'  34  11  ~/file-review/motd.yml
+|4,39,34,11,1666436487,"~/file-review/motd.yml"
+-'  34  11  ~/file-review/motd.yml
+|4,39,34,11,1666436487,"~/file-review/motd.yml"
+-'  34  11  ~/file-review/motd.yml
+|4,39,34,11,1666436487,"~/file-review/motd.yml"
+-'  34  11  ~/file-review/motd.yml
+|4,39,34,11,1666436487,"~/file-review/motd.yml"
+-'  34  11  ~/file-review/motd.yml
+|4,39,34,11,1666436487,"~/file-review/motd.yml"
+-'  34  11  ~/file-review/motd.yml
+|4,39,34,11,1666436487,"~/file-review/motd.yml"
+-'  34  11  ~/file-review/motd.yml
+|4,39,34,11,1666436471,"~/file-review/motd.yml"
+-'  34  11  ~/file-review/motd.yml
+|4,39,34,11,1666436471,"~/file-review/motd.yml"
+-'  36  0  ~/file-review/motd.yml
+|4,39,36,0,1666436406,"~/file-review/motd.yml"
+-'  36  0  ~/file-review/motd.yml
+|4,39,36,0,1666436406,"~/file-review/motd.yml"
+-'  36  0  ~/file-review/motd.yml
+|4,39,36,0,1666436406,"~/file-review/motd.yml"
+-'  36  0  ~/file-review/motd.yml
+|4,39,36,0,1666436406,"~/file-review/motd.yml"
+-'  35  0  ~/file-review/motd.yml
+|4,39,35,0,1666436406,"~/file-review/motd.yml"
+-'  35  0  ~/file-review/motd.yml
+|4,39,35,0,1666436406,"~/file-review/motd.yml"
+-'  36  0  ~/file-review/motd.yml
+|4,39,36,0,1666436406,"~/file-review/motd.yml"
+-'  36  0  ~/file-review/motd.yml
+|4,39,36,0,1666436406,"~/file-review/motd.yml"
+-'  36  0  ~/file-review/motd.yml
+|4,39,36,0,1666436406,"~/file-review/motd.yml"
+-'  36  0  ~/file-review/motd.yml
+|4,39,36,0,1666436406,"~/file-review/motd.yml"
+-'  35  0  ~/file-review/motd.yml
+|4,39,35,0,1666436406,"~/file-review/motd.yml"
+-'  35  0  ~/file-review/motd.yml
+|4,39,35,0,1666436406,"~/file-review/motd.yml"
+-'  35  0  ~/file-review/motd.yml
+|4,39,35,0,1666436351,"~/file-review/motd.yml"
+-'  35  0  ~/file-review/motd.yml
+|4,39,35,0,1666436351,"~/file-review/motd.yml"
+-'  1  0  ~/file-review/motd.yml
+|4,39,1,0,1666435975,"~/file-review/motd.yml"
+-'  1  0  ~/file-review/motd.yml
+|4,39,1,0,1666435975,"~/file-review/motd.yml"
+-'  1  0  ~/file-review/motd.yml
+|4,39,1,0,1666435975,"~/file-review/motd.yml"
+-'  1  0  ~/file-review/motd.yml
+|4,39,1,0,1666435975,"~/file-review/motd.yml"
+-'  1  0  ~/file-review/motd.yml
+|4,39,1,0,1666435975,"~/file-review/motd.yml"
+-'  1  0  ~/file-review/motd.yml
+|4,39,1,0,1666435975,"~/file-review/motd.yml"
+-'  1  0  ~/file-review/motd.yml
+|4,39,1,0,1666435975,"~/file-review/motd.yml"
+-'  1  0  ~/file-review/motd.yml
+|4,39,1,0,1666435975,"~/file-review/motd.yml"
+-'  1  0  ~/file-review/motd.yml
+|4,39,1,0,1666435975,"~/file-review/motd.yml"
+-'  1  0  ~/file-review/motd.yml
+|4,39,1,0,1666435975,"~/file-review/motd.yml"
+-'  1  0  ~/file-review/motd.yml
+|4,39,1,0,1666435975,"~/file-review/motd.yml"
+-'  1  0  ~/file-review/motd.yml
+|4,39,1,0,1666435975,"~/file-review/motd.yml"
+-'  1  0  ~/file-review/motd.yml
+|4,39,1,0,1666435975,"~/file-review/motd.yml"
+-'  1  0  ~/file-review/motd.yml
+|4,39,1,0,1666435975,"~/file-review/motd.yml"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
+-'  4  47  ~/file-review/motd.j2
+|4,39,4,47,1666435953,"~/file-review/motd.j2"
 
 # History of marks within files (newest to oldest):
 
-> ~/file-template/motd.yml
-	*	1666435348	0
-	"	3	20
-	^	3	21
-	.	3	20
-	+	4	8
-	+	13	20
-	+	6	0
-	+	5	37
-	+	13	20
-	+	13	0
-	+	14	0
-	+	3	20
-
-> ~/file-template/motd.j2
-	*	1666435124	0
-	"	5	4
-	^	5	5
-	.	6	0
-	+	5	43
-	+	5	0
-	+	4	0
-	+	3	53
-	+	1	3
-	+	6	0
-
-> ~/file-template/files/motd.yml
-	*	1666435046	0
-	"	1	0
-
-> ~/file-template/motd.ym
-	*	1666435026	0
-	"	1	0
-
-> ~/file-template/files/motd.j2
-	*	1666434965	0
-	"	1	0
-
-> ~/file-template/files/motd.
-	*	1666434942	0
-	"	1	0
-
 > ~/README.md
-	*	1666434837	0
-	"	18	56
-	^	18	57
-	.	18	47
+	*	1666437370	0
+	"	19	49
+	^	19	50
+	.	19	50
 	+	1	30
 	+	1	23
 	+	1	0
@@ -411,6 +375,83 @@ $:
 	+	18	47
 	+	18	55
 	+	18	47
+	+	19	50
+
+> ~/file-review/motd.yml
+	*	1666436918	0
+	"	32	10
+	^	32	11
+	.	32	10
+	+	9	18
+	+	10	19
+	+	11	20
+	+	25	18
+	+	26	0
+	+	36	0
+	+	33	8
+	+	32	10
+	+	33	10
+	+	32	11
+	+	35	17
+	+	25	23
+	+	33	11
+	+	32	10
+
+> ~/file-review/motd.j2
+	*	1666435952	0
+	"	4	47
+	^	4	48
+	.	4	48
+	+	1	50
+	+	4	53
+	+	5	0
+	+	1	50
+	+	5	10
+	+	1	10
+	+	2	45
+	+	4	48
+
+> ~/file-template/motd.yml
+	*	1666435348	0
+	"	3	20
+	^	3	21
+	.	3	20
+	+	4	8
+	+	13	20
+	+	6	0
+	+	5	37
+	+	13	20
+	+	13	0
+	+	14	0
+	+	3	20
+
+> ~/file-template/motd.j2
+	*	1666435124	0
+	"	5	4
+	^	5	5
+	.	6	0
+	+	5	43
+	+	5	0
+	+	4	0
+	+	3	53
+	+	1	3
+	+	6	0
+
+> ~/file-template/files/motd.yml
+	*	1666435046	0
+	"	1	0
+
+> ~/file-template/motd.ym
+	*	1666435026	0
+	"	1	0
+
+> ~/file-template/files/motd.j2
+	*	1666434965	0
+	"	1	0
+
+> ~/file-template/files/motd.
+	*	1666434942	0
+	"	1	0
 
 > ~/file-manage/remove_file.yml
 	*	1666429241	0
@@ -628,87 +669,3 @@ $:
 	+	12	6
 	+	11	6
 	+	10	39
-
-> ~/data-review/playbook.yml
-	*	1666411315	0
-	"	48	68
-	^	48	69
-	.	48	68
-	+	1	18
-	+	9	15
-	+	10	0
-	+	11	27
-	+	10	22
-	+	9	22
-	+	14	26
-	+	16	34
-	+	17	36
-	+	20	20
-	+	24	33
-	+	28	18
-	+	27	19
-	+	26	0
-	+	27	20
-	+	26	18
-	+	32	18
-	+	33	0
-	+	32	17
-	+	33	30
-	+	34	0
-	+	36	21
-	+	50	6
-	+	39	0
-	+	40	28
-	+	41	15
-	+	46	28
-	+	47	0
-	+	49	39
-	+	48	99
-	+	50	5
-	+	51	25
-	+	53	34
-	+	59	21
-	+	57	18
-	+	69	0
-	+	64	0
-	+	66	25
-	+	64	29
-	+	51	37
-	+	80	23
-	+	75	23
-	+	76	17
-	+	77	24
-	+	90	0
-	+	80	48
-	+	81	18
-	+	82	23
-	+	81	33
-	+	82	33
-	+	85	31
-	+	83	29
-	+	89	23
-	+	64	25
-	+	51	25
-	+	4	12
-	+	71	0
-	+	73	0
-	+	48	68
-
-> ~/data-review/vars.yml
-	*	1666408852	0
-	"	4	13
-	^	4	14
-	.	1	22
-	+	12	21
-	+	1	0
-	+	12	0
-	+	11	0
-	+	9	30
-	+	9	0
-	+	8	0
-	+	7	0
-	+	6	0
-	+	5	0
-	+	4	0
-	+	3	0
-	+	1	22

@@ -1,0 +1,36 @@
+- hosts: all
+  become: yes
+  remote_user: devops
+  tasks:
+    - name: Copy motd file
+      template:
+        src: motd.j2
+        dest: /etc/motd
+        owner: root
+        group: root
+        mode: '0644'
+
+    - name: Check for the file
+      stat:
+        path: /etc/motd
+      register: _file
+
+    - name: Display info
+      debug:
+        var: _file
+
+    - name: Copy issue file
+      copy:
+        src: files/issue
+        dest: /etc/issue
+        owner: root
+        group: root
+        mode: '0644'
+
+    - name: Create symbolic link
+      file:
+        src: /etc/issue
+        dest: /etc/issue.net
+        state: link
+        force: yes
+
