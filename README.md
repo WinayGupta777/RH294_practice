@@ -33,3 +33,5 @@
 > ###	:bulb: Troubleshooting Ansible Managed Hosts
 > ###	:dvd: LAB - Troubleshooting Ansible
 
+## :beginner: Automating Linux Administration Tasks
+> ###	:bulb: Managing Software and Subscriptions
