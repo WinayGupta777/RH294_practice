@@ -1,0 +1,13 @@
+- name: Cron
+  hosts: all
+  become: yes
+  tasks:
+    - cron:
+        name: Append current time and date
+        cron_file: add-time-date
+        job: date >> /home/devops/my_datetime_cron_job
+        user: devops
+        minute: '*/2'
+        hour: 9-16
+        weekday: 1-5
+        state: present

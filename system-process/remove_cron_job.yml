@@ -1,0 +1,9 @@
+- hosts: all
+  become: yes
+  tasks:
+    - name: Remove file
+      cron:
+        name: Append current time and date
+        cron_file: add-time-date
+        user: devops
+        state: absent
