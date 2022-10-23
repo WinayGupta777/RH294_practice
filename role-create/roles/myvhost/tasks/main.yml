@@ -1,0 +1,17 @@
+---
+# tasks file for myvhost
+- name: Install httpd package
+  package:
+    name: httpd
+    state: present
+
+- name: Start services
+  service:
+    name: httpd
+    state: started
+
+- name: Deploy conf file
+  template:
+    src: vhost.conf.j2
+    dest: /etc/httpd/conf.d/vhost.conf
+  notify: restart httpd

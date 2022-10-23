@@ -1,0 +1,9 @@
+- name: Setup web server
+  hosts: webservers
+  roles:
+    - myvhost
+  post_tasks:
+    - name: copy content
+      copy:
+        src: roles/myvhost/files/html/
+        dest: '/var/www/vhost/{{ ansible_hostname }}'
