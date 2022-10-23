@@ -23,7 +23,11 @@
 > ###	:bulb: Including and Importing Files
 > ###	:dvd: LAB - Managing Complex Plays and Playbooks
 
+## :floppy_disk: Simplifying Playbooks with Roles
+> ###	:bulb: Reusing Content with System Roles
+
 ## :warning: Troubleshooting Ansible
 > ###	:bulb: Troubleshooting Playbooks
 > ###	:bulb: Troubleshooting Ansible Managed Hosts
 > ###	:dvd: LAB - Troubleshooting Ansible
+

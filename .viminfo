@@ -17,12 +17,12 @@
 $: 
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1666505364,,"wq"
+:w
+|2,0,1666504682,,"w"
 :q
 |2,0,1666458250,,"q"
-:wq
-|2,0,1666458164,,"wq"
-:w
-|2,0,1666458030,,"w"
 :13
 |2,0,1666457500,,"13"
 :qw
@@ -70,15 +70,23 @@ $:
 
 # Registers:
 "0	LINE	0
-	> ###	:dvd: LAB - Managing Complex Plays and Playbooks
-|3,0,0,1,1,0,1666456188,"> ###	:dvd: LAB - Managing Complex Plays and Playbooks"
-"1	LINE	0
-	    state: started
-|3,0,1,1,1,0,1666440749,"    state: started"
+	> ###	:dvd: LAB - Troubleshooting Ansible
+|3,0,0,1,1,0,1666503453,"> ###	:dvd: LAB - Troubleshooting Ansible"
+""1	LINE	0
+	## :floppy_disk: Simplifying Playbooks with Roles
+	> ###	:bulb: Reusing Content with System Roles
+|3,1,1,1,2,0,1666505315,"## :floppy_disk: Simplifying Playbooks with Roles","> ###	:bulb: Reusing Content with System Roles"
 "2	LINE	0
-	    enabled: true
-|3,0,2,1,1,0,1666440748,"    enabled: true"
+	    minpoll:
+	    maxpoll: 
+|3,0,2,1,2,0,1666504417,"    minpoll:","    maxpoll: "
 "3	LINE	0
+	    state: started
+|3,0,3,1,1,0,1666440749,"    state: started"
+"4	LINE	0
+	    enabled: true
+|3,0,4,1,1,0,1666440748,"    enabled: true"
+"5	LINE	0
 	  yum:
 	    name: firewalld
 	    state: latest
@@ -86,268 +94,263 @@ $:
 	- name: Enable and start the firewall
 	  service:
 	    name: firewalld
-|3,0,3,1,7,0,1666440746,"  yum:","    name: firewalld","    state: latest","","- name: Enable and start the firewall","  service:","    name: firewalld"
-"4	LINE	0
-	- name: Install firewalld
-|3,0,4,1,1,0,1666440738,"- name: Install firewalld"
-"5	LINE	0
-	  loop: "{{ svcs }}"
-|3,0,5,1,1,0,1666440702,"  loop: \"{{ svcs }}\""
+|3,0,5,1,7,0,1666440746,"  yum:","    name: firewalld","    state: latest","","- name: Enable and start the firewall","  service:","    name: firewalld"
 "6	LINE	0
-	      - firewalld
-|3,0,6,1,1,0,1666440645,"      - firewalld"
+	- name: Install firewalld
+|3,0,6,1,1,0,1666440738,"- name: Install firewalld"
 "7	LINE	0
+	  loop: "{{ svcs }}"
+|3,0,7,1,1,0,1666440702,"  loop: \"{{ svcs }}\""
+"8	LINE	0
+	      - firewalld
+|3,0,8,1,1,0,1666440645,"      - firewalld"
+"9	LINE	0
 	    svcs:
 	      - httpd
 	      - firewalld
-|3,0,7,1,3,0,1666440639,"    svcs:","      - httpd","      - firewalld"
-"8	LINE	0
-	    state: started
-|3,0,8,1,1,0,1666440575,"    state: started"
-"9	LINE	0
-	    name: httpd
-	    state: latest
-	
-	- name: Enable and start httpd
-	  service:
-	    name: httpd
-	    enabled: true
-|3,0,9,1,7,0,1666440573,"    name: httpd","    state: latest","","- name: Enable and start httpd","  service:","    name: httpd","    enabled: true"
-""-	CHAR	0
+|3,0,9,1,3,0,1666440639,"    svcs:","      - httpd","      - firewalld"
+"-	CHAR	0
 	s
-|3,1,36,0,1,0,1666457997,"s"
+|3,0,36,0,1,0,1666457997,"s"
 
 # File marks:
-'0  29  40  ~/README.md
-|4,48,29,40,1666458250,"~/README.md"
-'1  5  12  ~/troubleshoot-review/secure-web.yml
-|4,49,5,12,1666458164,"~/troubleshoot-review/secure-web.yml"
-'2  2  59  ~/troubleshoot-review/inventory
-|4,50,2,59,1666458130,"~/troubleshoot-review/inventory"
-'3  6  19  ~/troubleshoot-review/secure-web.yml
-|4,51,6,19,1666457999,"~/troubleshoot-review/secure-web.yml"
-'4  5  19  ~/troubleshoot-review/secure-web.yml
-|4,52,5,19,1666457999,"~/troubleshoot-review/secure-web.yml"
-'5  14  18  ~/troubleshoot-review/secure-web.yml
-|4,53,14,18,1666457515,"~/troubleshoot-review/secure-web.yml"
-'6  14  18  ~/troubleshoot-review/secure-web.yml
-|4,54,14,18,1666457515,"~/troubleshoot-review/secure-web.yml"
-'7  13  18  ~/troubleshoot-review/secure-web.yml
-|4,55,13,18,1666457515,"~/troubleshoot-review/secure-web.yml"
-'8  13  18  ~/troubleshoot-review/secure-web.yml
-|4,56,13,18,1666457515,"~/troubleshoot-review/secure-web.yml"
-'9  43  11  ~/troubleshoot-review/secure-web.yml
-|4,57,43,11,1666457489,"~/troubleshoot-review/secure-web.yml"
+'0  1  8  ~/.gitignore
+|4,48,1,8,1666505364,"~/.gitignore"
+'1  27  13  ~/README.md
+|4,49,27,13,1666505328,"~/README.md"
+'2  5  0  ~/role-system/configure_time.yml
+|4,50,5,0,1666505034,"~/role-system/configure_time.yml"
+'3  1  29  ~/role-system/group_vars/europe_datacenter/timezone.yml
+|4,51,1,29,1666504994,"~/role-system/group_vars/europe_datacenter/timezone.yml"
+'4  1  29  ~/role-system/group_vars/na_datacenter/timezone.yml
+|4,52,1,29,1666504958,"~/role-system/group_vars/na_datacenter/timezone.yml"
+'5  7  0  ~/role-system/group_vars/all/timesync.yml
+|4,53,7,0,1666504444,"~/role-system/group_vars/all/timesync.yml"
+'6  4  19  ~/role-system/configure_time.yml
+|4,54,4,19,1666504111,"~/role-system/configure_time.yml"
+'7  4  19  ~/role-system/configure_time.yml
+|4,55,4,19,1666504111,"~/role-system/configure_time.yml"
+'8  34  45  ~/README.md
+|4,56,34,45,1666503489,"~/README.md"
+'9  32  45  ~/README.md
+|4,57,32,45,1666503489,"~/README.md"
 
 # Jumplist (newest first):
--'  29  40  ~/README.md
-|4,39,29,40,1666458250,"~/README.md"
--'  5  12  ~/troubleshoot-review/secure-web.yml
-|4,39,5,12,1666458164,"~/troubleshoot-review/secure-web.yml"
--'  5  12  ~/troubleshoot-review/secure-web.yml
-|4,39,5,12,1666458164,"~/troubleshoot-review/secure-web.yml"
--'  2  59  ~/troubleshoot-review/inventory
-|4,39,2,59,1666458130,"~/troubleshoot-review/inventory"
--'  2  59  ~/troubleshoot-review/inventory
-|4,39,2,59,1666458130,"~/troubleshoot-review/inventory"
--'  1  0  ~/troubleshoot-review/inventory
-|4,39,1,0,1666458106,"~/troubleshoot-review/inventory"
--'  1  0  ~/troubleshoot-review/inventory
-|4,39,1,0,1666458106,"~/troubleshoot-review/inventory"
--'  6  19  ~/troubleshoot-review/secure-web.yml
-|4,39,6,19,1666458021,"~/troubleshoot-review/secure-web.yml"
--'  6  19  ~/troubleshoot-review/secure-web.yml
-|4,39,6,19,1666458021,"~/troubleshoot-review/secure-web.yml"
--'  5  19  ~/troubleshoot-review/secure-web.yml
-|4,39,5,19,1666457999,"~/troubleshoot-review/secure-web.yml"
--'  5  19  ~/troubleshoot-review/secure-web.yml
-|4,39,5,19,1666457999,"~/troubleshoot-review/secure-web.yml"
--'  5  19  ~/troubleshoot-review/secure-web.yml
-|4,39,5,19,1666457999,"~/troubleshoot-review/secure-web.yml"
--'  5  19  ~/troubleshoot-review/secure-web.yml
-|4,39,5,19,1666457999,"~/troubleshoot-review/secure-web.yml"
--'  14  18  ~/troubleshoot-review/secure-web.yml
-|4,39,14,18,1666457985,"~/troubleshoot-review/secure-web.yml"
--'  13  18  ~/troubleshoot-review/secure-web.yml
-|4,39,13,18,1666457985,"~/troubleshoot-review/secure-web.yml"
--'  13  18  ~/troubleshoot-review/secure-web.yml
-|4,39,13,18,1666457985,"~/troubleshoot-review/secure-web.yml"
--'  14  18  ~/troubleshoot-review/secure-web.yml
-|4,39,14,18,1666457985,"~/troubleshoot-review/secure-web.yml"
--'  13  18  ~/troubleshoot-review/secure-web.yml
-|4,39,13,18,1666457985,"~/troubleshoot-review/secure-web.yml"
--'  13  18  ~/troubleshoot-review/secure-web.yml
-|4,39,13,18,1666457985,"~/troubleshoot-review/secure-web.yml"
--'  13  18  ~/troubleshoot-review/secure-web.yml
-|4,39,13,18,1666457515,"~/troubleshoot-review/secure-web.yml"
--'  13  18  ~/troubleshoot-review/secure-web.yml
-|4,39,13,18,1666457515,"~/troubleshoot-review/secure-web.yml"
--'  13  18  ~/troubleshoot-review/secure-web.yml
-|4,39,13,18,1666457515,"~/troubleshoot-review/secure-web.yml"
--'  13  18  ~/troubleshoot-review/secure-web.yml
-|4,39,13,18,1666457515,"~/troubleshoot-review/secure-web.yml"
--'  43  11  ~/troubleshoot-review/secure-web.yml
-|4,39,43,11,1666457499,"~/troubleshoot-review/secure-web.yml"
--'  42  11  ~/troubleshoot-review/secure-web.yml
-|4,39,42,11,1666457499,"~/troubleshoot-review/secure-web.yml"
--'  42  11  ~/troubleshoot-review/secure-web.yml
-|4,39,42,11,1666457499,"~/troubleshoot-review/secure-web.yml"
--'  42  11  ~/troubleshoot-review/secure-web.yml
-|4,39,42,11,1666457499,"~/troubleshoot-review/secure-web.yml"
--'  42  11  ~/troubleshoot-review/secure-web.yml
-|4,39,42,11,1666457499,"~/troubleshoot-review/secure-web.yml"
--'  43  11  ~/troubleshoot-review/secure-web.yml
-|4,39,43,11,1666457499,"~/troubleshoot-review/secure-web.yml"
--'  42  11  ~/troubleshoot-review/secure-web.yml
-|4,39,42,11,1666457499,"~/troubleshoot-review/secure-web.yml"
--'  42  11  ~/troubleshoot-review/secure-web.yml
-|4,39,42,11,1666457499,"~/troubleshoot-review/secure-web.yml"
--'  42  11  ~/troubleshoot-review/secure-web.yml
-|4,39,42,11,1666457499,"~/troubleshoot-review/secure-web.yml"
--'  42  11  ~/troubleshoot-review/secure-web.yml
-|4,39,42,11,1666457499,"~/troubleshoot-review/secure-web.yml"
--'  42  11  ~/troubleshoot-review/secure-web.yml
-|4,39,42,11,1666457489,"~/troubleshoot-review/secure-web.yml"
--'  42  11  ~/troubleshoot-review/secure-web.yml
-|4,39,42,11,1666457489,"~/troubleshoot-review/secure-web.yml"
--'  42  11  ~/troubleshoot-review/secure-web.yml
-|4,39,42,11,1666457489,"~/troubleshoot-review/secure-web.yml"
--'  42  11  ~/troubleshoot-review/secure-web.yml
-|4,39,42,11,1666457489,"~/troubleshoot-review/secure-web.yml"
--'  8  16  ~/troubleshoot-review/secure-web.yml
-|4,39,8,16,1666457467,"~/troubleshoot-review/secure-web.yml"
--'  7  16  ~/troubleshoot-review/secure-web.yml
-|4,39,7,16,1666457467,"~/troubleshoot-review/secure-web.yml"
--'  7  16  ~/troubleshoot-review/secure-web.yml
-|4,39,7,16,1666457467,"~/troubleshoot-review/secure-web.yml"
--'  7  16  ~/troubleshoot-review/secure-web.yml
-|4,39,7,16,1666457467,"~/troubleshoot-review/secure-web.yml"
--'  7  16  ~/troubleshoot-review/secure-web.yml
-|4,39,7,16,1666457467,"~/troubleshoot-review/secure-web.yml"
--'  7  16  ~/troubleshoot-review/secure-web.yml
-|4,39,7,16,1666457467,"~/troubleshoot-review/secure-web.yml"
--'  7  16  ~/troubleshoot-review/secure-web.yml
-|4,39,7,16,1666457467,"~/troubleshoot-review/secure-web.yml"
--'  8  16  ~/troubleshoot-review/secure-web.yml
-|4,39,8,16,1666457467,"~/troubleshoot-review/secure-web.yml"
--'  7  16  ~/troubleshoot-review/secure-web.yml
-|4,39,7,16,1666457467,"~/troubleshoot-review/secure-web.yml"
--'  7  16  ~/troubleshoot-review/secure-web.yml
-|4,39,7,16,1666457467,"~/troubleshoot-review/secure-web.yml"
--'  7  16  ~/troubleshoot-review/secure-web.yml
-|4,39,7,16,1666457467,"~/troubleshoot-review/secure-web.yml"
--'  7  16  ~/troubleshoot-review/secure-web.yml
-|4,39,7,16,1666457467,"~/troubleshoot-review/secure-web.yml"
--'  7  16  ~/troubleshoot-review/secure-web.yml
-|4,39,7,16,1666457467,"~/troubleshoot-review/secure-web.yml"
--'  7  16  ~/troubleshoot-review/secure-web.yml
-|4,39,7,16,1666457467,"~/troubleshoot-review/secure-web.yml"
--'  7  16  ~/troubleshoot-review/secure-web.yml
-|4,39,7,16,1666457456,"~/troubleshoot-review/secure-web.yml"
--'  7  16  ~/troubleshoot-review/secure-web.yml
-|4,39,7,16,1666457456,"~/troubleshoot-review/secure-web.yml"
--'  7  16  ~/troubleshoot-review/secure-web.yml
-|4,39,7,16,1666457456,"~/troubleshoot-review/secure-web.yml"
--'  7  16  ~/troubleshoot-review/secure-web.yml
-|4,39,7,16,1666457456,"~/troubleshoot-review/secure-web.yml"
--'  49  0  ~/troubleshoot-review/secure-web.yml
-|4,39,49,0,1666457435,"~/troubleshoot-review/secure-web.yml"
--'  48  0  ~/troubleshoot-review/secure-web.yml
-|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
--'  48  0  ~/troubleshoot-review/secure-web.yml
-|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
--'  48  0  ~/troubleshoot-review/secure-web.yml
-|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
--'  48  0  ~/troubleshoot-review/secure-web.yml
-|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
--'  48  0  ~/troubleshoot-review/secure-web.yml
-|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
--'  48  0  ~/troubleshoot-review/secure-web.yml
-|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
--'  48  0  ~/troubleshoot-review/secure-web.yml
-|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
--'  48  0  ~/troubleshoot-review/secure-web.yml
-|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
--'  49  0  ~/troubleshoot-review/secure-web.yml
-|4,39,49,0,1666457435,"~/troubleshoot-review/secure-web.yml"
--'  48  0  ~/troubleshoot-review/secure-web.yml
-|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
--'  48  0  ~/troubleshoot-review/secure-web.yml
-|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
--'  48  0  ~/troubleshoot-review/secure-web.yml
-|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
--'  48  0  ~/troubleshoot-review/secure-web.yml
-|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
--'  48  0  ~/troubleshoot-review/secure-web.yml
-|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
--'  48  0  ~/troubleshoot-review/secure-web.yml
-|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
--'  48  0  ~/troubleshoot-review/secure-web.yml
-|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
--'  48  0  ~/troubleshoot-review/secure-web.yml
-|4,39,48,0,1666457435,"~/troubleshoot-review/secure-web.yml"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
--'  18  0  ~/troubleshoot-review/vhosts.conf
-|4,39,18,0,1666457380,"~/troubleshoot-review/vhosts.conf"
+-'  1  8  ~/.gitignore
+|4,39,1,8,1666505364,"~/.gitignore"
+-'  27  13  ~/README.md
+|4,39,27,13,1666505328,"~/README.md"
+-'  27  13  ~/README.md
+|4,39,27,13,1666505328,"~/README.md"
+-'  34  45  ~/README.md
+|4,39,34,45,1666505308,"~/README.md"
+-'  34  45  ~/README.md
+|4,39,34,45,1666505308,"~/README.md"
+-'  5  0  ~/role-system/configure_time.yml
+|4,39,5,0,1666505034,"~/role-system/configure_time.yml"
+-'  5  0  ~/role-system/configure_time.yml
+|4,39,5,0,1666505034,"~/role-system/configure_time.yml"
+-'  5  0  ~/role-system/configure_time.yml
+|4,39,5,0,1666505034,"~/role-system/configure_time.yml"
+-'  5  0  ~/role-system/configure_time.yml
+|4,39,5,0,1666505034,"~/role-system/configure_time.yml"
+-'  1  29  ~/role-system/group_vars/europe_datacenter/timezone.yml
+|4,39,1,29,1666504994,"~/role-system/group_vars/europe_datacenter/timezone.yml"
+-'  1  29  ~/role-system/group_vars/europe_datacenter/timezone.yml
+|4,39,1,29,1666504994,"~/role-system/group_vars/europe_datacenter/timezone.yml"
+-'  1  29  ~/role-system/group_vars/europe_datacenter/timezone.yml
+|4,39,1,29,1666504994,"~/role-system/group_vars/europe_datacenter/timezone.yml"
+-'  1  29  ~/role-system/group_vars/europe_datacenter/timezone.yml
+|4,39,1,29,1666504994,"~/role-system/group_vars/europe_datacenter/timezone.yml"
+-'  1  29  ~/role-system/group_vars/na_datacenter/timezone.yml
+|4,39,1,29,1666504958,"~/role-system/group_vars/na_datacenter/timezone.yml"
+-'  1  29  ~/role-system/group_vars/na_datacenter/timezone.yml
+|4,39,1,29,1666504958,"~/role-system/group_vars/na_datacenter/timezone.yml"
+-'  1  29  ~/role-system/group_vars/na_datacenter/timezone.yml
+|4,39,1,29,1666504958,"~/role-system/group_vars/na_datacenter/timezone.yml"
+-'  1  29  ~/role-system/group_vars/na_datacenter/timezone.yml
+|4,39,1,29,1666504958,"~/role-system/group_vars/na_datacenter/timezone.yml"
+-'  1  29  ~/role-system/group_vars/na_datacenter/timezone.yml
+|4,39,1,29,1666504958,"~/role-system/group_vars/na_datacenter/timezone.yml"
+-'  1  29  ~/role-system/group_vars/na_datacenter/timezone.yml
+|4,39,1,29,1666504958,"~/role-system/group_vars/na_datacenter/timezone.yml"
+-'  1  29  ~/role-system/group_vars/na_datacenter/timezone.yml
+|4,39,1,29,1666504958,"~/role-system/group_vars/na_datacenter/timezone.yml"
+-'  1  29  ~/role-system/group_vars/na_datacenter/timezone.yml
+|4,39,1,29,1666504958,"~/role-system/group_vars/na_datacenter/timezone.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504448,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504448,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504448,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504448,"~/role-system/configure_time.yml"
+-'  7  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,7,0,1666504444,"~/role-system/group_vars/all/timesync.yml"
+-'  7  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,7,0,1666504444,"~/role-system/group_vars/all/timesync.yml"
+-'  7  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,7,0,1666504444,"~/role-system/group_vars/all/timesync.yml"
+-'  7  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,7,0,1666504444,"~/role-system/group_vars/all/timesync.yml"
+-'  7  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,7,0,1666504444,"~/role-system/group_vars/all/timesync.yml"
+-'  7  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,7,0,1666504444,"~/role-system/group_vars/all/timesync.yml"
+-'  7  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,7,0,1666504444,"~/role-system/group_vars/all/timesync.yml"
+-'  7  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,7,0,1666504444,"~/role-system/group_vars/all/timesync.yml"
+-'  7  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,7,0,1666504444,"~/role-system/group_vars/all/timesync.yml"
+-'  7  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,7,0,1666504444,"~/role-system/group_vars/all/timesync.yml"
+-'  7  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,7,0,1666504444,"~/role-system/group_vars/all/timesync.yml"
+-'  7  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,7,0,1666504444,"~/role-system/group_vars/all/timesync.yml"
+-'  7  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,7,0,1666504444,"~/role-system/group_vars/all/timesync.yml"
+-'  7  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,7,0,1666504444,"~/role-system/group_vars/all/timesync.yml"
+-'  7  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,7,0,1666504444,"~/role-system/group_vars/all/timesync.yml"
+-'  7  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,7,0,1666504444,"~/role-system/group_vars/all/timesync.yml"
+-'  7  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,7,0,1666504444,"~/role-system/group_vars/all/timesync.yml"
+-'  7  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,7,0,1666504444,"~/role-system/group_vars/all/timesync.yml"
+-'  7  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,7,0,1666504444,"~/role-system/group_vars/all/timesync.yml"
+-'  7  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,7,0,1666504444,"~/role-system/group_vars/all/timesync.yml"
+-'  1  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,1,0,1666504307,"~/role-system/group_vars/all/timesync.yml"
+-'  1  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,1,0,1666504307,"~/role-system/group_vars/all/timesync.yml"
+-'  1  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,1,0,1666504307,"~/role-system/group_vars/all/timesync.yml"
+-'  1  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,1,0,1666504307,"~/role-system/group_vars/all/timesync.yml"
+-'  1  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,1,0,1666504307,"~/role-system/group_vars/all/timesync.yml"
+-'  1  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,1,0,1666504307,"~/role-system/group_vars/all/timesync.yml"
+-'  1  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,1,0,1666504307,"~/role-system/group_vars/all/timesync.yml"
+-'  1  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,1,0,1666504307,"~/role-system/group_vars/all/timesync.yml"
+-'  1  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,1,0,1666504307,"~/role-system/group_vars/all/timesync.yml"
+-'  1  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,1,0,1666504307,"~/role-system/group_vars/all/timesync.yml"
+-'  1  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,1,0,1666504307,"~/role-system/group_vars/all/timesync.yml"
+-'  1  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,1,0,1666504307,"~/role-system/group_vars/all/timesync.yml"
+-'  1  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,1,0,1666504307,"~/role-system/group_vars/all/timesync.yml"
+-'  1  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,1,0,1666504307,"~/role-system/group_vars/all/timesync.yml"
+-'  1  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,1,0,1666504307,"~/role-system/group_vars/all/timesync.yml"
+-'  1  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,1,0,1666504307,"~/role-system/group_vars/all/timesync.yml"
+-'  1  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,1,0,1666504307,"~/role-system/group_vars/all/timesync.yml"
+-'  1  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,1,0,1666504307,"~/role-system/group_vars/all/timesync.yml"
+-'  1  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,1,0,1666504307,"~/role-system/group_vars/all/timesync.yml"
+-'  1  0  ~/role-system/group_vars/all/timesync.yml
+|4,39,1,0,1666504307,"~/role-system/group_vars/all/timesync.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  4  19  ~/role-system/configure_time.yml
+|4,39,4,19,1666504111,"~/role-system/configure_time.yml"
+-'  1  0  ~/role-system/configure_time.yml
+|4,39,1,0,1666503934,"~/role-system/configure_time.yml"
+-'  1  0  ~/role-system/configure_time.yml
+|4,39,1,0,1666503934,"~/role-system/configure_time.yml"
+-'  1  0  ~/role-system/configure_time.yml
+|4,39,1,0,1666503934,"~/role-system/configure_time.yml"
 
 # History of marks within files (newest to oldest):
 
+> ~/.gitignore
+	*	1666505361	0
+	"	1	8
+	^	1	9
+	.	1	8
+	+	1	8
+
 > ~/README.md
-	*	1666458249	0
-	"	29	40
-	^	29	41
-	.	29	40
+	*	1666505327	0
+	"	27	13
+	^	27	14
+	.	28	0
 	+	1	30
 	+	1	23
 	+	1	0
@@ -403,12 +406,62 @@ $:
 	+	23	41
 	+	24	54
 	+	25	0
+	+	28	0
+	+	28	36
+	+	30	0
+	+	30	37
+	+	31	49
+	+	32	41
+	+	33	0
+	+	34	39
+	+	34	41
+	+	34	49
+	+	34	41
+	+	34	0
 	+	26	0
-	+	26	36
-	+	27	0
-	+	27	37
-	+	28	49
-	+	29	40
+	+	28	0
+
+> ~/role-system/configure_time.yml
+	*	1666505016	0
+	"	5	0
+	^	5	0
+	.	15	0
+	+	4	31
+	+	1	3
+	+	2	1
+	+	1	19
+	+	11	0
+	+	6	8
+	+	9	34
+	+	6	2
+	+	10	24
+	+	5	0
+	+	15	0
+
+> ~/role-system/group_vars/europe_datacenter/timezone.yml
+	*	1666504993	0
+	"	1	29
+	^	1	30
+	.	1	29
+	+	1	29
+
+> ~/role-system/group_vars/na_datacenter/timezone.yml
+	*	1666504957	0
+	"	1	29
+	^	1	30
+	.	1	29
+	+	1	29
+
+> ~/role-system/group_vars/all/timesync.yml
+	*	1666504443	0
+	"	7	0
+	^	7	0
+	.	7	0
+	+	6	13
+	+	6	14
+	+	5	13
+	+	6	15
+	+	7	0
 
 > ~/troubleshoot-review/secure-web.yml
 	*	1666458163	0
@@ -584,68 +637,3 @@ $:
 > ~/projects-file/plays/test.yml
 	*	1666439529	0
 	"	7	9
-
-> ~/projects-host/playbook.yml
-	*	1666438408	0
-	"	3	14
-	^	3	15
-	.	3	14
-	+	3	14
-
-> ~/projects-host/ansible.cfg
-	*	1666437903	0
-	"	3	21
-	^	3	22
-	.	3	21
-	+	2	21
-	+	3	0
-	+	2	0
-	+	3	21
-
-> ~/file-review/motd.yml
-	*	1666436918	0
-	"	32	10
-	^	32	11
-	.	32	10
-	+	9	18
-	+	10	19
-	+	11	20
-	+	25	18
-	+	26	0
-	+	36	0
-	+	33	8
-	+	32	10
-	+	33	10
-	+	32	11
-	+	35	17
-	+	25	23
-	+	33	11
-	+	32	10
-
-> ~/file-review/motd.j2
-	*	1666435952	0
-	"	4	47
-	^	4	48
-	.	4	48
-	+	1	50
-	+	4	53
-	+	5	0
-	+	1	50
-	+	5	10
-	+	1	10
-	+	2	45
-	+	4	48
-
-> ~/file-template/motd.yml
-	*	1666435348	0
-	"	3	20
-	^	3	21
-	.	3	20
-	+	4	8
-	+	13	20
-	+	6	0
-	+	5	37
-	+	13	20
-	+	13	0
-	+	14	0
-	+	3	20
