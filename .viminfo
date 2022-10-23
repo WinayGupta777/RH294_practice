@@ -18,9 +18,11 @@ $:
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1666525054,,"wq"
+|2,0,1666527650,,"wq"
+:wwq
+|2,0,1666527430,,"wwq"
 :q
-|2,0,1666516392,,"q"
+|2,0,1666526698,,"q"
 :w
 |2,0,1666504682,,"w"
 :13
@@ -70,8 +72,8 @@ $:
 
 # Registers:
 ""0	LINE	0
-	> ###	:bulb: Reusing Content with System Roles
-|3,1,0,1,1,0,1666525038,"> ###	:bulb: Reusing Content with System Roles"
+	> ###	:bulb: Creating Roles
+|3,1,0,1,1,0,1666526623,"> ###	:bulb: Creating Roles"
 "1	LINE	0
 	## :floppy_disk: Simplifying Playbooks with Roles
 	> ###	:bulb: Reusing Content with System Roles
@@ -114,236 +116,282 @@ $:
 |3,0,36,0,1,0,1666516163,"d"
 
 # File marks:
-'0  28  26  ~/README.md
-|4,48,28,26,1666525054,"~/README.md"
-'1  8  26  ~/role-create/use-vhost-role.yml
-|4,49,8,26,1666517150,"~/role-create/use-vhost-role.yml"
-'2  9  52  ~/role-create/use-vhost-role.yml
-|4,50,9,52,1666516998,"~/role-create/use-vhost-role.yml"
-'3  9  52  ~/role-create/use-vhost-role.yml
-|4,51,9,52,1666516998,"~/role-create/use-vhost-role.yml"
-'4  11  17  ~/role-create/roles/myvhost/tasks/main.yml
-|4,52,11,17,1666516755,"~/role-create/roles/myvhost/tasks/main.yml"
-'5  5  0  ~/role-create/use-vhost-role.yml
-|4,53,5,0,1666516699,"~/role-create/use-vhost-role.yml"
-'6  5  0  ~/role-create/use-vhost-role.yml
-|4,54,5,0,1666516699,"~/role-create/use-vhost-role.yml"
-'7  5  0  ~/role-create/use-vhost-role.yml
-|4,55,5,0,1666516699,"~/role-create/use-vhost-role.yml"
-'8  5  0  ~/role-create/use-vhost-role.yml
-|4,56,5,0,1666516699,"~/role-create/use-vhost-role.yml"
-'9  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,57,15,8,1666516392,"~/role-create/roles/myvhost/tasks/main.yml"
+'0  4  18  ~/role-galaxy/roles/student.bash_env/templates/_bash_profile.j2
+|4,48,4,18,1666527650,"~/role-galaxy/roles/student.bash_env/templates/_bash_profile.j2"
+'1  4  21  ~/role-galaxy/use-bash_env-role.yml
+|4,49,4,21,1666527562,"~/role-galaxy/use-bash_env-role.yml"
+'2  7  13  ~/role-galaxy/roles/requirements.yml
+|4,50,7,13,1666527432,"~/role-galaxy/roles/requirements.yml"
+'3  14  2  ~/role-galaxy/use-bash_env-role.yml
+|4,51,14,2,1666527364,"~/role-galaxy/use-bash_env-role.yml"
+'4  13  2  ~/role-galaxy/use-bash_env-role.yml
+|4,52,13,2,1666527364,"~/role-galaxy/use-bash_env-role.yml"
+'5  20  21  ~/role-galaxy/use-bash_env-role.yml
+|4,53,20,21,1666527272,"~/role-galaxy/use-bash_env-role.yml"
+'6  20  21  ~/role-galaxy/use-bash_env-role.yml
+|4,54,20,21,1666527272,"~/role-galaxy/use-bash_env-role.yml"
+'7  19  21  ~/role-galaxy/use-bash_env-role.yml
+|4,55,19,21,1666527272,"~/role-galaxy/use-bash_env-role.yml"
+'8  19  21  ~/role-galaxy/use-bash_env-role.yml
+|4,56,19,21,1666527272,"~/role-galaxy/use-bash_env-role.yml"
+'9  9  0  ~/role-galaxy/roles/requirements.yml
+|4,57,9,0,1666526848,"~/role-galaxy/roles/requirements.yml"
 
 # Jumplist (newest first):
--'  28  26  ~/README.md
-|4,39,28,26,1666525054,"~/README.md"
--'  27  13  ~/README.md
-|4,39,27,13,1666525033,"~/README.md"
--'  8  26  ~/role-create/use-vhost-role.yml
-|4,39,8,26,1666517150,"~/role-create/use-vhost-role.yml"
--'  8  26  ~/role-create/use-vhost-role.yml
-|4,39,8,26,1666517150,"~/role-create/use-vhost-role.yml"
--'  9  52  ~/role-create/use-vhost-role.yml
-|4,39,9,52,1666517136,"~/role-create/use-vhost-role.yml"
--'  9  52  ~/role-create/use-vhost-role.yml
-|4,39,9,52,1666517136,"~/role-create/use-vhost-role.yml"
--'  9  52  ~/role-create/use-vhost-role.yml
-|4,39,9,52,1666516998,"~/role-create/use-vhost-role.yml"
--'  9  52  ~/role-create/use-vhost-role.yml
-|4,39,9,52,1666516998,"~/role-create/use-vhost-role.yml"
--'  5  0  ~/role-create/use-vhost-role.yml
-|4,39,5,0,1666516914,"~/role-create/use-vhost-role.yml"
--'  5  0  ~/role-create/use-vhost-role.yml
-|4,39,5,0,1666516914,"~/role-create/use-vhost-role.yml"
--'  5  0  ~/role-create/use-vhost-role.yml
-|4,39,5,0,1666516914,"~/role-create/use-vhost-role.yml"
--'  5  0  ~/role-create/use-vhost-role.yml
-|4,39,5,0,1666516914,"~/role-create/use-vhost-role.yml"
--'  11  17  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,11,17,1666516755,"~/role-create/roles/myvhost/tasks/main.yml"
--'  11  17  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,11,17,1666516755,"~/role-create/roles/myvhost/tasks/main.yml"
--'  11  17  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,11,17,1666516755,"~/role-create/roles/myvhost/tasks/main.yml"
--'  11  17  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,11,17,1666516755,"~/role-create/roles/myvhost/tasks/main.yml"
--'  11  17  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,11,17,1666516755,"~/role-create/roles/myvhost/tasks/main.yml"
--'  11  17  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,11,17,1666516755,"~/role-create/roles/myvhost/tasks/main.yml"
--'  11  17  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,11,17,1666516755,"~/role-create/roles/myvhost/tasks/main.yml"
--'  11  17  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,11,17,1666516755,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516746,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516746,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516746,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516746,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516746,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516746,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516746,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516746,"~/role-create/roles/myvhost/tasks/main.yml"
--'  5  0  ~/role-create/use-vhost-role.yml
-|4,39,5,0,1666516699,"~/role-create/use-vhost-role.yml"
--'  5  0  ~/role-create/use-vhost-role.yml
-|4,39,5,0,1666516699,"~/role-create/use-vhost-role.yml"
--'  5  0  ~/role-create/use-vhost-role.yml
-|4,39,5,0,1666516699,"~/role-create/use-vhost-role.yml"
--'  5  0  ~/role-create/use-vhost-role.yml
-|4,39,5,0,1666516699,"~/role-create/use-vhost-role.yml"
--'  1  0  ~/role-create/use-vhost-role.yml
-|4,39,1,0,1666516544,"~/role-create/use-vhost-role.yml"
--'  1  0  ~/role-create/use-vhost-role.yml
-|4,39,1,0,1666516544,"~/role-create/use-vhost-role.yml"
--'  1  0  ~/role-create/use-vhost-role.yml
-|4,39,1,0,1666516544,"~/role-create/use-vhost-role.yml"
--'  1  0  ~/role-create/use-vhost-role.yml
-|4,39,1,0,1666516544,"~/role-create/use-vhost-role.yml"
--'  1  0  ~/role-create/use-vhost-role.yml
-|4,39,1,0,1666516544,"~/role-create/use-vhost-role.yml"
--'  1  0  ~/role-create/use-vhost-role.yml
-|4,39,1,0,1666516544,"~/role-create/use-vhost-role.yml"
--'  1  0  ~/role-create/use-vhost-role.yml
-|4,39,1,0,1666516544,"~/role-create/use-vhost-role.yml"
--'  1  0  ~/role-create/use-vhost-role.yml
-|4,39,1,0,1666516544,"~/role-create/use-vhost-role.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516392,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516392,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516392,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516392,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516392,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516392,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516392,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516392,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516392,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516392,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516392,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516392,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516392,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516392,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516392,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516392,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516304,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516304,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516304,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516304,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516304,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516304,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516304,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516304,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516304,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516304,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516304,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516304,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516304,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516304,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516304,"~/role-create/roles/myvhost/tasks/main.yml"
--'  15  8  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,15,8,1666516304,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
--'  17  22  ~/role-create/roles/myvhost/tasks/main.yml
-|4,39,17,22,1666516295,"~/role-create/roles/myvhost/tasks/main.yml"
+-'  4  18  ~/role-galaxy/roles/student.bash_env/templates/_bash_profile.j2
+|4,39,4,18,1666527650,"~/role-galaxy/roles/student.bash_env/templates/_bash_profile.j2"
+-'  1  0  ~/role-galaxy/roles/student.bash_env/templates/_bash_profile.j2
+|4,39,1,0,1666527636,"~/role-galaxy/roles/student.bash_env/templates/_bash_profile.j2"
+-'  4  21  ~/role-galaxy/use-bash_env-role.yml
+|4,39,4,21,1666527562,"~/role-galaxy/use-bash_env-role.yml"
+-'  4  21  ~/role-galaxy/use-bash_env-role.yml
+|4,39,4,21,1666527562,"~/role-galaxy/use-bash_env-role.yml"
+-'  14  2  ~/role-galaxy/use-bash_env-role.yml
+|4,39,14,2,1666527545,"~/role-galaxy/use-bash_env-role.yml"
+-'  14  2  ~/role-galaxy/use-bash_env-role.yml
+|4,39,14,2,1666527545,"~/role-galaxy/use-bash_env-role.yml"
+-'  7  13  ~/role-galaxy/roles/requirements.yml
+|4,39,7,13,1666527432,"~/role-galaxy/roles/requirements.yml"
+-'  7  13  ~/role-galaxy/roles/requirements.yml
+|4,39,7,13,1666527432,"~/role-galaxy/roles/requirements.yml"
+-'  7  13  ~/role-galaxy/roles/requirements.yml
+|4,39,7,13,1666527432,"~/role-galaxy/roles/requirements.yml"
+-'  7  13  ~/role-galaxy/roles/requirements.yml
+|4,39,7,13,1666527432,"~/role-galaxy/roles/requirements.yml"
+-'  9  0  ~/role-galaxy/roles/requirements.yml
+|4,39,9,0,1666527420,"~/role-galaxy/roles/requirements.yml"
+-'  9  0  ~/role-galaxy/roles/requirements.yml
+|4,39,9,0,1666527420,"~/role-galaxy/roles/requirements.yml"
+-'  9  0  ~/role-galaxy/roles/requirements.yml
+|4,39,9,0,1666527420,"~/role-galaxy/roles/requirements.yml"
+-'  9  0  ~/role-galaxy/roles/requirements.yml
+|4,39,9,0,1666527420,"~/role-galaxy/roles/requirements.yml"
+-'  13  2  ~/role-galaxy/use-bash_env-role.yml
+|4,39,13,2,1666527364,"~/role-galaxy/use-bash_env-role.yml"
+-'  13  2  ~/role-galaxy/use-bash_env-role.yml
+|4,39,13,2,1666527364,"~/role-galaxy/use-bash_env-role.yml"
+-'  13  2  ~/role-galaxy/use-bash_env-role.yml
+|4,39,13,2,1666527364,"~/role-galaxy/use-bash_env-role.yml"
+-'  13  2  ~/role-galaxy/use-bash_env-role.yml
+|4,39,13,2,1666527364,"~/role-galaxy/use-bash_env-role.yml"
+-'  20  21  ~/role-galaxy/use-bash_env-role.yml
+|4,39,20,21,1666527347,"~/role-galaxy/use-bash_env-role.yml"
+-'  19  21  ~/role-galaxy/use-bash_env-role.yml
+|4,39,19,21,1666527347,"~/role-galaxy/use-bash_env-role.yml"
+-'  19  21  ~/role-galaxy/use-bash_env-role.yml
+|4,39,19,21,1666527347,"~/role-galaxy/use-bash_env-role.yml"
+-'  20  21  ~/role-galaxy/use-bash_env-role.yml
+|4,39,20,21,1666527347,"~/role-galaxy/use-bash_env-role.yml"
+-'  19  21  ~/role-galaxy/use-bash_env-role.yml
+|4,39,19,21,1666527347,"~/role-galaxy/use-bash_env-role.yml"
+-'  19  21  ~/role-galaxy/use-bash_env-role.yml
+|4,39,19,21,1666527347,"~/role-galaxy/use-bash_env-role.yml"
+-'  19  21  ~/role-galaxy/use-bash_env-role.yml
+|4,39,19,21,1666527272,"~/role-galaxy/use-bash_env-role.yml"
+-'  19  21  ~/role-galaxy/use-bash_env-role.yml
+|4,39,19,21,1666527272,"~/role-galaxy/use-bash_env-role.yml"
+-'  19  21  ~/role-galaxy/use-bash_env-role.yml
+|4,39,19,21,1666527272,"~/role-galaxy/use-bash_env-role.yml"
+-'  19  21  ~/role-galaxy/use-bash_env-role.yml
+|4,39,19,21,1666527272,"~/role-galaxy/use-bash_env-role.yml"
+-'  1  0  ~/role-galaxy/use-bash_env-role.yml
+|4,39,1,0,1666527090,"~/role-galaxy/use-bash_env-role.yml"
+-'  1  0  ~/role-galaxy/use-bash_env-role.yml
+|4,39,1,0,1666527090,"~/role-galaxy/use-bash_env-role.yml"
+-'  1  0  ~/role-galaxy/use-bash_env-role.yml
+|4,39,1,0,1666527090,"~/role-galaxy/use-bash_env-role.yml"
+-'  1  0  ~/role-galaxy/use-bash_env-role.yml
+|4,39,1,0,1666527090,"~/role-galaxy/use-bash_env-role.yml"
+-'  1  0  ~/role-galaxy/use-bash_env-role.yml
+|4,39,1,0,1666527090,"~/role-galaxy/use-bash_env-role.yml"
+-'  1  0  ~/role-galaxy/use-bash_env-role.yml
+|4,39,1,0,1666527090,"~/role-galaxy/use-bash_env-role.yml"
+-'  1  0  ~/role-galaxy/use-bash_env-role.yml
+|4,39,1,0,1666527090,"~/role-galaxy/use-bash_env-role.yml"
+-'  1  0  ~/role-galaxy/use-bash_env-role.yml
+|4,39,1,0,1666527090,"~/role-galaxy/use-bash_env-role.yml"
+-'  1  0  ~/role-galaxy/use-bash_env-role.yml
+|4,39,1,0,1666527090,"~/role-galaxy/use-bash_env-role.yml"
+-'  1  0  ~/role-galaxy/use-bash_env-role.yml
+|4,39,1,0,1666527090,"~/role-galaxy/use-bash_env-role.yml"
+-'  9  0  ~/role-galaxy/roles/requirements.yml
+|4,39,9,0,1666526848,"~/role-galaxy/roles/requirements.yml"
+-'  9  0  ~/role-galaxy/roles/requirements.yml
+|4,39,9,0,1666526848,"~/role-galaxy/roles/requirements.yml"
+-'  9  0  ~/role-galaxy/roles/requirements.yml
+|4,39,9,0,1666526848,"~/role-galaxy/roles/requirements.yml"
+-'  9  0  ~/role-galaxy/roles/requirements.yml
+|4,39,9,0,1666526848,"~/role-galaxy/roles/requirements.yml"
+-'  9  0  ~/role-galaxy/roles/requirements.yml
+|4,39,9,0,1666526848,"~/role-galaxy/roles/requirements.yml"
+-'  9  0  ~/role-galaxy/roles/requirements.yml
+|4,39,9,0,1666526848,"~/role-galaxy/roles/requirements.yml"
+-'  9  0  ~/role-galaxy/roles/requirements.yml
+|4,39,9,0,1666526848,"~/role-galaxy/roles/requirements.yml"
+-'  9  0  ~/role-galaxy/roles/requirements.yml
+|4,39,9,0,1666526848,"~/role-galaxy/roles/requirements.yml"
+-'  9  0  ~/role-galaxy/roles/requirements.yml
+|4,39,9,0,1666526848,"~/role-galaxy/roles/requirements.yml"
+-'  9  0  ~/role-galaxy/roles/requirements.yml
+|4,39,9,0,1666526848,"~/role-galaxy/roles/requirements.yml"
+-'  9  0  ~/role-galaxy/roles/requirements.yml
+|4,39,9,0,1666526848,"~/role-galaxy/roles/requirements.yml"
+-'  9  0  ~/role-galaxy/roles/requirements.yml
+|4,39,9,0,1666526848,"~/role-galaxy/roles/requirements.yml"
+-'  9  0  ~/role-galaxy/roles/requirements.yml
+|4,39,9,0,1666526848,"~/role-galaxy/roles/requirements.yml"
+-'  9  0  ~/role-galaxy/roles/requirements.yml
+|4,39,9,0,1666526848,"~/role-galaxy/roles/requirements.yml"
+-'  9  0  ~/role-galaxy/roles/requirements.yml
+|4,39,9,0,1666526848,"~/role-galaxy/roles/requirements.yml"
+-'  9  0  ~/role-galaxy/roles/requirements.yml
+|4,39,9,0,1666526848,"~/role-galaxy/roles/requirements.yml"
+-'  1  0  ~/role-galaxy/roles/requirements.yml
+|4,39,1,0,1666526704,"~/role-galaxy/roles/requirements.yml"
+-'  1  0  ~/role-galaxy/roles/requirements.yml
+|4,39,1,0,1666526704,"~/role-galaxy/roles/requirements.yml"
+-'  1  0  ~/role-galaxy/roles/requirements.yml
+|4,39,1,0,1666526704,"~/role-galaxy/roles/requirements.yml"
+-'  1  0  ~/role-galaxy/roles/requirements.yml
+|4,39,1,0,1666526704,"~/role-galaxy/roles/requirements.yml"
+-'  1  0  ~/role-galaxy/roles/requirements.yml
+|4,39,1,0,1666526704,"~/role-galaxy/roles/requirements.yml"
+-'  1  0  ~/role-galaxy/roles/requirements.yml
+|4,39,1,0,1666526704,"~/role-galaxy/roles/requirements.yml"
+-'  1  0  ~/role-galaxy/roles/requirements.yml
+|4,39,1,0,1666526704,"~/role-galaxy/roles/requirements.yml"
+-'  1  0  ~/role-galaxy/roles/requirements.yml
+|4,39,1,0,1666526704,"~/role-galaxy/roles/requirements.yml"
+-'  1  0  ~/role-galaxy/roles/requirements.yml
+|4,39,1,0,1666526704,"~/role-galaxy/roles/requirements.yml"
+-'  1  0  ~/role-galaxy/roles/requirements.yml
+|4,39,1,0,1666526704,"~/role-galaxy/roles/requirements.yml"
+-'  1  0  ~/role-galaxy/roles/requirements.yml
+|4,39,1,0,1666526704,"~/role-galaxy/roles/requirements.yml"
+-'  1  0  ~/role-galaxy/roles/requirements.yml
+|4,39,1,0,1666526704,"~/role-galaxy/roles/requirements.yml"
+-'  1  0  ~/role-galaxy/roles/requirements.yml
+|4,39,1,0,1666526704,"~/role-galaxy/roles/requirements.yml"
+-'  1  0  ~/role-galaxy/roles/requirements.yml
+|4,39,1,0,1666526704,"~/role-galaxy/roles/requirements.yml"
+-'  1  0  ~/role-galaxy/roles/requirements.yml
+|4,39,1,0,1666526704,"~/role-galaxy/roles/requirements.yml"
+-'  1  0  ~/role-galaxy/roles/requirements.yml
+|4,39,1,0,1666526704,"~/role-galaxy/roles/requirements.yml"
+-'  1  0  ~/role-galaxy/roles/requirements.yml
+|4,39,1,0,1666526704,"~/role-galaxy/roles/requirements.yml"
+-'  1  0  ~/role-galaxy/roles/requirements.yml
+|4,39,1,0,1666526704,"~/role-galaxy/roles/requirements.yml"
+-'  1  0  ~/role-galaxy/roles/requirements.yml
+|4,39,1,0,1666526704,"~/role-galaxy/roles/requirements.yml"
+-'  1  0  ~/role-galaxy/roles/requirements.yml
+|4,39,1,0,1666526704,"~/role-galaxy/roles/requirements.yml"
+-'  1  0  ~/role-galaxy/roles/requirements..................yml
+|4,39,1,0,1666526698,"~/role-galaxy/roles/requirements..................yml"
+-'  1  0  ~/role-galaxy/roles/requirements..................yml
+|4,39,1,0,1666526698,"~/role-galaxy/roles/requirements..................yml"
+-'  1  0  ~/role-galaxy/roles/requirements..................yml
+|4,39,1,0,1666526698,"~/role-galaxy/roles/requirements..................yml"
+-'  1  0  ~/role-galaxy/roles/requirements..................yml
+|4,39,1,0,1666526698,"~/role-galaxy/roles/requirements..................yml"
+-'  1  0  ~/role-galaxy/roles/requirements..................yml
+|4,39,1,0,1666526698,"~/role-galaxy/roles/requirements..................yml"
+-'  1  0  ~/role-galaxy/roles/requirements..................yml
+|4,39,1,0,1666526698,"~/role-galaxy/roles/requirements..................yml"
+-'  1  0  ~/role-galaxy/roles/requirements..................yml
+|4,39,1,0,1666526698,"~/role-galaxy/roles/requirements..................yml"
+-'  1  0  ~/role-galaxy/roles/requirements..................yml
+|4,39,1,0,1666526698,"~/role-galaxy/roles/requirements..................yml"
+-'  1  0  ~/role-galaxy/roles/requirements..................yml
+|4,39,1,0,1666526698,"~/role-galaxy/roles/requirements..................yml"
+-'  1  0  ~/role-galaxy/roles/requirements..................yml
+|4,39,1,0,1666526698,"~/role-galaxy/roles/requirements..................yml"
+-'  1  0  ~/role-galaxy/roles/requirements..................yml
+|4,39,1,0,1666526698,"~/role-galaxy/roles/requirements..................yml"
+-'  1  0  ~/role-galaxy/roles/requirements..................yml
+|4,39,1,0,1666526698,"~/role-galaxy/roles/requirements..................yml"
+-'  1  0  ~/role-galaxy/roles/requirements..................yml
+|4,39,1,0,1666526698,"~/role-galaxy/roles/requirements..................yml"
+-'  1  0  ~/role-galaxy/roles/requirements..................yml
+|4,39,1,0,1666526698,"~/role-galaxy/roles/requirements..................yml"
+-'  1  0  ~/role-galaxy/roles/requirements..................yml
+|4,39,1,0,1666526698,"~/role-galaxy/roles/requirements..................yml"
+-'  1  0  ~/role-galaxy/roles/requirements..................yml
+|4,39,1,0,1666526698,"~/role-galaxy/roles/requirements..................yml"
+-'  1  0  ~/role-galaxy/roles/requirements..................yml
+|4,39,1,0,1666526698,"~/role-galaxy/roles/requirements..................yml"
+-'  1  0  ~/role-galaxy/roles/requirements..................yml
+|4,39,1,0,1666526698,"~/role-galaxy/roles/requirements..................yml"
+-'  1  0  ~/role-galaxy/roles/requirements..................yml
+|4,39,1,0,1666526698,"~/role-galaxy/roles/requirements..................yml"
+-'  1  0  ~/role-galaxy/roles/requirements..................yml
+|4,39,1,0,1666526698,"~/role-galaxy/roles/requirements..................yml"
+-'  1  0  ~/role-galaxy/roles/requirements..................yml
+|4,39,1,0,1666526698,"~/role-galaxy/roles/requirements..................yml"
+-'  1  0  ~/role-galaxy/roles/requirements..................yml
+|4,39,1,0,1666526698,"~/role-galaxy/roles/requirements..................yml"
+-'  1  0  ~/role-galaxy/roles/requirements..................yml
+|4,39,1,0,1666526698,"~/role-galaxy/roles/requirements..................yml"
+-'  1  0  ~/role-galaxy/roles/requirements..................yml
+|4,39,1,0,1666526698,"~/role-galaxy/roles/requirements..................yml"
+-'  1  0  ~/role-galaxy/roles/requirements..................yml
+|4,39,1,0,1666526698,"~/role-galaxy/roles/requirements..................yml"
+-'  1  0  ~/role-galaxy/roles/requirements..................yml
+|4,39,1,0,1666526698,"~/role-galaxy/roles/requirements..................yml"
 
 # History of marks within files (newest to oldest):
 
+> ~/role-galaxy/roles/student.bash_env/templates/_bash_profile.j2
+	*	1666527649	0
+	"	4	18
+	^	4	19
+	.	4	19
+	+	4	19
+
+> ~/role-galaxy/use-bash_env-role.yml
+	*	1666527561	0
+	"	4	21
+	^	4	22
+	.	4	21
+	+	4	44
+	+	7	12
+	+	18	16
+	+	18	0
+	+	17	0
+	+	16	0
+	+	15	0
+	+	14	0
+	+	13	0
+	+	12	0
+	+	11	0
+	+	10	0
+	+	9	0
+	+	16	0
+	+	21	75
+	+	20	22
+	+	14	0
+	+	5	0
+	+	4	21
+
+> ~/role-galaxy/roles/requirements.yml
+	*	1666527430	0
+	"	7	13
+	^	7	14
+	.	7	13
+	+	2	14
+	+	5	55
+	+	9	0
+	+	7	13
+
+> ~/role-galaxy/roles/requirements..................yml
+	*	1666526698	0
+	"	1	0
+
 > ~/README.md
-	*	1666525052	0
-	"	28	26
-	^	28	27
-	.	28	26
+	*	1666526636	0
+	"	29	47
+	^	29	48
+	.	29	47
 	+	1	30
 	+	1	23
 	+	1	0
@@ -399,21 +447,23 @@ $:
 	+	23	41
 	+	24	54
 	+	25	0
-	+	29	0
-	+	29	36
-	+	31	0
-	+	31	37
-	+	32	49
-	+	33	41
-	+	34	0
-	+	35	39
-	+	35	41
-	+	35	49
-	+	35	41
+	+	29	13
+	+	29	49
+	+	32	0
+	+	32	37
+	+	33	49
+	+	34	41
 	+	35	0
+	+	36	39
+	+	36	41
+	+	36	49
+	+	36	41
+	+	36	0
 	+	26	0
-	+	29	0
+	+	29	13
 	+	28	26
+	+	29	13
+	+	29	47
 
 > ~/role-create/use-vhost-role.yml
 	*	1666517149	0
@@ -565,58 +615,3 @@ $:
 	^	2	15
 	.	2	15
 	+	2	15
-
-> ~/troubleshoot-playbook/ansible.cfg
-	*	1666448913	0
-	"	4	0
-	^	4	0
-	.	3	57
-	+	1	10
-	+	2	57
-	+	3	0
-	+	3	57
-
-> ~/projects-review/playbook.yml
-	*	1666440780	0
-	"	11	0
-	^	12	0
-	.	12	0
-	+	4	29
-	+	5	0
-	+	4	24
-	+	8	0
-	+	6	20
-	+	7	38
-	+	8	0
-	+	9	19
-	+	10	44
-	+	12	0
-
-> ~/projects-review/tasks/firewall_tasks.yml
-	*	1666440762	0
-	"	3	6
-	^	3	7
-	.	4	17
-	+	1	0
-	+	12	21
-	+	6	0
-	+	1	0
-	+	6	0
-	+	5	17
-	+	4	17
-
-> ~/projects-review/tasks/web_tasks.yml
-	*	1666440729	0
-	"	1	23
-	^	1	24
-	.	1	23
-	+	1	0
-	+	17	0
-	+	1	0
-	+	2	0
-	+	6	0
-	+	2	44
-	+	6	0
-	+	4	14
-	+	5	13
-	+	1	23

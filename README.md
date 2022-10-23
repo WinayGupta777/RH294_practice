@@ -26,6 +26,7 @@
 ## :floppy_disk: Simplifying Playbooks with Roles
 > ###	:bulb: Reusing Content with System Roles
 > ###	:bulb: Creating Roles
+> ###	:bulb: Deploying Roles with Ansible Galaxy
 
 ## :warning: Troubleshooting Ansible
 > ###	:bulb: Troubleshooting Playbooks
