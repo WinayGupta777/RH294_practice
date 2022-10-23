@@ -1,0 +1,42 @@
+- name: Manage users
+  hosts: webservers
+  become: yes
+  vars_files:
+    - vars/users_vars.yml
+  tasks:
+    - name: Create group
+      group:
+        name: webadmin
+        state: present
+
+    - name: Create users
+      user:
+        name: '{{ item.username }}'
+        group: '{{ item.groups }}'
+      loop: '{{ users }}'
+
+    - name: Put public key to all hosts
+      authorized_key:
+        user: "{{ item.username }}"
+        key: "{{ lookup('file', 'files/' + item.username + '.key.pub') }}"
+      loop: "{{ users }}"
+
+    - name: Copy sudoer
+      copy:
+        content: '%webadmin ALL=(ALL) NOPASSWD:ALL'
+        dest: /etc/sudoers.d/webadmin
+        mode: 0440
+
+    - name: Root not permitted
+      lineinfile:
+        dest: /etc/ssh/sshd_config
+        regexp: "^PermitRootLogin"
+        line: 'PermitRootLogin no'
+      notify: Restart sshd
+
+  handlers:
+    - name: Restart sshd
+      service:
+        name: sshd
+        state: restarted
+        

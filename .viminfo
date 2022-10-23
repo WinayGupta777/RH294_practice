@@ -17,16 +17,16 @@
 $: 
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1666531962,,"wq"
+:w
+|2,0,1666531705,,"w"
 :q
 |2,0,1666529961,,"q"
-:wq
-|2,0,1666529858,,"wq"
 :5
 |2,0,1666529850,,"5"
 :q!
 |2,0,1666528579,,"q!"
-:w
-|2,0,1666528424,,"w"
 :wwq
 |2,0,1666527430,,"wwq"
 :13
@@ -71,12 +71,12 @@ $:
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	        var: ansible_facts.packages[custom_pkg]
-|3,0,0,1,1,0,1666529847,"        var: ansible_facts.packages[custom_pkg]"
-""1	LINE	0
+""0	LINE	0
+	> ###	:bulb: Managing Software and Subscriptions
+|3,1,0,1,1,0,1666530884,"> ###	:bulb: Managing Software and Subscriptions"
+"1	LINE	0
 	        var: ansible_facts.packages.example-motd
-|3,1,1,1,1,0,1666529856,"        var: ansible_facts.packages.example-motd"
+|3,0,1,1,1,0,1666529856,"        var: ansible_facts.packages.example-motd"
 "2	LINE	0
 	## :floppy_disk: Simplifying Playbooks with Roles
 	> ###	:bulb: Reusing Content with System Roles
@@ -114,28 +114,92 @@ $:
 |3,0,36,0,1,0,1666529106," "
 
 # File marks:
-'0  37  47  ~/README.md
-|4,48,37,47,1666529961,"~/README.md"
-'1  13  6  ~/system-software/repo_playbook.yml
-|4,49,13,6,1666529913,"~/system-software/repo_playbook.yml"
-'2  13  6  ~/system-software/repo_playbook.yml
-|4,50,13,6,1666529858,"~/system-software/repo_playbook.yml"
-'3  36  0  ~/system-software/repo_playbook.yml
-|4,51,36,0,1666529785,"~/system-software/repo_playbook.yml"
-'4  36  0  ~/system-software/repo_playbook.yml
-|4,52,36,0,1666529785,"~/system-software/repo_playbook.yml"
-'5  36  0  ~/system-software/repo_playbook.yml
-|4,53,36,0,1666529785,"~/system-software/repo_playbook.yml"
-'6  36  0  ~/system-software/repo_playbook.yml
-|4,54,36,0,1666529785,"~/system-software/repo_playbook.yml"
-'7  37  27  ~/system-software/repo_playbook.yml
-|4,55,37,27,1666529724,"~/system-software/repo_playbook.yml"
-'8  33  27  ~/system-software/repo_playbook.yml
-|4,56,33,27,1666529724,"~/system-software/repo_playbook.yml"
-'9  37  27  ~/system-software/repo_playbook.yml
-|4,57,37,27,1666529724,"~/system-software/repo_playbook.yml"
+'0  41  23  ~/system-users/users.yml
+|4,48,41,23,1666531962,"~/system-users/users.yml"
+'1  22  24  ~/system-users/users.yml
+|4,49,22,24,1666531580,"~/system-users/users.yml"
+'2  22  24  ~/system-users/users.yml
+|4,50,22,24,1666531580,"~/system-users/users.yml"
+'3  15  33  ~/system-users/users.yml
+|4,51,15,33,1666531256,"~/system-users/users.yml"
+'4  15  33  ~/system-users/users.yml
+|4,52,15,33,1666531256,"~/system-users/users.yml"
+'5  15  33  ~/system-users/users.yml
+|4,53,15,33,1666531256,"~/system-users/users.yml"
+'6  15  33  ~/system-users/users.yml
+|4,54,15,33,1666531256,"~/system-users/users.yml"
+'7  38  45  ~/README.md
+|4,55,38,45,1666530897,"~/README.md"
+'8  37  47  ~/README.md
+|4,56,37,47,1666529961,"~/README.md"
+'9  37  47  ~/README.md
+|4,57,37,47,1666529961,"~/README.md"
 
 # Jumplist (newest first):
+-'  41  23  ~/system-users/users.yml
+|4,39,41,23,1666531962,"~/system-users/users.yml"
+-'  22  24  ~/system-users/users.yml
+|4,39,22,24,1666531585,"~/system-users/users.yml"
+-'  22  24  ~/system-users/users.yml
+|4,39,22,24,1666531580,"~/system-users/users.yml"
+-'  15  33  ~/system-users/users.yml
+|4,39,15,33,1666531275,"~/system-users/users.yml"
+-'  15  33  ~/system-users/users.yml
+|4,39,15,33,1666531275,"~/system-users/users.yml"
+-'  15  33  ~/system-users/users.yml
+|4,39,15,33,1666531256,"~/system-users/users.yml"
+-'  1  0  ~/system-users/users.yml
+|4,39,1,0,1666531023,"~/system-users/users.yml"
+-'  1  0  ~/system-users/users.yml
+|4,39,1,0,1666531023,"~/system-users/users.yml"
+-'  1  0  ~/system-users/users.yml
+|4,39,1,0,1666531023,"~/system-users/users.yml"
+-'  38  45  ~/README.md
+|4,39,38,45,1666530897,"~/README.md"
+-'  38  45  ~/README.md
+|4,39,38,45,1666530897,"~/README.md"
+-'  38  45  ~/README.md
+|4,39,38,45,1666530897,"~/README.md"
+-'  38  45  ~/README.md
+|4,39,38,45,1666530897,"~/README.md"
+-'  38  45  ~/README.md
+|4,39,38,45,1666530897,"~/README.md"
+-'  38  45  ~/README.md
+|4,39,38,45,1666530897,"~/README.md"
+-'  38  45  ~/README.md
+|4,39,38,45,1666530897,"~/README.md"
+-'  38  45  ~/README.md
+|4,39,38,45,1666530897,"~/README.md"
+-'  37  47  ~/README.md
+|4,39,37,47,1666530881,"~/README.md"
+-'  37  47  ~/README.md
+|4,39,37,47,1666530881,"~/README.md"
+-'  37  47  ~/README.md
+|4,39,37,47,1666530881,"~/README.md"
+-'  37  47  ~/README.md
+|4,39,37,47,1666530881,"~/README.md"
+-'  37  47  ~/README.md
+|4,39,37,47,1666530881,"~/README.md"
+-'  37  47  ~/README.md
+|4,39,37,47,1666530881,"~/README.md"
+-'  37  47  ~/README.md
+|4,39,37,47,1666530881,"~/README.md"
+-'  37  47  ~/README.md
+|4,39,37,47,1666530881,"~/README.md"
+-'  37  47  ~/README.md
+|4,39,37,47,1666529961,"~/README.md"
+-'  37  47  ~/README.md
+|4,39,37,47,1666529961,"~/README.md"
+-'  37  47  ~/README.md
+|4,39,37,47,1666529961,"~/README.md"
+-'  37  47  ~/README.md
+|4,39,37,47,1666529961,"~/README.md"
+-'  37  47  ~/README.md
+|4,39,37,47,1666529961,"~/README.md"
+-'  37  47  ~/README.md
+|4,39,37,47,1666529961,"~/README.md"
+-'  37  47  ~/README.md
+|4,39,37,47,1666529961,"~/README.md"
 -'  37  47  ~/README.md
 |4,39,37,47,1666529961,"~/README.md"
 -'  13  6  ~/system-software/repo_playbook.yml
@@ -143,6 +207,126 @@ $:
 -'  13  6  ~/system-software/repo_playbook.yml
 |4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
 -'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529913,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
+|4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
+-'  13  6  ~/system-software/repo_playbook.yml
 |4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
 -'  13  6  ~/system-software/repo_playbook.yml
 |4,39,13,6,1666529858,"~/system-software/repo_playbook.yml"
@@ -152,198 +336,38 @@ $:
 |4,39,36,0,1666529820,"~/system-software/repo_playbook.yml"
 -'  36  0  ~/system-software/repo_playbook.yml
 |4,39,36,0,1666529820,"~/system-software/repo_playbook.yml"
--'  36  0  ~/system-software/repo_playbook.yml
-|4,39,36,0,1666529820,"~/system-software/repo_playbook.yml"
--'  36  0  ~/system-software/repo_playbook.yml
-|4,39,36,0,1666529785,"~/system-software/repo_playbook.yml"
--'  36  0  ~/system-software/repo_playbook.yml
-|4,39,36,0,1666529785,"~/system-software/repo_playbook.yml"
--'  37  27  ~/system-software/repo_playbook.yml
-|4,39,37,27,1666529767,"~/system-software/repo_playbook.yml"
--'  37  27  ~/system-software/repo_playbook.yml
-|4,39,37,27,1666529767,"~/system-software/repo_playbook.yml"
--'  37  27  ~/system-software/repo_playbook.yml
-|4,39,37,27,1666529767,"~/system-software/repo_playbook.yml"
--'  37  27  ~/system-software/repo_playbook.yml
-|4,39,37,27,1666529767,"~/system-software/repo_playbook.yml"
--'  37  27  ~/system-software/repo_playbook.yml
-|4,39,37,27,1666529767,"~/system-software/repo_playbook.yml"
--'  37  27  ~/system-software/repo_playbook.yml
-|4,39,37,27,1666529767,"~/system-software/repo_playbook.yml"
--'  33  27  ~/system-software/repo_playbook.yml
-|4,39,33,27,1666529724,"~/system-software/repo_playbook.yml"
--'  33  27  ~/system-software/repo_playbook.yml
-|4,39,33,27,1666529724,"~/system-software/repo_playbook.yml"
--'  33  27  ~/system-software/repo_playbook.yml
-|4,39,33,27,1666529724,"~/system-software/repo_playbook.yml"
--'  33  27  ~/system-software/repo_playbook.yml
-|4,39,33,27,1666529724,"~/system-software/repo_playbook.yml"
--'  33  27  ~/system-software/repo_playbook.yml
-|4,39,33,27,1666529724,"~/system-software/repo_playbook.yml"
--'  33  27  ~/system-software/repo_playbook.yml
-|4,39,33,27,1666529724,"~/system-software/repo_playbook.yml"
--'  13  47  ~/system-software/repo_playbook.yml
-|4,39,13,47,1666529206,"~/system-software/repo_playbook.yml"
--'  13  47  ~/system-software/repo_playbook.yml
-|4,39,13,47,1666529206,"~/system-software/repo_playbook.yml"
--'  13  47  ~/system-software/repo_playbook.yml
-|4,39,13,47,1666529206,"~/system-software/repo_playbook.yml"
--'  13  47  ~/system-software/repo_playbook.yml
-|4,39,13,47,1666529206,"~/system-software/repo_playbook.yml"
--'  13  47  ~/system-software/repo_playbook.yml
-|4,39,13,47,1666529129,"~/system-software/repo_playbook.yml"
--'  13  47  ~/system-software/repo_playbook.yml
-|4,39,13,47,1666529129,"~/system-software/repo_playbook.yml"
--'  12  47  ~/system-software/repo_playbook.yml
-|4,39,12,47,1666529092,"~/system-software/repo_playbook.yml"
--'  12  47  ~/system-software/repo_playbook.yml
-|4,39,12,47,1666529092,"~/system-software/repo_playbook.yml"
--'  12  47  ~/system-software/repo_playbook.yml
-|4,39,12,47,1666529092,"~/system-software/repo_playbook.yml"
--'  12  47  ~/system-software/repo_playbook.yml
-|4,39,12,47,1666529092,"~/system-software/repo_playbook.yml"
--'  12  47  ~/system-software/repo_playbook.yml
-|4,39,12,47,1666529092,"~/system-software/repo_playbook.yml"
--'  12  47  ~/system-software/repo_playbook.yml
-|4,39,12,47,1666529092,"~/system-software/repo_playbook.yml"
--'  12  47  ~/system-software/repo_playbook.yml
-|4,39,12,47,1666529092,"~/system-software/repo_playbook.yml"
--'  12  47  ~/system-software/repo_playbook.yml
-|4,39,12,47,1666529092,"~/system-software/repo_playbook.yml"
--'  12  47  ~/system-software/repo_playbook.yml
-|4,39,12,47,1666529076,"~/system-software/repo_playbook.yml"
--'  12  47  ~/system-software/repo_playbook.yml
-|4,39,12,47,1666529076,"~/system-software/repo_playbook.yml"
--'  13  8  ~/system-software/repo_playbook.yml
-|4,39,13,8,1666529061,"~/system-software/repo_playbook.yml"
--'  13  8  ~/system-software/repo_playbook.yml
-|4,39,13,8,1666529061,"~/system-software/repo_playbook.yml"
--'  13  8  ~/system-software/repo_playbook.yml
-|4,39,13,8,1666529038,"~/system-software/repo_playbook.yml"
--'  13  8  ~/system-software/repo_playbook.yml
-|4,39,13,8,1666529038,"~/system-software/repo_playbook.yml"
--'  13  26  ~/system-software/repo_playbook.yml
-|4,39,13,26,1666529009,"~/system-software/repo_playbook.yml"
--'  13  26  ~/system-software/repo_playbook.yml
-|4,39,13,26,1666529009,"~/system-software/repo_playbook.yml"
--'  13  28  ~/system-software/repo_playbook.yml
-|4,39,13,28,1666528986,"~/system-software/repo_playbook.yml"
--'  13  28  ~/system-software/repo_playbook.yml
-|4,39,13,28,1666528986,"~/system-software/repo_playbook.yml"
--'  12  34  ~/system-software/repo_playbook.yml
-|4,39,12,34,1666528961,"~/system-software/repo_playbook.yml"
--'  12  34  ~/system-software/repo_playbook.yml
-|4,39,12,34,1666528961,"~/system-software/repo_playbook.yml"
--'  12  34  ~/system-software/repo_playbook.yml
-|4,39,12,34,1666528961,"~/system-software/repo_playbook.yml"
--'  12  34  ~/system-software/repo_playbook.yml
-|4,39,12,34,1666528961,"~/system-software/repo_playbook.yml"
--'  12  34  ~/system-software/repo_playbook.yml
-|4,39,12,34,1666528961,"~/system-software/repo_playbook.yml"
--'  12  34  ~/system-software/repo_playbook.yml
-|4,39,12,34,1666528961,"~/system-software/repo_playbook.yml"
--'  12  34  ~/system-software/repo_playbook.yml
-|4,39,12,34,1666528943,"~/system-software/repo_playbook.yml"
--'  12  34  ~/system-software/repo_playbook.yml
-|4,39,12,34,1666528943,"~/system-software/repo_playbook.yml"
--'  1  0  ~/system-software/repo_playbook.yml
-|4,39,1,0,1666528595,"~/system-software/repo_playbook.yml"
--'  1  0  ~/system-software/repo_playbook.yml
-|4,39,1,0,1666528595,"~/system-software/repo_playbook.yml"
--'  1  0  ~/system-software/repo_playbook.yml
-|4,39,1,0,1666528595,"~/system-software/repo_playbook.yml"
--'  1  0  ~/system-software/repo_playbook.yml
-|4,39,1,0,1666528595,"~/system-software/repo_playbook.yml"
--'  1  0  ~/system-software/repo_playbook.yml
-|4,39,1,0,1666528595,"~/system-software/repo_playbook.yml"
--'  1  0  ~/system-software/repo_playbook.yml
-|4,39,1,0,1666528595,"~/system-software/repo_playbook.yml"
--'  1  0  ~/system-software/repo_playbook.yml
-|4,39,1,0,1666528595,"~/system-software/repo_playbook.yml"
--'  1  0  ~/system-software/repo_playbook.yml
-|4,39,1,0,1666528595,"~/system-software/repo_playbook.yml"
--'  1  0  ~/system-software/repo_playbook.yml
-|4,39,1,0,1666528595,"~/system-software/repo_playbook.yml"
--'  1  0  ~/system-software/repo_playbook.yml
-|4,39,1,0,1666528595,"~/system-software/repo_playbook.yml"
--'  1  0  ~/system-software/repo_playbook.yml
-|4,39,1,0,1666528595,"~/system-software/repo_playbook.yml"
--'  1  0  ~/system-software/repo_playbook.yml
-|4,39,1,0,1666528595,"~/system-software/repo_playbook.yml"
--'  1  0  ~/system-software/repo_playbook.yml
-|4,39,1,0,1666528595,"~/system-software/repo_playbook.yml"
--'  1  0  ~/system-software/repo_playbook.yml
-|4,39,1,0,1666528595,"~/system-software/repo_playbook.yml"
--'  1  0  ~/system-software/repo_playbook.yml
-|4,39,1,0,1666528595,"~/system-software/repo_playbook.yml"
--'  1  0  ~/system-software/repo_playbook.yml
-|4,39,1,0,1666528595,"~/system-software/repo_playbook.yml"
--'  1  0  ~/system-software/repo_playbook.yml
-|4,39,1,0,1666528595,"~/system-software/repo_playbook.yml"
--'  1  0  ~/system-software/repo_playbook.yml
-|4,39,1,0,1666528595,"~/system-software/repo_playbook.yml"
--'  1  0  ~/system-software/repo_playbook.yml
-|4,39,1,0,1666528595,"~/system-software/repo_playbook.yml"
--'  1  0  ~/system-software/repo_playbook.yml
-|4,39,1,0,1666528595,"~/system-software/repo_playbook.yml"
--'  2  7  ~/repo_playbook.yml
-|4,39,2,7,1666528579,"~/repo_playbook.yml"
--'  2  7  ~/repo_playbook.yml
-|4,39,2,7,1666528579,"~/repo_playbook.yml"
--'  2  7  ~/repo_playbook.yml
-|4,39,2,7,1666528579,"~/repo_playbook.yml"
--'  2  7  ~/repo_playbook.yml
-|4,39,2,7,1666528579,"~/repo_playbook.yml"
--'  2  7  ~/repo_playbook.yml
-|4,39,2,7,1666528579,"~/repo_playbook.yml"
--'  2  7  ~/repo_playbook.yml
-|4,39,2,7,1666528579,"~/repo_playbook.yml"
--'  2  7  ~/repo_playbook.yml
-|4,39,2,7,1666528579,"~/repo_playbook.yml"
--'  2  7  ~/repo_playbook.yml
-|4,39,2,7,1666528579,"~/repo_playbook.yml"
--'  2  7  ~/repo_playbook.yml
-|4,39,2,7,1666528579,"~/repo_playbook.yml"
--'  2  7  ~/repo_playbook.yml
-|4,39,2,7,1666528579,"~/repo_playbook.yml"
--'  2  7  ~/repo_playbook.yml
-|4,39,2,7,1666528579,"~/repo_playbook.yml"
--'  2  7  ~/repo_playbook.yml
-|4,39,2,7,1666528579,"~/repo_playbook.yml"
--'  2  7  ~/repo_playbook.yml
-|4,39,2,7,1666528579,"~/repo_playbook.yml"
--'  2  7  ~/repo_playbook.yml
-|4,39,2,7,1666528579,"~/repo_playbook.yml"
--'  2  7  ~/repo_playbook.yml
-|4,39,2,7,1666528579,"~/repo_playbook.yml"
--'  2  7  ~/repo_playbook.yml
-|4,39,2,7,1666528579,"~/repo_playbook.yml"
--'  2  7  ~/repo_playbook.yml
-|4,39,2,7,1666528579,"~/repo_playbook.yml"
--'  2  7  ~/repo_playbook.yml
-|4,39,2,7,1666528579,"~/repo_playbook.yml"
--'  2  7  ~/repo_playbook.yml
-|4,39,2,7,1666528579,"~/repo_playbook.yml"
--'  2  7  ~/repo_playbook.yml
-|4,39,2,7,1666528579,"~/repo_playbook.yml"
--'  2  7  ~/repo_playbook.yml
-|4,39,2,7,1666528579,"~/repo_playbook.yml"
--'  2  7  ~/repo_playbook.yml
-|4,39,2,7,1666528579,"~/repo_playbook.yml"
--'  2  7  ~/repo_playbook.yml
-|4,39,2,7,1666528579,"~/repo_playbook.yml"
--'  2  7  ~/repo_playbook.yml
-|4,39,2,7,1666528579,"~/repo_playbook.yml"
--'  2  7  ~/repo_playbook.yml
-|4,39,2,7,1666528579,"~/repo_playbook.yml"
 
 # History of marks within files (newest to oldest):
 
+> ~/system-users/users.yml
+	*	1666531961	0
+	"	41	23
+	^	41	24
+	.	41	23
+	+	7	5
+	+	2	8
+	+	5	24
+	+	15	34
+	+	16	25
+	+	21	45
+	+	22	0
+	+	20	33
+	+	21	74
+	+	22	25
+	+	26	51
+	+	28	18
+	+	42	8
+	+	32	34
+	+	33	34
+	+	34	33
+	+	42	0
+	+	41	23
+
 > ~/README.md
-	*	1666529960	0
-	"	37	47
-	^	37	48
-	.	37	47
+	*	1666530896	0
+	"	38	45
+	^	38	46
+	.	38	46
 	+	1	30
 	+	1	23
 	+	1	0
@@ -421,6 +445,7 @@ $:
 	+	36	51
 	+	37	50
 	+	37	47
+	+	38	46
 
 > ~/system-software/repo_playbook.yml
 	*	1666529912	0
@@ -628,20 +653,3 @@ $:
 	^	53	0
 	.	53	0
 	+	53	0
-
-> ~/troubleshoot-playbook/samba.yml
-	*	1666449582	0
-	"	46	21
-	^	46	22
-	.	46	21
-	+	8	16
-	+	44	0
-	+	45	2
-	+	46	2
-	+	47	2
-	+	48	2
-	+	49	2
-	+	50	2
-	+	44	0
-	+	14	33
-	+	46	21

@@ -35,3 +35,4 @@
 
 ## :beginner: Automating Linux Administration Tasks
 > ###	:bulb: Managing Software and Subscriptions
+> ###	:bulb: Managing Users and Authentication
